@@ -7,7 +7,7 @@ province(บุรีรัมย์).
 province(ฉะเชิงเทรา).
 province(ชัยนาท).
 province(ชัยภูมิ).
-province(ันทบุรี).
+province(จันทบุรี).
 province(เชียงใหม่).
 province(เชียงราย).
 province(ชลบุรี).
@@ -37,7 +37,6 @@ province(หนองคาย).
 province(นนทบุรี).
 province(ปทุมธานี).
 province(ปัตตานี).
-province(พังงา).
 province(พัทลุง).
 province(พะเยา).
 province(เพชรบูรณ์).
@@ -55,8 +54,8 @@ province(ระยอง).
 province(ร้อยเอ็ด).
 province(สระแก้ว).
 province(สกลนคร).
-province(สมุทรปราการ).
 province(สมุทรสาคร).
+province(สมุทรปราการ).
 province(สมุทรสงคราม).
 province(สระบุรี).
 province(สตูล).
