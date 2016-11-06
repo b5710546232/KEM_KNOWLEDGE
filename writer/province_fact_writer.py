@@ -16,7 +16,7 @@ for row in reader:
             temp = temp.replace(' ','_')
             temp = temp.replace('-','_')
             temp = temp.replace('.','')
-            fact = "province(%s)."%(temp)
+            fact = "province(%s)."%(temp.lower())
             result_list.append(fact)
             output.write(fact+"\n")
             print(fact)

@@ -21,7 +21,7 @@ for row in reader:
             region = region.replace('-','_')
             region = region.replace('.','')
 
-            fact = "has(%s,%s)."%(provice,region)
+            fact = "has(%s,%s)."%(provice.lower(),region.lower())
             print(fact)
             if (fact not in result_list):
                 result_list.append(fact)
