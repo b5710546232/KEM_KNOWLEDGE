@@ -28,8 +28,15 @@ for row in reader:
                     fact = "grow_in(%s,%s)."%(rice,r)
                     print(fact)
                     result_list.append(fact)
+                    output.write(fact+"\n")
+            elif(reg=='N/A'):
+                fact = "grow_in(%s,%s)."%(rice,'ไม่มีข้อมูล')
+                print(fact)
+                result_list.append(fact)
+                output.write(fact+"\n")
             else:
                 fact = "grow_in(%s,%s)."%(rice,reg)
                 print(fact)
                 result_list.append(fact)
+                output.write(fact+"\n")
     # output.write(rice_fact+"\n")
