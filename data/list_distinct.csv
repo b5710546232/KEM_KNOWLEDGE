@@ -1,0 +1,882 @@
+Sr.No,District (Amphoe),Province (Changwat).,Region
+1,Akat Amnuai,Sakon Nakhon,North-East
+2,Amphawa,Samut Songkhram,Central
+3,Ao Luek,Krabi,South
+4,Aranyaprathet,Sa Kaeo,East
+5,At Samat,Roi Et,North-East
+6,Bacho,Narathiwat,South
+7,Bamnet Narong,Chaiyaphum,North-East
+8,Ban Bueng,Chonburi,East
+9,Ban Chang,Rayong,East
+10,Ban Dan,Buriram,North-East
+11,Ban Dan Lan Hoi,Sukhothai,Central
+12,Ban Dung,Udon Thani,North-East
+13,Ban Fang,Khon Kaen,North-East
+14,Ban Haet,Khon Kaen,North-East
+15,Ban Hong,Lamphun,North
+16,Ban Kha,Ratchaburi,West
+17,Ban Khai,Rayong,East
+18,Ban Khok,Uttaradit,North
+19,Ban Khwao,Chaiyaphum,North-East
+20,Ban Kruat,Buriram,North-East
+21,Ban Laem,Phetchaburi,West
+22,Ban Lat,Phetchaburi,West
+23,Ban Luang,Nan,North
+24,Ban Lueam,Nakhon Ratchasima,North-East
+25,Ban Mai Chaiyaphot,Buriram,North-East
+26,Ban Mi,Lopburi,Central
+27,Ban Mo,Saraburi,Central
+28,Ban Muang,Sakon Nakhon,North-East
+29,Ban Na,Nakhon Nayok,Central
+30,Ban Na Doem,Surat Thani,South
+31,Ban Na San,Surat Thani,South
+32,Ban Phaeng,Nakhon Phanom,North-East
+33,Ban Phaeo,Samut Sakhon,Central
+34,Ban Phai,Khon Kaen,North-East
+35,Ban Pho,Chachoengsao,East
+36,Ban Phraek,Ayutthaya,Central
+37,Ban Phue,Udon Thani,North-East
+38,Ban Pong,Ratchaburi,West
+39,Ban Rai,Uthai Thani,Central
+40,Ban Sang,Prachin Buri,East
+41,Ban Ta Khun,Surat Thani,South
+42,Ban Tak,Tak,West
+43,Ban Thaen,Chaiyaphum,North-East
+44,Ban Thi,Lamphun,North
+45,Bang Ban,Ayutthaya,Central
+46,Bang Bo,Samut Prakan,Central
+47,Bang Bua Thong,Nonthaburi,Central
+48,Bang Kaeo,Phatthalung,South
+49,Bang Khan,Nakhon Si Thammarat,South
+50,Bang Khla,Chachoengsao,East
+51,Bang Khonthi,Samut Songkhram,Central
+52,Bang Klam,Songkhla,South
+53,Bang Krathum,Phitsanulok,Central
+54,Bang Kruai,Nonthaburi,Central
+55,Bang Lamung,Chonburi,East
+56,Bang Len,Nakhon Pathom,Central
+57,Bang Mun Nak,Phichit,Central
+58,Bang Nam Priao,Chachoengsao,East
+59,Bang Pa In,Ayutthaya,Central
+60,Bang Pahan,Ayutthaya,Central
+61,Bang Pakong,Chachoengsao,East
+62,Bang Phae,Ratchaburi,West
+63,Bang Phli,Samut Prakan,Central
+64,Bang Pla Ma,Suphan Buri,Central
+65,Bang Rachan,Sing Buri,Central
+66,Bang Rakam,Phitsanulok,Central
+67,Bang Sai 1404,Ayutthaya,Central
+68,Bang Sai 1413,Ayutthaya,Central
+69,Bang Sao Thong,Samut Prakan,Central
+70,Bang Saphan,Prachuap Khiri Khan,West
+71,Bang Saphan Noi,Prachuap Khiri Khan,West
+72,Bang Yai,Nonthaburi,Central
+73,Bannang Sata (Malay: Benang Setar),Yala,South
+74,Banphot Phisai,Nakhon Sawan,Central
+75,Benchalak,Sisaket,North-East
+76,Betong (Malay: Betung),Yala,South
+77,Bo Kluea,Nan,North
+78,Bo Phloi,Kanchanaburi,West
+79,Bo Rai,Trat,East
+80,Bo Thong,Chonburi,East
+81,Borabue,Maha Sarakham,North-East
+82,Bua Lai,Nakhon Ratchasima,North-East
+83,Bua Yai,Nakhon Ratchasima,North-East
+84,Buachet,Surin,North-East
+85,Bueng Bun,Sisaket,North-East
+86,Bueng Khong Long,Bueng Kan,North-East
+87,Bueng Na Rang,Phichit,Central
+88,Bueng Sam Phan,Phetchabun,Central
+89,Bueng Samakkhi,Kamphaeng Phet,Central
+90,Bung Khla,Bueng Kan,North-East
+91,Buntharik,Ubon Ratchathani,North-East
+92,Cha-Am,Phetchaburi,West
+93,Cha-uat,Nakhon Si Thammarat,South
+94,Chae Hom,Lampang,North
+95,Chai Badan,Lopburi,Central
+96,Chaiyo,Ang Thong,Central
+97,Chai Buri,Surat Thani,South
+98,Chai Prakan,Chiang Mai,North
+99,Chai Wan,Udon Thani,North-East
+100,Chaiya,Surat Thani,South
+101,Chaloem Phra Kiat,Nakhon Ratchasima,North-East
+102,Chaloem Phra Kiat,Buriram,North-East
+103,Chaloem Phra Kiat,Nakhon Si Thammarat,South
+104,Chaloem Phra Kiat,Saraburi,Central
+105,Chaloem Phra Kiat,Nan,Northern
+106,Chakkarat,Nakhon Ratchasima,North-East
+107,Chamni,Buriram,North-East
+108,Chana (Malay: Chenok),Songkhla,South
+109,Chanae,Narathiwat,South
+110,Changhan,Roi Et,North-East
+111,Chang Klang,Nakhon Si Thammarat,South
+112,Chanuman,Amnat Charoen,North-East
+113,Charoen Sin,Sakon Nakhon,North-East
+114,Chat Trakan,Phitsanulok,Central
+115,Chatturat,Chaiyaphum,North-East
+116,Chaturaphak Phiman,Roi Et,North-East
+117,Chawang,Nakhon Si Thammarat,South
+118,Chian Yai,Nakhon Si Thammarat,South
+119,Chiang Dao,Chiang Mai,North
+120,Chiang Kham,Phayao,North
+121,Chiang Khan,Loei,North-East
+122,Chiang Khong,Chiang Rai,North
+123,Chiang Khwan,Roi Et,North-East
+124,Chiang Klang,Nan,North
+125,Chiang Muan,Phayao,North
+126,Chiang Saen,Chiang Rai,North
+127,Chiang Yuen,Maha Sarakham,North-East
+128,Cho-airong,Narathiwat,South
+129,Chok Chai,Nakhon Ratchasima,North-East
+130,Chom Bueng,Ratchaburi,West
+131,Chom Phra,Surin,North-East
+132,Chom Thong,Bangkok,Central
+133,Chom Thong,Chiang Mai,North
+134,Chon Daen,Phetchabun,Central
+135,Chonnabot,Khon Kaen,North-East
+136,Chuen Chom,Maha Sarakham,North-East
+137,Chulabhorn,Nakhon Si Thammarat,South
+138,Chum Phae,Khon Kaen,North-East
+139,Chum Phuang,Nakhon Ratchasima,North-East
+140,Chum Saeng,Nakhon Sawan,Central
+141,Chum Ta Bong,Nakhon Sawan,Central
+142,Chumphon Buri,Surin,North-East
+143,Chun,Phayao,North
+144,Damnoen Saduak,Ratchaburi,West
+145,Dan Chang,Suphan Buri,Central
+146,Dan Khun Thot,Nakhon Ratchasima,North-East
+147,Dan Makham Tia,Kanchanaburi,West
+148,Dan Sai,Loei,North-East
+149,Den Chai,Phrae,North
+150,Det Udom,Ubon Ratchathani,North-East
+151,Doem Bang Nang Buat,Suphan Buri,Central
+152,Doi Lo,Chiang Mai,North
+153,Doi Luang,Chiang Rai,North
+154,Doi Saket,Chiang Mai,North
+155,Doi Tao,Chiang Mai,North
+156,Dok Khamtai,Phayao,North
+157,Don Chan,Kalasin,North-East
+158,Don Chedi,Suphan Buri,Central
+159,Don Mot Daeng,Ubon Ratchathani,North-East
+160,Don Phut,Saraburi,Central
+161,Don Sak,Surat Thani,South
+162,Don Tan,Mukdahan,North-East
+163,Don Tum,Nakhon Pathom,Central
+164,Dong Charoen,Phichit,Central
+165,Dong Luang,Mukdahan,North-East
+166,Erawan,Loei,North-East
+167,Fak Tha,Uttaradit,North
+168,Fang,Chiang Mai,North
+169,Fao Rai,Nong Khai,North-East
+170,Galyani Vadhana,Chiang Mai,North
+171,Hang Chat,Lampang,North
+172,Hang Dong,Chiang Mai,North
+173,Hankha,Chainat,Central
+174,Hat Samran,Trang,South
+175,Hat Yai,Songkhla,South
+176,Hot,Chiang Mai,North
+177,Hua Hin,Prachuap Khiri Khan,West
+178,Hua Sai,Nakhon Si Thammarat,South
+179,Hua Taphan,Amnat Charoen,North-East
+180,Huai Khot,Uthai Thani,Central
+181,Huai Krachao,Kanchanaburi,West
+182,Huai Mek,Kalasin,North-East
+183,Huai Phueng,Kalasin,North-East
+184,Huai Rat,Buriram,North-East
+185,Huai Thalaeng,Nakhon Ratchasima,North-East
+186,Huai Thap Than,Sisaket,North-East
+187,Huai Yot,Trang,South
+188,In Buri,Sing Buri,Central
+189,Kabang (Malay: Kabae or Kabe),Yala,South
+190,Kabin Buri,Prachin Buri,East
+191,Kae Dam,Maha Sarakham,North-East
+192,Kaeng Hang Maeo,Chanthaburi,East
+193,Kaeng Khoi,Saraburi,Central
+194,Kaeng Khro,Chaiyaphum,North-East
+195,Kaeng Krachan,Phetchaburi,West
+196,Kaeng Sanam Nang,Nakhon Ratchasima,North-East
+197,Kamalasa,Kalasin,North-East
+198,Kamphaeng Saen,Nakhon Pathom,Central
+199,Kanchanadit,Surat Thani,South
+200,Kantang,Trang,South
+201,Kantharalak,Sisaket,North-East
+202,Kanthararom,Sisaket,North-East
+203,Kantharawichai,Maha Sarakham,North-East
+204,Kao Liao,Nakhon Sawan,Central
+205,Kap Choeng,Surin,North-East
+206,Kapho,Pattani,South
+207,Kapoe,Ranong,South
+208,Kapong,Phang Nga,South
+209,Kaset Sombun,Chaiyaphum,North-East
+210,Kaset Wisai,Roi Et,North-East
+211,Kathu,Phuket,South
+212,Khaen Dong,Buriram,North-East
+213,Khai Bang Rachan,Sing Buri,Central
+214,Kham Muang,Kalasin,North-East
+215,Kham Sakaesaeng,Nakhon Ratchasima,North-East
+216,Kham Ta Kla,Sakon Nakhon,North-East
+217,Kham Thale So,Nakhon Ratchasima,North-East
+218,Khamcha-i,Mukdahan,North-East
+219,Khanom,Nakhon Si Thammarat,South
+220,Khanu Woralaksaburi,Kamphaeng Phet,Central
+221,Khao Chaison,Phatthalung,South
+222,Khao Chakan,Sa Kaeo,East
+223,Khao Chamao,Rayong,East
+224,Khao Khitchakut,Chanthaburi,East
+225,Khao Kho,Phetchabun,Central
+226,Khao Phanom,Krabi,South
+227,Khao Saming,Trat,East
+228,Khao Suan Kwang,Khon Kaen,North-East
+229,Khao Wong,Kalasin,North-East
+230,Khao Yoi,Phetchaburi,West
+231,Khemarat,Ubon Ratchathani,North-East
+232,Khian Sa,Surat Thani,South
+233,Khiri Mat,Sukhothai,Central
+234,Khiri Rat Nikhom,Surat Thani,South
+235,Khlong Hat,Sa Kaeo,East
+236,Khlong Hoi Khong,Songkhla,South
+237,Khlong Khlung,Kamphaeng Phet,Central
+238,Khlong Khuean,Chachoengsao,East
+239,Khlong Lan,Kamphaeng Phet,Central
+240,Khlong Luang,Pathum Thani,Central
+241,Khlong Thom,Krabi,South
+242,Khlong Yai,Trat,East
+243,Khlung,Chanthaburi,East
+244,Khok Charoen,Lopburi,Central
+245,Khok Pho,Pattani,South
+246,Khok Pho Chai,Khon Kaen,North-East
+247,Khok Samrong,Lopburi,Central
+248,Khok Si Suphan,Sakon Nakhon,North-East
+249,Khok Sung,Sa Kaeo,East
+250,Khon Buri,Nakhon Ratchasima,North-East
+251,Khon San,Chaiyaphum,North-East
+252,Khon Sawan,Chaiyaphum,North-East
+253,Khong,Nakhon Ratchasima,North-East
+254,Khong Chai,Kalasin,North-East
+255,Khong Chiam,Ubon Ratchathani,North-East
+256,Khu Mueang,Buriram,North-East
+257,Khuan Don (Malay: Dusun),Satun,South
+258,Khuan Kalong,Satun,South
+259,Khuan Khanun,Phatthalung,South
+260,Khuan Niang,Songkhla,South
+261,Khueang Nai,Ubon Ratchathani,North-East
+262,Khukhan,Sisaket,North-East
+263,Khun Han,Sisaket,North-East
+264,Khun Tan,Chiang Rai,North
+265,Khun Yuam,Mae Hong Son,North
+266,Khura Buri,Phang Nga,South
+267,Khwao Sinarin,Surin,North-East
+268,Klaeng,Rayong,East
+269,Ko Chan,Chonburi,East
+270,Ko Chang,Trat,East
+271,Ko Kha,Lampang,North
+272,Ko Kut,Trat,East
+273,Ko Lanta,Krabi,South
+274,Ko Pha-ngan,Surat Thani,South
+275,Ko Samui,Surat Thani,South
+276,Ko Sichang,Chonburi,East
+277,Ko Yao,Phang Nga,South
+278,Kong Krailat,Sukhothai,Central
+279,Kong Ra,Phatthalung,South
+280,Kosamphi Nakhon,Kamphaeng Phet,Central
+281,Kosum Phisai,Maha Sarakham,North-East
+282,Kra Buri,Ranong,South
+283,Kranuan,Khon Kaen,North-East
+284,Krasae Sin,Songkhla,South
+285,Krasang,Buriram,North-East
+286,Krathum Baen,Samut Sakhon,Central
+287,Krok Phra,Nakhon Sawan,Central
+288,Krong Pinang (Malay: Kampung Pinang),Yala,South
+289,Ku Kaeo,Udon Thani,North-East
+290,Kuchinarai,Kalasin,North-East
+291,Kui Buri,Prachuap Khiri Khan,West
+292,Kumphawapi,Udon Thani,North-East
+293,Kusuman,Sakon Nakhon,North-East
+294,Kut Bak,Sakon Nakhon,North-East
+295,Kut Chap,Udon Thani,North-East
+296,Kut Khaopun,Ubon Ratchathani,North-East
+297,Kut Rang,Maha Sarakham,North-East
+298,La-ngu,Satun,South
+299,La-un,Ranong,South
+300,Laem Ngop,Trat,East
+301,Laem Sing,Chanthaburi,East
+302,Lahan Sai,Buriram,North-East
+303,Lam Luk Ka,Pathum Thani,Central
+304,Lam Plai Mat,Buriram,North-East
+305,Lam Sonthi,Lopburi,Central
+306,Lam Thamenchai,Nakhon Ratchasima,North-East
+307,Lam Thap,Krabi,South
+308,Lamae,Chumphon,South
+309,Lamduan,Surin,North-East
+310,Lan Krabue,Kamphaeng Phet,Central
+311,Lan Sak,Uthai Thani,Central
+312,Lan Saka,Nakhon Si Thammarat,South
+313,Lang Suan,Chumphon,South
+314,Lao Khwan,Kanchanaburi,West
+315,Lao Suea Kok,Ubon Ratchathani,North-East
+316,Laplae,Uttaradit,North
+317,Lat Bua Luang,Ayutthaya,Central
+318,Lat Lum Kaeo,Pathum Thani,Central
+319,Lat Yao,Nakhon Sawan,Central
+320,Li,Lamphun,North
+321,Lom Kao,Phetchabun,Central
+322,Lom Sak,Phetchabun,Central
+323,Long,Phrae,North
+324,Lue Amnat,Amnat Charoen,North-East
+325,Mae Ai,Chiang Mai,North
+326,Mae Charim,Nan,North
+327,Mae Chaem,Chiang Mai,North
+328,Mae Chai,Phayao,North
+329,Mae Chan,Chiang Rai,North
+330,Mae Fa Luang,Chiang Rai,North
+331,Mae La Noi,Mae Hong Son,North
+332,Mae Lan,Pattani,South
+333,Mae Lao,Chiang Rai,North
+334,Mae Mo,Lampang,North
+335,Mae On,Chiang Mai,North
+336,Mae Phrik,Lampang,North
+337,Mae Poen,Nakhon Sawan,Central
+338,Mae Ramat,Tak,West
+339,Mae Rim,Chiang Mai,North
+340,Mae Sai,Chiang Rai,North
+341,Mae Sariang,Mae Hong Son,North
+342,Mae Sot,Tak,West
+343,Mae Suai,Chiang Rai,North
+344,Mae Taeng,Chiang Mai,North
+345,"Mae Tha, Lampang",Lampang,North
+346,"Mae Tha, Lamphun",Lamphun,North
+347,Mae Wang,Chiang Mai,North
+348,Mae Wong,Nakhon Sawan,Central
+349,Maha Rat,Ayutthaya,Central
+350,Mai Kaen,Pattani,South
+351,Makham,Chanthaburi,East
+352,Manang,Satun,South
+353,Mancha Khiri,Khon Kaen,North-East
+354,Manorom,Chainat,Central
+355,Mayo,Pattani,South
+356,Moei Wadi,Roi Et,North-East
+357,Muak Lek,Saraburi,Central
+358,Muang Sam Sip,Ubon Ratchathani,North-East
+359,Mueang Amnat Charoen,Amnat Charoen,North-East
+360,Mueang Ang Thong,Ang Thong,Central
+361,Mueang Bueng Kan,Bueng Kan,North-East
+362,Mueang Buriram,Buriram,North-East
+363,Mueang Chachoengsao,Chachoengsao,East
+364,Mueang Chainat,Chainat,Central
+365,Mueang Chaiyaphum,Chaiyaphum,North-East
+366,Mueang Chan,Sisaket,North-East
+367,Mueang Chanthaburi,Chanthaburi,East
+368,Mueang Chiang Mai,Chiang Mai,North
+369,Mueang Chiang Rai,Chiang Rai,North
+370,Mueang Chonburi,Chonburi,East
+371,Mueang Chumphon,Chumphon,South
+372,Mueang Kalasin,Kalasin,North-East
+273,Mueang Kamphaeng Phet,Kamphaeng Phet,Central
+374,Mueang Kanchanaburi,Kanchanaburi,West
+475,Mueang Khon Kaen,Khon Kaen,North-East
+376,Mueang Krabi,Krabi,South
+377,Mueang Lampang,Lampang,North
+378,Mueang Lamphun,Lamphun,North
+379,Mueang Loei,Loei,North-East
+380,Mueang Lopburi,Lopburi,Central
+381,Mueang Mae Hong Son,Mae Hong Son,North
+382,Mueang Maha Sarakham,Maha Sarakham,North-East
+383,Mueang Mukdahan,Mukdahan,North-East
+384,Mueang Nakhon Nayok,Nakhon Nayok,Central
+385,Mueang Nakhon Pathom,Nakhon Pathom,Central
+386,Mueang Nakhon Phanom,Nakhon Phanom,North-East
+387,Mueang Nakhon Ratchasima,Nakhon Ratchasima,North-East
+388,Mueang Nakhon Sawan,Nakhon Sawan,Central
+389,Mueang Nakhon Si Thammarat,Nakhon Si Thammarat,South
+390,Mueang Nan,Nan,North
+391,Mueang Narathiwat,Narathiwat,South
+392,Mueang Nong Khai,Nong Khai,North-East
+393,Mueang Nongbua Lamphu,Nong Bua Lamphu,North-East
+394,Mueang Nonthaburi,Nonthaburi,Central
+395,Mueang Pan,Lampang,North
+396,Mueang Pathum Thani,Pathum Thani,Central
+397,Mueang Pattani (Malay: Patani),Pattani,South
+398,Mueang Phang Nga,Phang Nga,South
+399,Mueang Phatthalung,Phatthalung,South
+400,Mueang Phayao,Phayao,North
+401,Mueang Phetchabun,Phetchabun,Central
+402,Mueang Phetchaburi,Phetchaburi,West
+403,Mueang Phichit,Phichit,Central
+405,Mueang Phitsanulok,Phitsanulok,Central
+406,Mueang Phrae,Phrae,North
+407,Mueang Phuket,Phuket,South
+408,Mueang Prachinburi,Prachin Buri,East
+409,Mueang Prachuap Khiri Khan,Prachuap Khiri Khan,West
+410,Mueang Ranong,Ranong,South
+411,Mueang Ratchaburi,Ratchaburi,West
+412,Mueang Rayong,Rayong,East
+413,Mueang Roi Et,Roi Et,North-East
+414,Mueang Sa Kaeo,Sa Kaeo,East
+415,Mueang Sakon Nakhon,Sakon Nakhon,North-East
+416,Mueang Samut Prakan,Samut Prakan,Central
+417,Mueang Samut Sakhon,Samut Sakhon,Central
+418,Mueang Samut Songkhram,Samut Songkhram,Central
+419,Mueang Saraburi,Saraburi,Central
+420,Mueang Satun (Malay: Mambang),Satun,South
+421,Mueang Sing Buri,Sing Buri,Central
+422,Mueang Si Sa Ket,Sisaket,North-East
+423,Mueang Songkhla (Malay: Singgora),Songkhla,South
+424,Mueang Suang,Roi Et,North-East
+425,Mueang Sukhothai,Sukhothai,Central
+426,Mueang Suphanburi,Suphan Buri,Central
+427,Mueang Surat Thani,Surat Thani,South
+428,Mueang Surin,Surin,North-East
+429,Mueang Tak,Tak,West
+430,Mueang Trang,Trang,South
+431,Mueang Trat,Trat,East
+432,Mueang Ubon Ratchathani,Ubon Ratchathani,North-East
+433,Mueang Udon Thani,Udon Thani,North-East
+434,Mueang Uthai Thani,Uthai Thani,Central
+435,Mueang Uttaradit,Uttaradit,North
+436,Mueang Yala,Yala,South
+437,Mueang Yang,Nakhon Ratchasima,North-East
+438,Na Bon,Nakhon Si Thammarat,South
+439,Na Chaluai,Ubon Ratchathani,North-East
+440,Na Chueak,Maha Sarakham,North-East
+441,Na Di,Prachin Buri,East
+442,Na Duang,Loei,North-East
+443,Na Dun,Maha Sarakham,North-East
+444,Na Haeo,Loei,North-East
+445,Na Kae,Nakhon Phanom,North-East
+446,Na Khu,Kalasin,North-East
+447,Na Klang,Nong Bua Lamphu,North-East
+448,Na Mom,Songkhla,South
+449,Na Mon,Kalasin,North-East
+450,Na Muen,Nan,North
+451,Na Noi,Nan,North
+452,Na Pho,Buriram,North-East
+453,Na Tan,Ubon Ratchathani,North-East
+454,Na Thawi (Malay: Nawi),Songkhla,South
+455,Na Thom,Nakhon Phanom,North-East
+456,Na Wa,Nakhon Phanom,North-East
+457,Na Wang,Nong Bua Lamphu,North-East
+458,Na Yai Am,Chanthaburi,East
+459,Na Yia,Ubon Ratchathani,North-East
+460,Na Yong,Trang,South
+461,Na Yung,Udon Thani,North-East
+462,Nakhon Chai Si,Nakhon Pathom,Central
+463,Nakhon Luang,Ayutthaya,Central
+464,Nakhon Thai,Phitsanulok,Central
+465,Nam Khun,Ubon Ratchathani,North-East
+466,Nam Kliang,Sisaket,North-East
+467,Nam Nao,Phetchabun,Central
+468,Nam Pat,Uttaradit,North
+469,Nam Phong,Khon Kaen,North-East
+470,Nam Som,Udon Thani,North-East
+471,Nam Yuen,Ubon Ratchathani,North-East
+472,Nang Rong,Buriram,North-East
+473,Ngao,Lampang,North
+474,Nikhom Kham Soi,Mukdahan,North-East
+475,Nikhom Nam Un,Sakon Nakhon,North-East
+476,Nikhom Phatthana,Rayong,East
+477,Noen Kham,Chainat,Central
+478,Noen Maprang,Phitsanulok,Central
+479,Noen Sa-nga,Chaiyaphum,North-East
+480,Non Daeng,Nakhon Ratchasima,North-East
+481,Non Din Daeng,Buriram,North-East
+482,Non Khun,Sisaket,North-East
+483,Non Narai,Surin,North-East
+484,Non Sa-at,Udon Thani,North-East
+485,Non Sang,Nong Bua Lamphu,North-East
+486,Non Sila,Khon Kaen,North-East
+487,Non Sung,Nakhon Ratchasima,North-East
+488,Non Suwan,Buriram,North-East
+489,Non Thai,Nakhon Ratchasima,North-East
+490,Nong Bua,Nakhon Sawan,Central
+491,Nong Bua Daeng,Chaiyaphum,North-East
+492,Nong Bua Rawe,Chaiyaphum,North-East
+493,Nong Bun Mak,Nakhon Ratchasima,North-East
+494,Nong Chang,Uthai Thani,Central
+495,Nong Chik,Pattani,South
+496,Nong Don,Saraburi,Central
+497,Nong Han,Udon Thani,North-East
+498,Nong Hi,Roi Et,North-East
+499,Nong Hin,Loei,North-East
+500,Nong Hong,Buriram,North-East
+501,Nong Khae,Saraburi,Central
+502,Nong Khayang,Uthai Thani,Central
+503,Nong Ki,Buriram,North-East
+504,Nong Kung Si,Kalasin,North-East
+505,Nong Mamong,Chainat,Central
+506,Nong Muang,Lopburi,Central
+507,Nong Muang Khai,Phrae,North
+508,Nong Na Kham,Khon Kaen,North-East
+509,Nong Phai,Phetchabun,Central
+510,Nong Phok,Roi Et,North-East
+511,Nong Prue,Kanchanaburi,West
+512,Nong Ruea,Khon Kaen,North-East
+513,Nong Saeng,Udon Thani,North-East
+514,Nong Saeng,Saraburi,Central
+515,Nong Song Hong,Khon Kaen,North-East
+516,Nong Suea,Pathum Thani,Central
+517,Nong Sung,Mukdahan,North-East
+518,Nong Wua So,Udon Thani,North-East
+519,Nong Ya Plong,Phetchaburi,West
+520,Nong Ya Sai,Suphan Buri,Central
+521,Nong Yai,Chonburi,East
+522,Nopphitam,Nakhon Si Thammarat,South
+523,Nuea Khlong,Krabi,South
+524,Omkoi,Chiang Mai,North
+525,Ongkharak,Nakhon Nayok,Central
+526,Pa Bon,Phatthalung,South
+527,Pa Daet,Chiang Rai,North
+528,Pa Mok,Ang Thong,Central
+529,Pa Phayom,Phatthalung,South
+530,Pa Sang,Lamphun,North
+531,Pai,Mae Hong Son,North
+532,Pak Chom,Loei,North-East
+533,Pak Chong,Nakhon Ratchasima,North-East
+534,Pak Khat,Bueng Kan,North-East
+535,Pak Kret,Nonthaburi,Central
+536,Pak Phanang,Nakhon Si Thammarat,South
+537,Pak Phayun,Phatthalung,South
+538,Pak Phli,Nakhon Nayok,Central
+539,Pak Tho,Ratchaburi,West
+540,Pak Thong Chai,Nakhon Ratchasima,North-East
+541,Pakham,Buriram,North-East
+542,Palian,Trang,South
+543,Panare (Malay: Penarik),Pattani,South
+544,Pang Mapha,Mae Hong Son,North
+545,Pang Sila Thong,Kamphaeng Phet,Central
+546,Pathio,Chumphon,South
+547,Pathum Rat,Roi Et,North-East
+548,Pathum Ratchawongsa,Amnat Charoen,North-East
+549,Pha Khao,Loei,North-East
+550,Phachi,Ayutthaya,Central
+551,Phaisali,Nakhon Sawan,Central
+552,Phak Hai,Ayutthaya,Central
+553,Phakdi Chumphon,Chaiyaphum,North-East
+554,Phan,Chiang Rai,North
+555,Phan Thong,Chonburi,East
+556,Phana,Amnat Charoen,North-East
+557,Phanat Nikhom,Chonburi,East
+558,Phang Khon,Sakon Nakhon,North-East
+559,Phanna Nikhom,Sakon Nakhon,North-East
+560,Phanom,Surat Thani,South
+561,Phanom Dong Rak,Surin,North-East
+562,Phanom Phrai,Roi Et,North-East
+563,Phanom Sarakham,Chachoengsao,East
+564,Phanom Thuan,Kanchanaburi,West
+565,Phato,Chumphon,South
+566,Phatthana Nikhom,Lopburi,Central
+567,Phaya Mengrai,Chiang Rai,North
+568,Phayakkhaphum Phisai,Maha Sarakham,North-East
+569,Phayu,Sisaket,North-East
+570,Phayuha Khiri,Nakhon Sawan,Central
+571,Phen,Udon Thani,North-East
+572,Phibun Mangsahan,Ubon Ratchathani,North-East
+573,Phibun Rak,Udon Thani,North-East
+574,Phichai,Uttaradit,North
+575,Phimai,Nakhon Ratchasima,North-East
+576,Phipun,Nakhon Si Thammarat,South
+577,Phlapphla Chai,Buriram,North-East
+578,Pho Chai,Roi Et,North-East
+579,Pho Prathap Chang,Phichit,Central
+580,Pho Sai,Ubon Ratchathani,North-East
+581,Pho Si Suwan,Sisaket,North-East
+582,Pho Tak,Nong Khai,North-East
+583,Pho Thale,Phichit,Central
+584,Pho Thong,Ang Thong,Central
+585,Phon,Khon Kaen,North-East
+586,Phon Charoen,Bueng Kan,North-East
+587,Phon Na Kaeo,Sakon Nakhon,North-East
+589,Phon Phisai,Nong Khai,North-East
+590,Phon Sai,Roi Et,North-East
+591,Phon Sawan,Nakhon Phanom,North-East
+592,Phon Thong,Roi Et,North-East
+593,Phop Phra,Tak,West
+594,Photharam,Ratchaburi,West
+595,Phra Nakhon Si Ayutthaya,Ayutthaya,Central
+596,Phra Phrom,Nakhon Si Thammarat,South
+597,Phra Phutthabat,Saraburi,Central
+598,Phra Pradaeng,Samut Prakan,Central
+599,Phra Samut Chedi,Samut Prakan,Central
+600,Phra Thong Kham,Nakhon Ratchasima,North-East
+601,Phra Yuen,Khon Kaen,North-East
+602,Phrai Bueng,Sisaket,North-East
+603,Phran Kratai,Kamphaeng Phet,Central
+604,Phrao,Chiang Mai,North
+605,Phrasaeng,Surat Thani,South
+606,Phrom Buri,Sing Buri,Central
+607,Phrom Khiri,Nakhon Si Thammarat,South
+608,Phrom Phiram,Phitsanulok,Central
+609,Phu Kamyao,Phayao,North
+610,Phu Khiao,Chaiyaphum,North-East
+611,Phu Kradueng,Loei,North-East
+612,Phu Luang,Loei,North-East
+613,Phu Pha Man,Khon Kaen,North-East
+614,Phu Phan,Sakon Nakhon,North-East
+615,Phu Phiang,Nan,North
+616,Phu Ruea,Loei,North-East
+617,Phu Sang,Phayao,North
+618,Phu Sing,Sisaket,North-East
+619,Phu Wiang,Khon Kaen,North-East
+620,Phunphin,Surat Thani,South
+621,Phutthaisong,Buriram,North-East
+622,Phutthamonthon,Nakhon Pathom,Central
+623,Pla Pak,Nakhon Phanom,North-East
+624,Plaeng Yao,Chachoengsao,East
+625,Plai Phraya,Krabi,South
+626,Pluak Daeng,Rayong,East
+627,Pong,Phayao,North
+628,Pong Nam Ron,Chanthaburi,East
+629,Prachaksinlapakhom,Udon Thani,North-East
+630,Prachantakham,Prachin Buri,East
+631,Prakhon Chai,Buriram,North-East
+632,Pran Buri,Prachuap Khiri Khan,West
+633,Prang Ku,Sisaket,North-East
+634,Prasat,Surin,North-East
+635,Prathai,Nakhon Ratchasima,North-East
+636,Pua,Nan,North
+637,Pueai Noi,Khon Kaen,North-East
+638,Ra-ngae,Narathiwat,South
+639,Raman (Malay: Reman),Yala,South
+640,Ranot (Malay: Renut),Songkhla,South
+641,Rasi Salai,Sisaket,North-East
+642,Ratchasan,Chachoengsao,East
+643,Ratsada,Trang,South
+644,Rattanaburi,Surin,North-East
+645,Rattanawapi,Nong Khai,North-East
+646,Rattaphum,Songkhla,South
+647,Renu Nakhon,Nakhon Phanom,North-East
+648,Ron Phibun,Nakhon Si Thammarat,South
+649,Rong Kham,Kalasin,North-East
+650,Rong Kwang,Phrae,North
+651,Rueso (Malay: Rusa),Narathiwat,South
+652,Sa Bot,Lopburi,Central
+653,Saba Yoi,Songkhla,South
+654,Sadao (Malay: Sendawa),Songkhla,South
+655,Sahatsakhan,Kalasin,North-East
+656,Sai Buri (Malay: Telube or Selindung Bayu),Pattani,South
+657,Sai Ngam,Kamphaeng Phet,Central
+658,Sai Noi,Nonthaburi,Central
+659,Sai Thong Watthana,Kamphaeng Phet,Central
+660,Sai Yok,Kanchanaburi,West
+661,Sak Lek,Phichit,Central
+662,Sakhrai,Nong Khai,North-East
+663,Sam Chai,Kalasin,North-East
+664,Sam Chuk,Suphan Buri,Central
+665,Sam Khok,Pathum Thani,Central
+666,Sam Ngam,Phichit,Central
+667,Sam Ngao,Tak,West
+668,Sam Phran,Nakhon Pathom,Central
+669,Sam Roi Yot,Prachuap Khiri Khan,West
+670,Sam Sung,Khon Kaen,North-East
+671,Samko,Ang Thong,Central
+672,Samoeng,Chiang Mai,North
+673,Samrong,Ubon Ratchathani,North-East
+674,Samrong Thap,Surin,North-East
+675,San Kamphaeng,Chiang Mai,North
+676,San Pa Tong,Chiang Mai,North
+677,San Sai,Chiang Mai,North
+678,Sanam Chai Khet,Chachoengsao,East
+679,Sang Khom,Udon Thani,North-East
+680,Sangkha,Surin,North-East
+681,Sangkhla Buri,Kanchanaburi,West
+682,Sangkhom,Nong Khai,North-East
+683,Sankhaburi,Chainat,Central
+684,Sanom,Surin,North-East
+685,Santi Suk,Nan,North
+686,Sao Hai,Saraburi,Central
+687,Sap Yai,Chaiyaphum,North-East
+688,Sapphaya,Chainat,Central
+689,Saraphi,Chiang Mai,North
+690,Sathing Phra,Songkhla,South
+691,Sattahip,Chonburi,East
+692,Satuek,Buriram,North-East
+693,Sawaeng Ha,Ang Thong,Central
+694,Sawang Arom,Uthai Thani,Central
+695,Sawang Daen Din,Sakon Nakhon,North-East
+696,Sawang Wirawong,Ubon Ratchathani,North-East
+697,Sawankhalok,Sukhothai,Central
+698,Sawi,Chumphon,South
+699,Seka,Bueng Kan,North-East
+700,Selaphum,Roi Et,North-East
+701,Sena,Ayutthaya,Central
+702,Senangkhanikhom,Amnat Charoen,North-East
+703,Si Banphot,Phatthalung,South
+704,Si Bun Rueang,Nong Bua Lamphu,North-East
+705,Si Chiang Mai,Nong Khai,North-East
+706,Si Chomphu,Khon Kaen,North-East
+707,Si Maha Phot,Prachin Buri,East
+708,Si Mahosot,Prachin Buri,East
+709,Si Mueang Mai,Ubon Ratchathani,North-East
+710,Si Nakhon,Sukhothai,Central
+711,Si Narong,Surin,North-East
+712,Si Prachan,Suphan Buri,Central
+713,Si Racha,Chonburi,East
+714,Si Rattana,Sisaket,North-East
+715,Si Sakhon,Narathiwat,South
+716,Si Samrong,Sukhothai,Central
+717,Si Satchanalai,Sukhothai,Central
+718,Si Sawat,Kanchanaburi,West
+719,Si Somdet,Roi Et,North-East
+720,Si Songkhram,Nakhon Phanom,North-East
+721,Si That,Udon Thani,North-East
+722,Si Thep,Phetchabun,Central
+723,Si Wilai,Bueng Kan,North-East
+724,Sichon,Nakhon Si Thammarat,South
+725,Sida,Nakhon Ratchasima,North-East
+726,Sikao,Trang,South
+727,Sikhio,Nakhon Ratchasima,North-East
+728,Sikhoraphum,Surin,North-East
+729,Sila Lat,Sisaket,North-East
+730,Singhanakhon,Songkhla,South
+731,Sirindhorn,Ubon Ratchathani,North-East
+732,So Phisai,Bueng Kan,North-East
+733,Soem Ngam,Lampang,North
+734,Soeng Sang,Nakhon Ratchasima,North-East
+735,Soi Dao,Chanthaburi,East
+736,Somdet,Kalasin,North-East
+737,Song,Phrae,North
+738,Song Dao,Sakon Nakhon,North-East
+739,Song Khwae,Nan,North
+740,Song Phi Nong,Suphan Buri,Central
+741,Sop Moei,Mae Hong Son,North
+742,Sop Prap,Lampang,North
+743,Srinagarindra,Phatthalung,South
+744,Su-ngai Kolok (Malay: Sungai Golok),Narathiwat,South
+745,Su-ngai Padi (Malay: Sungai Padi),Narathiwat,South
+746,Suan Phueng,Ratchaburi,West
+747,Suk Samran,Ranong,South
+748,Sukhirin,Narathiwat,South
+749,Sung Men,Phrae,North
+750,Sung Noen,Nakhon Ratchasima,North-East
+751,Suwannakhuha,Nong Bua Lamphu,North-East
+752,Suwannaphum,Roi Et,North-East
+753,Ta Phraya,Sa Kaeo,East
+754,Tak Bai (Malay: Tabal),Narathiwat,South
+755,Tak Fa,Nakhon Sawan,Central
+756,Takhli,Nakhon Sawan,Central
+757,Takua Pa,Phang Nga,South
+758,Takua Thung,Phang Nga,South
+759,Tamot,Phatthalung,South
+760,Tan Sum,Ubon Ratchathani,North-East
+761,Tao Ngoi,Sakon Nakhon,North-East
+762,Tap Khlo,Phichit,Central
+763,Taphan Hin,Phichit,Central
+764,Tha Bo,Nong Khai,North-East
+765,Tha Chana,Surat Thani,South
+766,Tha Chang,Sing Buri,Central
+767,Tha Chang,Surat Thani,South
+768,Tha Khantho,Kalasin,North-East
+769,Tha Li,Loei,North-East
+770,Tha Luang,Lopburi,Central
+771,Tha Mai,Chanthaburi,East
+772,Tha Maka,Kanchanaburi,West
+773,Tha Muang,Kanchanaburi,West
+774,Tha Phae,Satun,South
+775,Tha Pla,Uttaradit,North
+776,Tha Ruea,Ayutthaya,Central
+777,Tha Sae,Chumphon,South
+778,Tha Sala,Nakhon Si Thammarat,South
+779,Tha Song Yang,Tak,West
+780,Tha Takiap,Chachoengsao,East
+781,Tha Tako,Nakhon Sawan,Central
+782,Tha Tum,Surin,North-East
+783,Tha Uthen,Nakhon Phanom,North-East
+784,Tha Wang Pha,Nan,North
+785,Tha Wung,Lopburi,Central
+786,Tha Yang,Phetchaburi,West
+787,Thai Mueang,Phang Nga,South
+788,Thalang,Phuket,South
+789,Tham Phannara,Nakhon Si Thammarat,South
+790,Than To,Yala,South
+791,Thanyaburi,Pathum Thani,Central
+792,Thap Put,Phang Nga,South
+793,Thap Sakae,Prachuap Khiri Khan,West
+794,Thap Than,Uthai Thani,Central
+795,That Phanom,Nakhon Phanom,North-East
+796,Thawat Buri,Roi Et,North-East
+797,Thep Sathit,Chaiyaphum,North-East
+798,Thepha (Malay: Tiba),Songkhla,South
+799,Thepharak,Nakhon Ratchasima,North-East
+800,Thoen,Lampang,North
+801,Thoeng,Chiang Rai,North
+802,Thong Pha Phum,Kanchanaburi,West
+803,Thong Saen Khan,Uttaradit,North
+804,Thung Chang,Nan,North
+805,Thung Fon,Udon Thani,North-East
+806,Thung Hua Chang,Lamphun,North
+807,Thung Khao Luang,Roi Et,North-East
+808,Thung Saliam,Sukhothai,Central
+809,Thung Si Udom,Ubon Ratchathani,North-East
+810,Thung Song,Nakhon Si Thammarat,South
+811,Thung Tako,Chumphon,South
+812,Thung Wa,Satun,South
+813,Thung Yai,Nakhon Si Thammarat,South
+814,Thung Yang Daeng,Pattani,South
+815,Trakan Phuet Phon,Ubon Ratchathani,North-East
+816,Tron,Uttaradit,North
+817,U Thong,Suphan Buri,Central
+818,Ubolratana,Khon Kaen,North-East
+819,Umphang,Tak,West
+820,Uthai,Ayutthaya,Central
+821,Uthumphon Phisai,Sisaket,North-East
+822,Vibhavadi,Surat Thani,South
+823,Wachirabarami,Phichit,Central
+824,Waeng,Narathiwat,South
+825,Waeng Noi,Khon Kaen,North-East
+826,Waeng Yai,Khon Kaen,North-East
+827,Wan Yai,Mukdahan,North-East
+828,Wang Chan,Rayong,East
+829,Wang Chao,Tak,West
+830,Wang Chin,Phrae,North
+831,Wang Hin,Sisaket,North-East
+832,Wang Muang,Saraburi,Central
+833,Wang Nam Khiao,Nakhon Ratchasima,North-East
+834,Wang Nam Yen,Sa Kaeo,East
+835,Wang Noi,Ayutthaya,Central
+836,Wang Nuea,Lampang,North
+837,Wang Pong,Phetchabun,Central
+838,Wang Sai Phun,Phichit,Central
+839,Wang Sam Mo,Udon Thani,North-East
+840,Wang Saphung,Loei,North-East
+841,Wang Sombun,Sa Kaeo,East
+842,Wang Thong,Phitsanulok,Central
+843,Wang Wiset,Trang,South
+844,Wang Yang,Nakhon Phanom,North-East
+845,Wanon Niwat,Sakon Nakhon,North-East
+846,Wapi Pathum,Maha Sarakham,North-East
+847,Warin Chamrap,Ubon Ratchathani,North-East
+848,Waritchaphum,Sakon Nakhon,North-East
+849,Wat Bot,Phitsanulok,Central
+850,Wat Phleng,Ratchaburi,West
+851,Wat Sing,Chainat,Central
+852,Watthana Nakhon,Sa Kaeo,East
+853,Wiang Chai,Chiang Rai,North
+854,Wiang Chiang Rung,Chiang Rai,North
+855,Wiang Haeng,Chiang Mai,North
+856,Wiang Kaen,Chiang Rai,North
+857,Wiang Kao,Khon Kaen,North-East
+858,Wiang Nong Long,Lamphun,North
+859,Wiang Pa Pao,Chiang Rai,North
+860,Wiang Sa,Nan,North
+861,Wiang Sa,Surat Thani,South
+862,Wichian Buri,Phetchabun,Central
+863,Wihan Daeng,Saraburi,Central
+864,Wiset Chai Chan,Ang Thong,Central
+865,Yaha,Yala,South
+866,Yan Ta Khao,Trang,South
+867,Yang Chum Noi,Sisaket,North-East
+868,Yang Sisurat,Maha Sarakham,North-East
+869,Yang Talat,Kalasin,North-East
+870,Yarang,Pattani,South
+871,Yaring (Malay: Jamu),Pattani,South
+872,Yi-ngo (Malay: Jeringo),Narathiwat,South
+873,Mueang Yasothon,Yasothon,North-East
+874,Sai Mun,Yasothon,North-East
+875,Kut Chum,Yasothon,North-East
+876,Kham Khuean Kaeo,Yasothon,North-East
+877,Pa Tio,Yasothon,North-East
+878,Maha Chana Chai,Yasothon,North-East
+879,Kho Wang,Yasothon,North-East
+880,Loeng Nok Tha,Yasothon,North-East
+881,Thai Charoen,Yasothon,North-East
+,,,
+For more other formats kindly visit www.downloadexcelfiles.com,,,
