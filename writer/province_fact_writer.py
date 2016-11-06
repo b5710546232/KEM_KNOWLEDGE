@@ -1,11 +1,11 @@
 import csv
 
-f = open('../data/provice.csv','r')
-output = open('../src/provice_fact.pl','w')
+f = open('../data/province.csv','r')
+output = open('../src/province_fact.pl','w')
 reader = csv.DictReader(f)
 
 # :- module(rice_fact, []).
-output.write(':- module(provice_fact, []).\n')
+output.write(':- module(province_fact, []).\n')
 
 result_list = []
 for row in reader:
@@ -16,7 +16,7 @@ for row in reader:
             temp = temp.replace(' ','_')
             temp = temp.replace('-','_')
             temp = temp.replace('.','')
-            fact = "provice(%s)"%(temp)
+            fact = "province(%s)"%(temp)
             result_list.append(fact)
             output.write(fact+"\n")
             print(fact)
