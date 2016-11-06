@@ -13,7 +13,7 @@ for row in reader:
     temp = temp.replace(' ','_')
     temp = temp.replace('-','_')
     temp = temp.replace('.','')
-    rice_fact = "rice(%s)"%(temp)
+    rice_fact = "rice(%s)."%(temp)
     rice_list.append(rice_fact)
     print(rice_fact)
     output.write(rice_fact+"\n")
