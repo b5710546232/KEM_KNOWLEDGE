@@ -46,7 +46,6 @@ for row in reader:
             region = region.replace('-','')
             region = region.replace('.','')
             region = region.lower()
-
             region_t ={"northeast":"ภาคตะวันออกเฉียงเหนือ","central":"ภาคกลาง","south":"ภาคใต้","west":"ภาคตะวันตก","north":"ภาคเหนือ","northern":"ภาคเหนือ","east":"ภาคตะวันออก"}
             # if region not in region_t.keys():
                 # print(region)
@@ -55,27 +54,22 @@ for row in reader:
             province = result_provinces[province]
             fact = "has_region(%s,%s)."%(province,region_t[region])
             fact2 = "has_region(%s,%s)."%(province,region_t[region])
-            if (fact not in result_list):
+            if (province not in result1):
                 result_list.append(fact)
                 result1.append(province)
                 output.write(fact+"\n")
-                # print(fact)
+                print(fact)
             if (fact2 not in result_list2):
                 result_list2.append(fact2)
                 result2.append(province)
     except:
         pass
-count = 0
 
-for f in result1:
-    for f2 in result2:
-        if f == f2:
-            print('ok')
-            count+=1
-#     # if f not in result_list:
-#         # print('not',str(f))
 
-print('total '+str(len(result_list)))
-print('count',count)
+
+for r in result_provinces.values():
+    if r not in result1:
+        print('not',r)
 # print('total '+str(len(result1)))
 # print('total '+str(len(result2)))
+print('total '+str(len(result_list)))
