@@ -1,0 +1,22 @@
+{
+  "name": "kem-ricevarieties",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b5710546232/KEM_KNOWLEDGE.git"
+  },
+  "keywords": [
+    "rice"
+  ],
+  "author": "Rice Variety",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b5710546232/KEM_KNOWLEDGE/issues"
+  },
+  "homepage": "https://github.com/b5710546232/KEM_KNOWLEDGE#readme"
+}
