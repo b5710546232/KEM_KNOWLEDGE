@@ -2,7 +2,7 @@ import csv
 
 f = open('../data/list_distinct.csv','r')
 f2 = open('../data/TAMBON.csv','r')
-output = open('../src/province_region_fact.pl','w',"utf-8")
+output = open('../src/province_region_fact.pl','w')
 reader = csv.DictReader(f)
 reader2 = csv.DictReader(f2)
 # :- module(rice_fact, []).

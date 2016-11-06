@@ -16,4 +16,5 @@ for row in reader:
     rice_fact = "rice(%s)."%(temp)
     rice_list.append(rice_fact)
     print(rice_fact)
-    output.write(u'%s\n'%(rice_fact))
+    fact = rice_fact+"\n"
+    output.write(fact)
