@@ -1,4 +1,4 @@
-:- use_module(province_fact,[]).
-:- use_module(province_region_fact,[]).
-:- use_module(rice_fact,[]).
-:- use_module(rice_region_fact,[]).
+:- load_files(province_fact, [encoding(utf8)]).
+:- load_files(province_region_fact, [encoding(utf8)]).
+:- load_files(rice_fact, [encoding(utf8)]).
+:- load_files(rice_region_fact, [encoding(utf8)]).

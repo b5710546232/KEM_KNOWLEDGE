@@ -44,6 +44,7 @@ for row in reader:
                 print("not in")
                 print(temp)
                 input("not in")
+                # fact = "province(%s)."%(temp)
             fact = "province(%s)."%(result_provinces[temp])
             if fact not in result_list:
                 result_list.append(fact)
