@@ -19,9 +19,9 @@ for row in reader2:
     eng = eng.replace('.','')
     eng = eng.lower()
     thai = row['CHANGWAT_T'].replace(' ','')
+    thai = thai.replace('จ.','')
     thai = thai.replace('-','')
     thai = thai.replace('.','')
-    thai = thai.replace('จ','')
     # print(eng,thai)
     # p = {"eng":eng,"thai":thai}
     if eng not in result_provinces.keys():
