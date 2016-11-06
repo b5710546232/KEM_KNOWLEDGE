@@ -1,0 +1,82 @@
+Sr.No,Province,Capital,Population,Area (km²),Population Density,Largest Metropolitan Area,Abbr.,ISO,FIPS
+1,Bangkok,Bangkok,"57,01,394","1,568.70","3,634.50",Bangkok Metropolitan Area,BKK,TH-10,TH40
+,(special administrative area),,,,,,,,
+2,Amnat Charoen,Amnat Charoen,"3,72,137","3,161.20",117.7,Amnat Charoen,ACR,TH-37,TH77
+3,Ang Thong,Ang Thong,"2,84,970",968.4,294.3,Ang Thong,ATG,TH-15,TH35
+4,Bueng Kan,Bueng Kan,"3,85,053","4,305",89.4,Bueng Kan,---,TH-38,---
+5,Buriram,Buriram,"15,53,765","10,322.90",150.5,Buriram,BRM,TH-31,TH28
+6,Chachoengsao,Chachoengsao,"6,73,933","5,351.00",125.9,Chachoengsao,CCO,TH-24,TH44
+7,Chainat,Chainat,"3,34,934","2,469.70",135.6,Chainat,CNT,TH-18,TH32
+8,Chaiyaphum,Chaiyaphum,"11,27,423","12,778.30",88.2,Chaiyaphum,CPM,TH-36,TH26
+9,Chanthaburi,Chanthaburi,"5,14,616","6,338.00",81.2,Chanthaburi,CTI,TH-22,TH48
+10,Chiang Mai,Chiang Mai,"16,40,479","20,107.00",81.6,Chiang Mai,CMI,TH-50,TH02
+11,Chiang Rai,Chiang Rai,"11,98,218","11,678.40",102.6,Chiang Rai,CRI,TH-57,TH03
+12,Chonburi,Chonburi,"13,16,293","4,363.00",301.7,Pattaya,CBI,TH-20,TH46
+13,Chumphon,Chumphon,"4,89,964","6,009.00",81.5,Chumphon,CPN,TH-86,TH58
+14,Kalasin,Kalasin,"9,82,578","6,946.70",141.4,Kalasin,KSN,TH-46,TH23
+15,Kamphaeng Phet,Kamphaeng Phet,"7,27,093","8,607.50",84.5,Kamphaeng Phet,KPT,TH-62,TH11
+16,Kanchanaburi,Kanchanaburi,"8,39,776","19,483.20",43.1,Kanchanaburi,KRI,TH-71,TH50
+17,Khon Kaen,Khon Kaen,"17,67,601","10,886.00",162.4,Khon Kaen,KKN,TH-40,TH22
+18,Krabi,Krabi,"4,32,704","4,708.50",91.9,Krabi,KBI,TH-81,TH63
+19,Lampang,Lampang,"7,61,949","12,534.00",60.8,Lampang,LPG,TH-52,TH06
+20,Lamphun,Lamphun,"4,04,560","4,505.90",89.8,Lamphun,LPN,TH-51,TH05
+21,Loei Province,Loei,"6,24,066","11,424.60",54.6,Loei,LEI,TH-42,TH18
+22,Lopburi Province,Lopburi,"7,55,854","6,199.80",121.9,Lopburi,LRI,TH-16,TH34
+23,Mae Hong Son,Mae Hong Son,"2,42,742","12,681.30",19.1,Mae Hong Son,MSN,TH-58,TH01
+24,Maha Sarakham,Maha Sarakham,"9,40,911","5,291.70",177.8,Maha Sarakham,MKM,TH-44,TH24
+25,Mukdahan,Mukdahan,"3,39,575","4,339.80",78.2,Mukdahan,MDH,TH-49,TH78
+26,Nakhon Nayok,Nakhon Nayok,"2,52,734","2,122.00",119.1,Nakhon Nayok,NYK,TH-26,TH43
+27,Nakhon Pathom,Nakhon Pathom,"8,60,246","2,168.30",396.7,Nakhon Pathom,NPT,TH-73,TH53
+28,Nakhon Phanom,Nakhon Phanom,"7,03,392","5,512.70",127.6,Nakhon Phanom,NPM,TH-48,TH73
+29,Nakhon Ratchasima,Nakhon Ratchasima,"25,82,089","20,494.00",126,Nakhon Ratchasima,NMA,TH-30,TH27
+30,Nakhon Sawan,Nakhon Sawan,"10,73,495","9,597.70",111.8,Nakhon Sawan,NSN,TH-60,TH16
+31,Nakhon Si Thammarat Province,Nakhon Si Thammarat,"15,22,561","9,942.50",153.1,Nakhon Si Thammarat,NRT,TH-80,TH64
+32,Nan,Nan,"4,76,363","11,472.10",41.5,Nan,NAN,TH-55,TH04
+33,Narathiwat,Narathiwat,"7,37,162","4,475.40",164.7,Su-ngai Kolok,NWT,TH-96,TH31
+34,Nong Bua Lamphu,Nong Bua Lamphu,"5,02,868","3,859.00",130.3,Nong Bua Lamphu,NBP,TH-39,TH79
+35,Nong Khai,Nong Khai City,"9,12,937","3,027.00",124.5,Nong Khai City,NKI,TH-43,TH17
+,,,#,,#,,,,
+36,Nonthaburi,Nonthaburi,"11,01,743",622.3,"1,770.40",Bangkok Metropolitan Area,NBI,TH-12,TH38
+37,Pathum Thani,Pathum Thani,"9,85,643","1,525.90",645.9,Bangkok Metropolitan Area,PTE,TH-13,TH39
+38,Pattani,Pattani,"6,55,259","1,940.40",337.7,Pattani,PTN,TH-94,TH69
+39,Phang Nga,Phang Nga,"2,53,112","4,170.00",60.7,Thai Mueang,PNA,TH-82,TH61
+40,Phatthalung,Phatthalung,"5,09,534","3,424.50",148.8,Phatthalung,PLG,TH-93,TH66
+41,Phayao,Phayao,"4,86,304","6,335.10",76.8,Phayao,PYO,TH-56,TH41
+42,Phetchabun,Phetchabun,"9,96,031","12,668.40",78.6,Phetchabun,PNB,TH-67,TH14
+43,Phetchaburi,Phetchaburi,"4,64,033","6,225.10",74.5,Phetchaburi,PBI,TH-76,TH56
+44,Phichit,Phichit,"5,52,690","4,531.00",122,Phichit,PCT,TH-66,TH13
+45,Phitsanulok,Phitsanulok,"8,49,692","10,815.80",78.6,Phitsanulok,PLK,TH-65,TH12
+46,Phra Nakhon Si Ayutthaya,Phra Nakhon Si Ayutthaya,"7,82,096","2,556.60",305.9,Phra Nakhon Si Ayutthaya,AYA,TH-14,TH36
+47,Phrae,Phrae,"4,60,756","6,538.60",70.5,Phrae,PRE,TH-54,TH07
+48,Phuket,Phuket,"3,45,067",543,635.5,Phuket,PKT,TH-83,TH62
+49,Prachinburi,Prachinburi,"4,66,572","4,762.40",98,Prachinburi,PRI,TH-25,TH74
+50,Prachuap Khiri Khan,Prachuap Khiri Khan,"5,09,134","6,367.60",80,Hua Hin,PKN,TH-77,TH57
+51,Ranong,Ranong,"1,83,079","3,298.00",55.5,Ranong,RNG,TH-85,TH59
+52,Ratchaburi,Ratchaburi,"8,39,075","5,196.50",161.5,Ratchaburi,RBR,TH-70,TH52
+53,Rayong,Rayong,"6,26,402","3,552.00",176.4,Rayong,RYG,TH-21,TH47
+54,Roi Et,Roi Et,"13,09,708","8,299.40",157.8,Roi Et,RET,TH-45,TH25
+55,Sa Kaeo,Sa Kaeo,"4,85,632","7,195.10",75.6,Sa Kaeo,SKW,TH-27,TH80
+56,Sakon Nakhon,Sakon Nakhon,"11,22,905","9,605.80",116.9,Sakon Nakhon,SNK,TH-47,TH20
+57,Samut Prakan,Samut Prakan,"11,85,180","1,004.10","1,180.30",Bangkok Metropolitan Area,SPK,TH-11,TH42
+58,Samut Sakhon,Samut Sakhon,"4,91,887",872.3,563.9,Samut Sakhon,SKN,TH-74,TH55
+59,Samut Songkhram,Samut Songkhram,"1,94,057",416.7,465.7,Samut Songkhram,SKM,TH-75,TH54
+60,Saraburi,Saraburi,"6,17,384","3,576.50",172.6,Saraburi,SRI,TH-19,TH37
+61,Satun,Satun,"2,97,163","2,479.00",119.9,Satun,STN,TH-91,TH67
+62,Sing Buri,Sing Buri,"2,14,661",822.5,261,Sing Buri,SBR,TH-17,TH33
+63,Sisaket,Sisaket,"14,52,471","8,840.00",164.3,Sisaket,SSK,TH-33,TH30
+64,Songkhla,Songkhla,"13,57,023","7,393.90",183.5,Hat Yai,SKA,TH-90,TH68
+65,Sukhothai,Sukhothai,"6,01,778","6,596.10",91.2,Sukhothai,STI,TH-64,TH09
+66,Suphan Buri,Suphan Buri,"8,45,950","5,358.00",157.9,Suphan Buri,SPB,TH-72,TH51
+67,Surat Thani,Surat Thani,"10,00,383","12,891.50",77.6,Surat Thani,SNI,TH-84,TH60
+68,Surin,Surin,"13,81,761","8,124.10",170.1,Surin,SRN,TH-32,TH29
+69,Tak,Tak,"5,25,684","16,406.60",32,Mae Sot,TAK,TH-63,TH08
+70,Trang,Trang,"6,22,659","4,917.50",126.6,Trang,TRG,TH-92,TH65
+71,Trat,Trat,"2,20,921","2,819.00",78.4,Trat,TRT,TH-23,TH49
+72,Ubon Ratchathani,Ubon Ratchathani,"18,13,088","15,744.80",115.2,Ubon Ratchathani,UBN,TH-34,TH75
+73,Udon Thani,Udon Thani,"15,44,786","11,730.30",131.7,Udon Thani,UDN,TH-41,TH76
+74,Uthai Thani,Uthai Thani,"3,27,959","6,730.30",48.7,Uthai Thani,UTI,TH-61,TH15
+75,Uttaradit,Uttaradit,"4,62,618","7,838.60",59,Uttaradit,UTD,TH-53,TH10
+76,Yala,Yala,"4,87,380","4,521.10",107.8,Yala,YLA,TH-95,TH70
+77,Yasothon,Yasothon,"5,39,257","4,161.70",129.6,Yasothon,YST,TH-35,TH72
+,,,,,,,,,
+For more other formats kindly visit www.downloadexcelfiles.com,,,,,,,,,
