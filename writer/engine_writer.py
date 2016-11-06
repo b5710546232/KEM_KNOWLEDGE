@@ -1,7 +1,7 @@
 import os
 print('start create engine.pl ...')
 file_list = []
-output = open('../src/engine.pl','w')
+output = open('../src/engine.pl','w',"utf-8")
 for root, dirs, files in os.walk("../src"):
     for file in files:
         if file != 'engine.pl':

@@ -1,7 +1,7 @@
 import csv
-
+import codecs
 f = open('../data/KEM.csv','r')
-output = open('../src/rice_fact.pl','w')
+output = codecs.open('../src/rice_fact.pl','w',"utf-8")
 reader = csv.DictReader(f)
 
 # :- module(rice_fact, []).

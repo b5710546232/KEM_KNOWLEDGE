@@ -1,7 +1,7 @@
 import csv
 
 f = open('../data/KEM02.csv','r')
-output = open('../src/rice_region_fact.pl','w')
+output = open('../src/rice_region_fact.pl','w',"utf-8")
 reader = csv.DictReader(f)
 
 # :- module(rice_fact, []).

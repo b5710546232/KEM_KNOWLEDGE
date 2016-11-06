@@ -10,10 +10,9 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route('/', methods=['POST'])
 @cross_origin()
 def get_result():
-    pass
     # request = request.json['something']
-    # prolog = Prolog()
-    # prolog.consult('src/engine.pl')
+    prolog = Prolog()
+    prolog.consult('src/engine.pl')
     # query_list = list(prolog.query(''))
     # result_list = []
     # return jsonify()
