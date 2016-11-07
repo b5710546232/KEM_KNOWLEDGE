@@ -12,8 +12,9 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @cross_origin()
 def get_result():
     province = request.json['province']
+    # print ( province)
     # data_string = json.dumps(data_req_2)+"\r\n" #data serialized
-    print('p',province,'\n')
+    print('p',province.encode('utf8'),'\n')
     prolog = Prolog()
     prolog.consult('src/engine.pl')
     re_list = list(prolog.query('province_region_fact:has_region('+province+',Region)'))
