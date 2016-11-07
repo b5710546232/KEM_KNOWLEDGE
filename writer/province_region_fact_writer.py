@@ -51,8 +51,9 @@ for row in reader:
                 # print(region)
                 # input('hi')
             # region = region_t[region]
-            province = result_provinces[province]
-            fact = "has_region(%s,%s)."%(province,region_t[region])
+            # province = result_provinces[province]
+            fact = "has_region(%s,%s)."%(province,region)
+            # fact = "has_region(%s,%s)."%(province,region_t[region])
             fact2 = "has_region(%s,%s)."%(province,region_t[region])
             if (province not in result1):
                 result_list.append(fact)
