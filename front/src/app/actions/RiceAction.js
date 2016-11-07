@@ -1,6 +1,6 @@
-import {Action} from '../constants';
-import { CALL_API } from 'redux-api-middleware'
-import {API} from '../constants/endpoints'
+import { Action } from '../constants';
+import { CALL_API } from 'redux-api-middleware';
+import { API } from '../constants/endpoints';
 
 export const loadRice = (data) => (
   (dispatch) =>
