@@ -1,4 +1,5 @@
-# use python2 for run.
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 from flask import Flask,request,jsonify
 from pyswip import Prolog
 from flask.ext.cors import CORS, cross_origin
@@ -10,12 +11,12 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route('/', methods=['POST'])
 @cross_origin()
 def get_result():
-    # request = request.json['something']
+    province = request.json['province'].encode('utf-8')
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    # query_list = list(prolog.query(''))
-    # result_list = []
-    # return jsonify()
+    re_list = list(prolog.query('province_region_fact:has_region('+province+',Region)'))
+    return jsonify(re_list)
+    return "Hello"
 
 if __name__ == '__main__':
     app.run('0.0.0.0',9999)
