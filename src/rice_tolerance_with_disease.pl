@@ -1,5 +1,5 @@
 :- module(rice_tolerance_with_disease, []).
-# tolerance_with(riceName disease).
+% tolerance_with(riceName disease).
 tolerance_with(rd5,bacterialLeafBlight).
 tolerance_with(rd5,riceBlast).
 tolerance_with(rd5,riceTungro).

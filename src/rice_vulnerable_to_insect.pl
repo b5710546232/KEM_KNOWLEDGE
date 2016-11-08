@@ -1,5 +1,5 @@
 :- module(rice_vulnerable_to_insect, []).
-# vulnerable_to(riceName,insect).
+% vulnerable_to(riceName,insect).
 vulnerable_to(rd5,brownPlantHopper).
 vulnerable_to(rd13,none).
 vulnerable_to(rd15,riceGallMidge).

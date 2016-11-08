@@ -1,5 +1,5 @@
 :- module(ricetype_price, []).
-# sold_for(riceType,specialCase,province,humidity,price).
+% sold_for(riceType,specialCase,province,humidity,price).
 sold_for(nonGlutinous,none,bangkok,15,7400).
 sold_for(nonGlutinous,none,bangkok,15,7300).
 sold_for(nonGlutinous,pathumThani1,bangkok,15,7300).

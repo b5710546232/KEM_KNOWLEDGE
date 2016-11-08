@@ -1,5 +1,5 @@
 :- module(rice_vulnerable_to_disease, []).
-# vulnerable_to(riceName,disease).
+% vulnerable_to(riceName,disease).
 vulnerable_to(rd5,riceRaggedStunt).
 vulnerable_to(rd5,brownSpot).
 vulnerable_to(rd13,bacterialLeafBlight).
@@ -79,7 +79,7 @@ vulnerable_to(niawsan_pah_tawng,bacterialLeafBlight).
 vulnerable_to(niawsan_pah_tawng,riceTungro).
 vulnerable_to(niawubon1,riceBlast).
 vulnerable_to(niawubon2,bacterialLeafBlight).
-vulnerable_to(leuangpratew123,riceBlast riceTungro).
+vulnerable_to(leuangpratew123,riceBlastriceTungro).
 vulnerable_to(leuangpratew123,grassyStunt).
 vulnerable_to(ptnc96004_49,riceBlast).
 vulnerable_to(ptnc96004_49,bacterialLeafBlight).
@@ -197,7 +197,7 @@ vulnerable_to(khaopongkrai,riceTungro).
 vulnerable_to(khaopongkrai,riceRaggedStunt).
 vulnerable_to(khaopongkrai,grassyStunt).
 vulnerable_to(jowhaw,none).
-vulnerable_to(sewmaejan,bacterialLeafBlight leafScald).
+vulnerable_to(sewmaejan,bacterialLeafBlightleafScald).
 vulnerable_to(dawkpa_yawm,bacterialLeafBlight).
 vulnerable_to(dawkpa_yawm,riceTungro).
 vulnerable_to(dawkpa_yawm,riceRaggedStunt).

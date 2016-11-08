@@ -1,5 +1,5 @@
 :- module(rice_tolerance_with_insect, []).
-# tolerance_with(riceName,insect).
+% tolerance_with(riceName,insect).
 tolerance_with(rd5,none).
 tolerance_with(rd13,none).
 tolerance_with(rd15,none).

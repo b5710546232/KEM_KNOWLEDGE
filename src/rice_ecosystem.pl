@@ -1,5 +1,5 @@
 :- module(rice_ecosystem, []).
-# suitable_with(riceName,ecosystem).
+% suitable_with(riceName,ecosystem).
 suitable_with(rd5,lowland).
 suitable_with(rd13,lowland).
 suitable_with(rd15,lowland).

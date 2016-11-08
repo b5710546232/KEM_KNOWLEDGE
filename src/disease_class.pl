@@ -1,5 +1,5 @@
 :- module(disease_class, []).
-# is_instance_of(diseaseName,disease).
+% is_instance_of(diseaseName,disease).
 is_instance_of(seedlingRotInNurseyBox,disease).
 is_instance_of(sheathRot,disease).
 is_instance_of(sheathBlight,disease).

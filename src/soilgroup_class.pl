@@ -1,5 +1,5 @@
 :- module(soilgroup_class, []).
-# is_instance_of(soilGroupName,soilGroup).
+% is_instance_of(soilGroupName,soilGroup).
 is_instance_of(krabi,soilGroup).
 is_instance_of(kantang,soilGroup).
 is_instance_of(kabDaeng,soilGroup).

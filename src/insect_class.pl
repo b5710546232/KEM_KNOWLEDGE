@@ -1,5 +1,5 @@
 :- module(insect_class, []).
-# is_instance_of(insectName,insect).
+% is_instance_of(insectName,insect).
 is_instance_of(thrips,insect).
 is_instance_of(mealybug,insect).
 is_instance_of(brownPlantHopper,insect).

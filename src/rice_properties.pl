@@ -1,5 +1,5 @@
 :- module(rice_properties, []).
-# has_property(riceName,riceType,yield,photoPeriod,specialCase).
+% has_property(riceName,riceType,yield,photoPeriod,specialCase).
 has_properties(rd5,nonGlutinous,567,sensitivity,none).
 has_properties(rd13,nonGlutinous,450,sensitivity,none).
 has_properties(rd15,nonGlutinous,560,sensitivity,none).
