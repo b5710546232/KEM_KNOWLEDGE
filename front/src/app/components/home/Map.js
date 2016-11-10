@@ -5,14 +5,24 @@ class Map extends Component {
 
   createMap() {
     this.map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 13.0069792, lng: 102.2699603},
+      center: {lat: 13.7246004, lng: 100.6331108},
       zoom: 6
     })
+    this.createMarker()
     this.setCenter()
   }
-
+  createMarker(){
+    this.marker = new google.maps.Marker({
+      map: map,
+      draggable: true,
+      animation: google.maps.Animation.DROP,
+      position: {lat: 13.7246004, lng: 100.6331108}
+    });
+    this.marker.setMap(this.map)
+  }
   setCenter(){
     let current_map = this.map
+    let current_marker = this.marker
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
         var pos = {
@@ -21,6 +31,7 @@ class Map extends Component {
         }
         current_map.setCenter(pos)
         current_map.setZoom(10)
+        current_marker.setPosition(pos)
       }, function() {
         handleLocationError(true,  current_map.getCenter());
       })
