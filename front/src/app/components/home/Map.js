@@ -10,15 +10,26 @@ class Map extends Component {
     })
     this.createMarker()
     this.setCenter()
+    this.addMapClickListener()
   }
   createMarker(){
     this.marker = new google.maps.Marker({
       map: map,
       draggable: true,
       animation: google.maps.Animation.DROP,
-      position: {lat: 13.7246004, lng: 100.6331108}
-    });
-    this.marker.setMap(this.map)
+      position: {lat: 13.7246004, lng: 100.6331108},
+      map:this.map
+    })
+  }
+  relocateMarker(location,marker){
+    marker.setPosition(location)
+  }
+  addMapClickListener(){
+    let relocateMarker = this.relocateMarker
+    let current_marker = this.marker
+    google.maps.event.addListener(this.map, 'click', function(event) {
+      relocateMarker(event.latLng,current_marker)
+    })
   }
   setCenter(){
     let current_map = this.map
