@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
-
+import RiceInfomationModal from './RiceInfomationModal'
 class Map extends Component {
 
   createMap() {
@@ -20,6 +20,7 @@ class Map extends Component {
       position: {lat: 13.7246004, lng: 100.6331108},
       map:this.map
     })
+    this.addMarkerClickListener()
   }
   relocateMarker(location,marker){
     marker.setPosition(location)
@@ -29,6 +30,13 @@ class Map extends Component {
     let current_marker = this.marker
     google.maps.event.addListener(this.map, 'click', function(event) {
       relocateMarker(event.latLng,current_marker)
+    })
+  }
+  addMarkerClickListener(){
+    this.marker.addListener('click',function(event){
+      $(document).ready(function(){
+        $('#rice-modal').modal('open');
+      })
     })
   }
   setCenter(){
@@ -60,6 +68,7 @@ class Map extends Component {
     }
     return (
       <div>
+        <RiceInfomationModal/>
         <div id="map" style={style}></div>
       </div>
     )
