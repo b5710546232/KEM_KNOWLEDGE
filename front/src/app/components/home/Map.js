@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import RiceInfomationModal from './RiceInfomationModal'
 import {loadLocation} from '../../actions/MapAction'
+import '../../../assets/scss/input.scss'
 
 class Map extends Component {
 
@@ -13,6 +14,7 @@ class Map extends Component {
     this.createMarker()
     this.setCenter()
     this.addMapClickListener()
+    this.createSearchBox()
   }
   createMarker(){
     this.marker = new google.maps.Marker({
@@ -23,6 +25,16 @@ class Map extends Component {
       map:this.map
     })
     this.addMarkerClickListener()
+  }
+  createSearchBox(){
+    let input = document.getElementById('search-input')
+    let searchBox = new google.maps.places.SearchBox(input)
+    let current_map = this.map
+    current_map.controls[google.maps.ControlPosition.TOP_LEFT].push(input)
+
+    current_map.addListener('bounds_changed', function() {
+      searchBox.setBounds(current_map.getBounds())
+    })
   }
   relocateMarker(location,marker){
     marker.setPosition(location)
@@ -67,12 +79,14 @@ class Map extends Component {
   render(){
     let style={
       position:'absolute',
-      height:'100%',
+      height:'93%',
       width:'100%'
     }
+
     return (
       <div>
         <RiceInfomationModal/>
+        <input id="search-input" className="controls pac-container" type="text" placeholder="Search Box"/>
         <div id="map" style={style}></div>
       </div>
     )
