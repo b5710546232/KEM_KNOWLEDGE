@@ -31,14 +31,30 @@ class Map extends Component {
     let input = document.getElementById('search-input')
     let searchBox = new google.maps.places.SearchBox(input)
     let current_map = this.map
+    let current_marker = this.marker
+    let relocateMarker = this.relocateMarker
+    let recenterMap = this.recenterMap
     current_map.controls[google.maps.ControlPosition.TOP_LEFT].push(input)
-
     current_map.addListener('bounds_changed', function() {
       searchBox.setBounds(current_map.getBounds())
+    })
+    searchBox.addListener('places_changed', function() {
+      let places = searchBox.getPlaces();
+      if (places.length == 0) {
+        return;
+      }
+      let place = places[0]
+      let location = place.geometry.location
+      relocateMarker(location,current_marker)
+      recenterMap(location,current_map)
     })
   }
   relocateMarker(location,marker){
     marker.setPosition(location)
+  }
+  recenterMap(location,map){
+    map.panTo(location)
+    map.setZoom(12)
   }
   addMapClickListener(){
     let relocateMarker = this.relocateMarker
