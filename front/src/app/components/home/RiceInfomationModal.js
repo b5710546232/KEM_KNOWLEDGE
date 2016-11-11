@@ -1,7 +1,13 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {Modal} from 'react-materialize'
+import ProvinceJSON from '../../../assets/json/province.json'
 class RiceInfomationModal extends Component {
+
+  getProvince(province_name){
+    let province = ProvinceJSON.find((current_province)=>current_province.lowername===province_name)
+    return province.name
+  }
 
   componentDidMount(){
     $('#rice-modal').modal()
@@ -81,13 +87,13 @@ class RiceInfomationModal extends Component {
                 <tbody>
                   {
                     this.props.rices.sort((rice1,rice2)=>rice2.Price-rice1.Price).slice(0,100).map(
-                      (rice)=>(
-                        <tr
-                          key={this.props.rices.indexOf(rice)}
-                          >
-                          <td>{rice.Rice}</td>
-                          <td>{rice.Pro}</td>
-                          <td>{rice.Price}</td>
+                    (rice)=>(
+                      <tr
+                        key={this.props.rices.indexOf(rice)}
+                      >
+                        <td>{rice.Rice}</td>
+                        <td>{this.getProvince(rice.Pro)}</td>
+                        <td>{rice.Price}</td>
                         </tr>
                       )
                     )

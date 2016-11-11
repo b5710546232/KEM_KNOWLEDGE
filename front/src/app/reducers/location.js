@@ -6,7 +6,6 @@ const initialState = {}
 const location = (state=initialState,action)=>{
   switch(action.type) {
     case 'LOAD_LOCATION_SUCCESS':
-      console.log(action.payload)
       let sub_district = ''
       let district =''
       let province = ''

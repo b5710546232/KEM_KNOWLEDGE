@@ -1,0 +1,234 @@
+[
+
+  {
+    "name" : "Bangkok","lowername" : "bangkok"
+  },
+  {
+    "name" : "Amnat Charoen","lowername" : "amnatcharoen"
+  },
+  {
+    "name" : "Ang Thong","lowername" : "angthong"
+  },
+  {
+    "name" : "Bueng Kan","lowername" : "buengkan"
+  },
+  {
+    "name" : "Buriram","lowername" : "buriram"
+  },
+  {
+    "name" : "Chachoengsao","lowername" : "chachoengsao"
+  },
+  {
+    "name" : "Chainat","lowername" : "chainat"
+  },
+  {
+    "name" : "Chaiyaphum","lowername" : "chaiyaphum"
+  },
+  {
+    "name" : "Chanthaburi","lowername" : "chanthaburi"
+  },
+  {
+    "name" : "Chiang Mai","lowername" : "chiangmai"
+  },
+  {
+    "name" : "Chiang Rai","lowername" : "chiangrai"
+  },
+  {
+    "name" : "Chonburi","lowername" : "chonburi"
+  },
+  {
+    "name" : "Chumphon","lowername" : "chumphon"
+  },
+  {
+    "name" : "Kalasin","lowername" : "kalasin"
+  },
+  {
+    "name" : "Kamphaeng Phet","lowername" : "kamphaengphet"
+  },
+  {
+    "name" : "Kanchanaburi","lowername" : "kanchanaburi"
+  },
+  {
+    "name" : "Khon Kaen","lowername" : "khonkaen"
+  },
+  {
+    "name" : "Krabi","lowername" : "krabi"
+  },
+  {
+    "name" : "Lampang","lowername" : "lampang"
+  },
+  {
+    "name" : "Lamphun","lowername" : "lamphun"
+  },
+  {
+    "name" : "Loei Province","lowername" : "loeiprovince"
+  },
+  {
+    "name" : "Lopburi Province","lowername" : "lopburiprovince"
+  },
+  {
+    "name" : "Mae Hong Son","lowername" : "maehongson"
+  },
+  {
+    "name" : "Maha Sarakham","lowername" : "mahasarakham"
+  },
+  {
+    "name" : "Mukdahan","lowername" : "mukdahan"
+  },
+  {
+    "name" : "Nakhon Nayok","lowername" : "nakhonnayok"
+  },
+  {
+    "name" : "Nakhon Pathom","lowername" : "nakhonpathom"
+  },
+  {
+    "name" : "Nakhon Phanom","lowername" : "nakhonphanom"
+  },
+  {
+    "name" : "Nakhon Ratchasima","lowername" : "nakhonratchasima"
+  },
+  {
+    "name" : "Nakhon Sawan","lowername" : "nakhonsawan"
+  },
+  {
+    "name" : "Nakhon Si Thammarat Province","lowername" : "nakhonsithammaratprovince"
+  },
+  {
+    "name" : "Nan","lowername" : "nan"
+  },
+  {
+    "name" : "Narathiwat","lowername" : "narathiwat"
+  },
+  {
+    "name" : "Nong Bua Lamphu","lowername" : "nongbualamphu"
+  },
+  {
+    "name" : "Nong Khai","lowername" : "nongkhai"
+  },
+  {
+    "name" : "Nonthaburi","lowername" : "nonthaburi"
+  },
+  {
+    "name" : "Pathum Thani","lowername" : "pathumthani"
+  },
+  {
+    "name" : "Pattani","lowername" : "pattani"
+  },
+  {
+    "name" : "Phang Nga","lowername" : "phangnga"
+  },
+  {
+    "name" : "Phatthalung","lowername" : "phatthalung"
+  },
+  {
+    "name" : "Phayao","lowername" : "phayao"
+  },
+  {
+    "name" : "Phetchabun","lowername" : "phetchabun"
+  },
+  {
+    "name" : "Phetchaburi","lowername" : "phetchaburi"
+  },
+  {
+    "name" : "Phichit","lowername" : "phichit"
+  },
+  {
+    "name" : "Phitsanulok","lowername" : "phitsanulok"
+  },
+  {
+    "name" : "Phra Nakhon Si Ayutthaya","lowername" : "phranakhonsiayutthaya"
+  },
+  {
+    "name" : "Phrae","lowername" : "phrae"
+  },
+  {
+    "name" : "Phuket","lowername" : "phuket"
+  },
+  {
+    "name" : "Prachinburi","lowername" : "prachinburi"
+  },
+  {
+    "name" : "Prachuap Khiri Khan","lowername" : "prachuapkhirikhan"
+  },
+  {
+    "name" : "Ranong","lowername" : "ranong"
+  },
+  {
+    "name" : "Ratchaburi","lowername" : "ratchaburi"
+  },
+  {
+    "name" : "Rayong","lowername" : "rayong"
+  },
+  {
+    "name" : "Roi Et","lowername" : "roiet"
+  },
+  {
+    "name" : "Sa Kaeo","lowername" : "sakaeo"
+  },
+  {
+    "name" : "Sakon Nakhon","lowername" : "sakonnakhon"
+  },
+  {
+    "name" : "Samut Prakan","lowername" : "samutprakan"
+  },
+  {
+    "name" : "Samut Sakhon","lowername" : "samutsakhon"
+  },
+  {
+    "name" : "Samut Songkhram","lowername" : "samutsongkhram"
+  },
+  {
+    "name" : "Saraburi","lowername" : "saraburi"
+  },
+  {
+    "name" : "Satun","lowername" : "satun"
+  },
+  {
+    "name" : "Sing Buri","lowername" : "singburi"
+  },
+  {
+    "name" : "Sisaket","lowername" : "sisaket"
+  },
+  {
+    "name" : "Songkhla","lowername" : "songkhla"
+  },
+  {
+    "name" : "Sukhothai","lowername" : "sukhothai"
+  },
+  {
+    "name" : "Suphan Buri","lowername" : "suphanburi"
+  },
+  {
+    "name" : "Surat Thani","lowername" : "suratthani"
+  },
+  {
+    "name" : "Surin","lowername" : "surin"
+  },
+  {
+    "name" : "Tak","lowername" : "tak"
+  },
+  {
+    "name" : "Trang","lowername" : "trang"
+  },
+  {
+    "name" : "Trat","lowername" : "trat"
+  },
+  {
+    "name" : "Ubon Ratchathani","lowername" : "ubonratchathani"
+  },
+  {
+    "name" : "Udon Thani","lowername" : "udonthani"
+  },
+  {
+    "name" : "Uthai Thani","lowername" : "uthaithani"
+  },
+  {
+    "name" : "Uttaradit","lowername" : "uttaradit"
+  },
+  {
+    "name" : "Yala","lowername" : "yala"
+  },
+  {
+    "name" : "Yasothon","lowername" : "yasothon"
+  }
+]
