@@ -12,9 +12,7 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const middlewares = [thunkMiddleware, apiMiddleware,routerMiddleware(history)]
 
 if(process.env.NODE_ENV !== 'production'){
-  console.log('dev');
   middlewares.push(createLogger())
-  console.log('hi',process.env.NODE_ENV);
 }
 
 const store = createStore(rootReducer, preloadedState, composeEnhancers(
