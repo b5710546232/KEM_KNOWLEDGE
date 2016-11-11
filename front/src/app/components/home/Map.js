@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 import RiceInfomationModal from './RiceInfomationModal'
 import {loadLocation} from '../../actions/MapAction'
 import '../../../assets/scss/input.scss'
+import '../../../assets/scss/current-button.scss'
 
 class Map extends Component {
 
@@ -15,6 +16,7 @@ class Map extends Component {
     this.setCenter()
     this.addMapClickListener()
     this.createSearchBox()
+    this.createCurrentLocationButton()
   }
   createMarker(){
     this.marker = new google.maps.Marker({
@@ -25,6 +27,10 @@ class Map extends Component {
       map:this.map
     })
     this.addMarkerClickListener()
+  }
+  createCurrentLocationButton(){
+    let currentLocationButton = document.getElementById('current-location')
+    this.map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(currentLocationButton);
   }
   createSearchBox(){
     let input = document.getElementById('search-input')
@@ -103,6 +109,7 @@ class Map extends Component {
       <div>
         <RiceInfomationModal/>
         <input id="search-input" className="controls pac-container" type="text" placeholder="Search Box"/>
+        <div id="current-location"><div className="current-location-button"></div></div>
         <div id="map" style={style}></div>
       </div>
     )

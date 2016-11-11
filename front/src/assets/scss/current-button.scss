@@ -1,0 +1,20 @@
+#current-location {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0px;
+}
+.current-location-button {
+  margin: 5px;
+  width: 18px;
+  height: 18px;
+  background-image: url('https://maps.gstatic.com/tactile/mylocation/mylocation-sprite-1x.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
