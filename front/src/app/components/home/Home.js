@@ -6,12 +6,6 @@ import {connect} from 'react-redux'
 import Map from './Map'
 
 class Home extends Component {
-  onInput(e){
-    e.preventDefault();
-    let data = { province:this.refs.form.province.value }
-    this.props.loadRice(data);
-  }
-
   render() {
     return (
       <Map/>
@@ -21,11 +15,4 @@ class Home extends Component {
 const mapStateToProps = (state) => {
   return state
 }
-const mapDispatchToProps = (dispatch) => {
-  return {
-    loadRice: (data)=>{
-      dispatch(loadRice(data))
-    }
-  }
-}
-export default connect(mapStateToProps,mapDispatchToProps)(Home)
+export default connect(mapStateToProps)(Home)

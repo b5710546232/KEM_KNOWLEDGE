@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {Modal} from 'react-materialize'
 class RiceInfomationModal extends Component {
+
   componentDidMount(){
     $('#rice-modal').modal()
   }
+
   render(){
-    console.log(this.props.location);
+    console.log(this.props.rices);
     return(
       <div>
         <div id="rice-modal" className="modal modal-fixed-footer">
@@ -53,27 +55,46 @@ class RiceInfomationModal extends Component {
                   src={this.props.location.lat?
                     "http://maps.googleapis.com/maps/api/staticmap?center="+this.props.location.lat+","+this.props.location.lng+"&zoom=15&maptype=hybrid&size=200x200&key=AIzaSyBfW5XODIw5cTc84x4h8lL1qhB7EbLPhX0"
                     :""
-                    }>
+                  }>
                 </img>
               </div>
             </div>
-            <p>Data Here</p>
+            <table className="highlight">
+              <thead>
+                <tr>
+                  <th data-field="rice">Rice Name</th>
+                  <th data-field="province">Best Price Province</th>
+                  <th data-field="price">Price</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {
+                  this.props.rices.sort((rice1,rice2)=>rice2.Price-rice1.Price).slice(0,100).map(
+                  (rice)=>(
+                    <tr
+                      key={this.props.rices.indexOf(rice)}
+                    >
+                      <td>{rice.Rice}</td>
+                      <td>{rice.Pro}</td>
+                      <td>{rice.Price}</td>
+                    </tr>
+                  )
+                  )
+                }
+              </tbody>
+            </table>
           </div>
           <div className="modal-footer">
             <a className=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
           </div>
         </div>
       </div>
-
     )
   }
 }
 const mapStateToProps = (state) => {
   return state
 }
-const mapDispatchToProps = (dispatch) => {
-  return {
 
-  }
-}
-export default connect(mapStateToProps,mapDispatchToProps)(RiceInfomationModal)
+export default connect(mapStateToProps)(RiceInfomationModal)
