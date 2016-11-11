@@ -1,5 +1,5 @@
 :- module(rice_class, []).
-is_instance_of(riceName, rice).
+% is_instance_of(riceName, rice).
 is_instance_of(rd5,rice).
 is_instance_of(rd13,rice).
 is_instance_of(rd15,rice).
