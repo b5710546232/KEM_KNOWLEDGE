@@ -13,7 +13,7 @@ class RiceInfomationModal extends Component {
         <div id="rice-modal" className="modal modal-fixed-footer">
           <div className="modal-content">
             <div className="row">
-              <h4>Rice Suggestion - {this.props.location.sub_district}, {this.props.location.province}</h4>
+              <h4>Rice Suggestion - {this.props.location.sub_district!==''? <span>{this.props.location.sub_district}, {this.props.location.province}</span>:<span className="orange-text darken-4 ">Unknown Location</span> }</h4>
             </div>
             <div className="row">
               <div className="col s8">
@@ -22,30 +22,37 @@ class RiceInfomationModal extends Component {
                     <h5>Location</h5>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col s6">
-                    <strong>Sub-District</strong>
+                {this.props.location.sub_district===''?
+                  <div className="row">
+                    <h4 className="deep-orange-text darken-4">Location Not Found</h4>
+                  </div>:
+                  <div>
+                    <div className="row">
+                      <div className="col s6">
+                        <strong>Sub-District</strong>
+                      </div>
+                      <div className="col s6">
+                        {this.props.location.sub_district}
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col s6">
+                        <strong>District</strong>
+                      </div>
+                      <div className="col s6">
+                        {this.props.location.district}
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col s6">
+                        <strong>Province</strong>
+                      </div>
+                      <div className="col s6">
+                        {this.props.location.province}
+                      </div>
+                    </div>
                   </div>
-                  <div className="col s6">
-                    {this.props.location.sub_district}
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col s6">
-                    <strong>District</strong>
-                  </div>
-                  <div className="col s6">
-                    {this.props.location.district}
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col s6">
-                    <strong>Province</strong>
-                  </div>
-                  <div className="col s6">
-                    {this.props.location.province}
-                  </div>
-                </div>
+                }
               </div>
               <div className="col s4 ">
                 <img
@@ -74,15 +81,15 @@ class RiceInfomationModal extends Component {
                 <tbody>
                   {
                     this.props.rices.sort((rice1,rice2)=>rice2.Price-rice1.Price).slice(0,100).map(
-                    (rice)=>(
-                      <tr
-                        key={this.props.rices.indexOf(rice)}
-                      >
-                        <td>{rice.Rice}</td>
-                        <td>{rice.Pro}</td>
-                        <td>{rice.Price}</td>
-                      </tr>
-                    )
+                      (rice)=>(
+                        <tr
+                          key={this.props.rices.indexOf(rice)}
+                          >
+                          <td>{rice.Rice}</td>
+                          <td>{rice.Pro}</td>
+                          <td>{rice.Price}</td>
+                        </tr>
+                      )
                     )
                   }
                 </tbody>
