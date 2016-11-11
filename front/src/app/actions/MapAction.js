@@ -19,7 +19,6 @@ export const loadLocation = (lat,lon) => (
               return res.json().then((data) => {
                 data.lat = lat
                 data.lng = lon
-                console.log(data);
                 let rice_data = {
                   province : data.results[1].address_components[2].long_name.toLowerCase().split(' ').join('')
                 }

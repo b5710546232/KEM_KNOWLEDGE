@@ -59,31 +59,36 @@ class RiceInfomationModal extends Component {
                 </img>
               </div>
             </div>
-            <table className="highlight">
-              <thead>
-                <tr>
-                  <th data-field="rice">Rice Name</th>
-                  <th data-field="province">Best Price Province</th>
-                  <th data-field="price">Price</th>
-                </tr>
-              </thead>
+            {this.props.rices.length<=0?
+              <div className="row center">
+                <h4 className="amber-text accent-4">Rice not found</h4>
+              </div>:
+              <table className="highlight">
+                <thead>
+                  <tr>
+                    <th data-field="rice">Rice Name</th>
+                    <th data-field="province">Best Price Province</th>
+                    <th data-field="price">Price</th>
+                  </tr>
+                </thead>
 
-              <tbody>
-                {
-                  this.props.rices.sort((rice1,rice2)=>rice2.Price-rice1.Price).slice(0,100).map(
-                  (rice)=>(
-                    <tr
-                      key={this.props.rices.indexOf(rice)}
-                    >
-                      <td>{rice.Rice}</td>
-                      <td>{rice.Pro}</td>
-                      <td>{rice.Price}</td>
-                    </tr>
-                  )
-                  )
-                }
-              </tbody>
-            </table>
+                <tbody>
+                  {
+                    this.props.rices.sort((rice1,rice2)=>rice2.Price-rice1.Price).slice(0,100).map(
+                    (rice)=>(
+                      <tr
+                        key={this.props.rices.indexOf(rice)}
+                      >
+                        <td>{rice.Rice}</td>
+                        <td>{rice.Pro}</td>
+                        <td>{rice.Price}</td>
+                      </tr>
+                    )
+                    )
+                  }
+                </tbody>
+              </table>
+            }
           </div>
           <div className="modal-footer">
             <a className=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
