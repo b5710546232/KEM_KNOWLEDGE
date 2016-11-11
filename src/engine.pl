@@ -17,3 +17,10 @@
 :- load_files(rice_vulnerable_to_disease, [encoding(utf8)]).
 :- load_files(rice_vulnerable_to_insect, [encoding(utf8)]).
 :- load_files(soilgroup_class, [encoding(utf8)]).
+
+myrule(Rice,Province,Price,Pro) :-
+  rice_region_fact:grow_in(Rice,Region),
+  %ricetype_suitable_with_soilgroup:suitable_with(RiceType,S,good,Region),
+  province_region_fact:has_region(Province,Region),
+  province_region_fact:has_region(Pro,Region),
+  ricetype_price:sold_for(RiceType,SpecialCase,Pro,Humidity,Price).

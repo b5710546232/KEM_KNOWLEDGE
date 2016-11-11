@@ -1,4 +1,4 @@
-:- module(rice_suitable_with_soilgroup, []).
+:- module(ricetype_suitable_with_soilgroup, []).
 % suitable_with(riceTypeName,soilGroupName,suitability,regionName).
 suitable_with(nonGlutinous,krabi,bad,central).
 suitable_with(nonGlutinous,krabi,bad,northeast).
