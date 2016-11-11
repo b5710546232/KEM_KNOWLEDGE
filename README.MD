@@ -16,13 +16,15 @@
 
 ## Project Environment Requirement
 
-### Python2
+### Python 2.7
 
 ```
 Flask (0.11.1)
 Flask-Cors (3.0.2)
 pyswip (0.2.2)
 ```
+
+*We use Python 2.7.12*
 
 ### SWI-Prolog
 
@@ -38,17 +40,17 @@ npm i
 
 ## How to run project ? (Development)
 
-1. Run backend service by Python2
+1. Run backend service by Python 2.7
 
-  ```
-  py app.py
-  ```
+```
+py app.py
+```
 
 2. Run frontend by Node.js ( in front directory )
 
-  ```
-  npm start
-  ```
+```
+npm start
+```
 
 ## Reference
 
