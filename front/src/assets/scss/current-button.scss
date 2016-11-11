@@ -18,3 +18,11 @@
   background-position: 0px 0px;
   background-repeat: no-repeat;
 }
+.current-location-button:hover {
+  margin: 5px;
+  width: 18px;
+  height: 18px;
+  background-image: url('https://maps.gstatic.com/tactile/mylocation/mylocation-sprite-1x.png') ;
+  background-position: -144px 0px;
+  background-repeat: no-repeat;
+}

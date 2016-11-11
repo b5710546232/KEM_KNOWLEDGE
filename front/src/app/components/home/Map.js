@@ -92,7 +92,7 @@ class Map extends Component {
           lng: position.coords.longitude
         }
         current_map.setCenter(pos)
-        current_map.setZoom(10)
+        current_map.setZoom(12)
         current_marker.setPosition(pos)
       }, function() {
         handleLocationError(true,  current_map.getCenter());
@@ -114,7 +114,7 @@ class Map extends Component {
       <div>
         <RiceInfomationModal/>
         <input id="search-input" className="controls pac-container" type="text" placeholder="Search Box"/>
-        <div id="current-location"><div className="current-location-button"></div></div>
+        <div id="current-location" onClick={()=>{this.setCenter()}}><div className="current-location-button"></div></div>
         <div id="map" style={style}></div>
       </div>
     )
