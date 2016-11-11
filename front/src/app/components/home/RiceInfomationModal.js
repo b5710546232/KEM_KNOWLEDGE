@@ -12,6 +12,11 @@ class RiceInfomationModal extends Component {
           <div className="modal-content">
             <h4>Rice Variety Suggested Information</h4>
             <p>Data Here</p>
+            <p>
+              Sub-District - "{this.props.location.sub_district}"
+              District - "{this.props.location.district}"
+              Province - "{this.props.location.province}"
+            </p>
           </div>
           <div className="modal-footer">
             <a href="#!" className=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>

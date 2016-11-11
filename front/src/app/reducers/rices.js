@@ -8,7 +8,7 @@ const rices = (state=initialState,action)=>{
     case 'LOAD_RICE_LIST_SUCCESS':
       return action.payload
     default:
-      return state;
+      return state
   }
 }
-export default rices;
+export default rices

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import RiceInfomationModal from './RiceInfomationModal'
+import {loadLocation} from '../../actions/MapAction'
+
 class Map extends Component {
 
   createMap() {
@@ -33,7 +35,9 @@ class Map extends Component {
     })
   }
   addMarkerClickListener(){
+    let loadLocation = this.props.loadLocation
     this.marker.addListener('click',function(event){
+      loadLocation(this.position.lat(),this.position.lng())
       $(document).ready(function(){
         $('#rice-modal').modal('open');
       })
@@ -79,7 +83,9 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
   return {
-
+    loadLocation:(lat,lon)=>(
+      dispatch(loadLocation(lat,lon))
+    )
   }
 }
 export default connect(mapStateToProps,mapDispatchToProps)(Map)
