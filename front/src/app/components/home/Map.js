@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import RiceInfomationModal from './RiceInfomationModal'
 import {loadLocation} from '../../actions/MapAction'
+import {loadWeatherFromCoordinates} from '../../actions/WeatherAction'
 import '../../../assets/scss/input.scss'
 
 class Map extends Component {
@@ -48,8 +49,12 @@ class Map extends Component {
   }
   addMarkerClickListener(){
     let loadLocation = this.props.loadLocation
+    let loadWeatherFromCoordinates = this.props.loadWeatherFromCoordinates
+    let self = this
     this.marker.addListener('click',function(event){
       loadLocation(this.position.lat(),this.position.lng())
+      loadWeatherFromCoordinates(this.position.lat(),this.position.lng())
+      console.log(self.props.weather.data,'get wheather');
       $(document).ready(function(){
         $('#rice-modal').modal('open');
       })
@@ -99,6 +104,9 @@ const mapDispatchToProps = (dispatch) => {
   return {
     loadLocation:(lat,lon)=>(
       dispatch(loadLocation(lat,lon))
+    ),
+    loadWeatherFromCoordinates:(lat,lon)=>(
+      dispatch(loadWeatherFromCoordinates(lat,lon))
     )
   }
 }
