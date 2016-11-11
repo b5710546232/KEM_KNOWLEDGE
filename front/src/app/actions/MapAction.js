@@ -17,6 +17,8 @@ export const loadLocation = (lat,lon) => (
             type: 'LOAD_LOCATION_SUCCESS',
             payload: (_action, _state, res) => {
               return res.json().then((data) => {
+                data.lat = lat
+                data.lng = lon
                 return data
               })
             }
