@@ -19,8 +19,14 @@ export const loadLocation = (lat,lon) => (
               return res.json().then((data) => {
                 data.lat = lat
                 data.lng = lon
+                let province='no'
+                if (data.results&&data.results.length>=2){
+                  if (data.results[1].address_components&&data.results[1].address_components.length>=3){
+                    province=data.results[1].address_components[2].long_name.toLowerCase().split(' ').join('')
+                  }
+                }
                 let rice_data = {
-                  province : data.results[1].address_components[2].long_name.toLowerCase().split(' ').join('')
+                  province : province
                 }
                 dispatch(loadRice(rice_data))
                 return data

@@ -8,7 +8,6 @@ class RiceInfomationModal extends Component {
   }
 
   render(){
-    console.log(this.props.rices);
     return(
       <div>
         <div id="rice-modal" className="modal modal-fixed-footer">
