@@ -10,13 +10,26 @@ class Expert extends Component {
     super(props);
   }
   onSubmit(event) {
-    console.log($(":input").serializeArray());
     event.preventDefault();
+    const inputs = $(':input');
+    let formData = {};
+    $.map(inputs, (n, i) => {
+        formData[n.name] =$(n).val();
+    });
+    console.log(formData);
+    $.ajax({
+        method: "POST",
+        url: "#",
+        data: formData
+    })
+    .done(function( data ) {
+        //TODO: Show something on screen.
+    });
   }
   render() {
     return (
       <div className="container">
-        <form>
+        <form id="expert">
           <Input s={12} type="text" name="riceName" label="Rice Name" />
           <Input s={12} type="text" name="otherName" label="Other Name" />
           <Input s={12} type="text" name="riceType" label="Rice Type" />
