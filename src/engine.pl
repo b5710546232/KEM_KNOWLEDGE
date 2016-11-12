@@ -1,4 +1,5 @@
 :- load_files(disease_class, [encoding(utf8)]).
+:- load_files(district_class, [encoding(utf8)]).
 :- load_files(ecosystem_class, [encoding(utf8)]).
 :- load_files(insect_class, [encoding(utf8)]).
 :- load_files(pest_class, [encoding(utf8)]).
@@ -10,6 +11,7 @@
 :- load_files(rice_class, [encoding(utf8)]).
 :- load_files(rice_ecosystem, [encoding(utf8)]).
 :- load_files(rice_fact, [encoding(utf8)]).
+:- load_files(rice_growth, [encoding(utf8)]).
 :- load_files(rice_properties, [encoding(utf8)]).
 :- load_files(rice_region_fact, [encoding(utf8)]).
 :- load_files(rice_tolerance_with_disease, [encoding(utf8)]).
@@ -17,6 +19,7 @@
 :- load_files(rice_vulnerable_to_disease, [encoding(utf8)]).
 :- load_files(rice_vulnerable_to_insect, [encoding(utf8)]).
 :- load_files(soilgroup_class, [encoding(utf8)]).
+:- load_files(sub_district_class, [encoding(utf8)]).
 
 myrule(Rice,Province,Price,Pro) :-
   rice_region_fact:grow_in(Rice,Region),
