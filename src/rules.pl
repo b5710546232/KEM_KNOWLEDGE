@@ -22,10 +22,12 @@
 :- load_files(sub_district_class, [encoding(utf8)]).
 :- module(rulse, []).
 
-simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Season) :-
+simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
   province_region_fact:has_region(Province,Region),
   rice_growth:grows_well_in(Rice,SubDis,Season),
   province_region_fact:has_region(Pro,Region),
   sub_district_class:is_part_of(SubDis,Disrict),
   district_class:is_part_of(Disrict,Province),
   ricetype_price:sold_for(RiceType,SpecialCase,Pro,Humidity,Price).
+
+%expertRule(Rice,RiceType,SubDis,Disrict,Province,,Price,SellPlace,Season) :-
