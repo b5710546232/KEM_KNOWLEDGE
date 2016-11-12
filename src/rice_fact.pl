@@ -14,7 +14,7 @@ rice(khaojowhawmphitsanulok1).
 rice(chiangphatthalung).
 rice(chumpae60).
 rice(queen132).
-rice(ms.mons4).
+rice(ms_mons_4).
 rice(saguiwater19).
 rice(watertaro43).
 rice(pathumthani60).
