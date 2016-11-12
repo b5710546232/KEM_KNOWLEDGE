@@ -20,4 +20,11 @@
 :- load_files(rice_vulnerable_to_insect, [encoding(utf8)]).
 :- load_files(soilgroup_class, [encoding(utf8)]).
 :- load_files(sub_district_class, [encoding(utf8)]).
-:- load_files(rules, [encoding(utf8)]).
+:- module(rulse, []).
+
+simpleRule(Rice,RiceType,Province,Price,Pro) :-
+  province_region_fact:has_region(Province,Region),
+  rice_region_fact:grow_in(Rice,Region),
+  province_region_fact:has_region(Pro,Region),
+  ricetype_price:sold_for(RiceType,SpecialCase,Pro,Humidity,Price).
+  %ricetype_suitable_with_soilgroup:suitable_with(RiceType,S,Suitability,Region).
