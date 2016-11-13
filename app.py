@@ -8,15 +8,15 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-# @app.route('/', methods=['POST'])
-# @cross_origin()
-# def get_result():
-#     province = request.json['province']
-#     print ( province)
-#     prolog = Prolog()
-#     prolog.consult('src/engine.pl')
-#     re_list = list(prolog.query('myrule(Rice,'+province+',Price,Pro)'))
-#     return jsonify(re_list)
+@app.route('/', methods=['POST'])
+@cross_origin()
+def get_result():
+    province = request.json['province']
+    print ( province)
+    prolog = Prolog()
+    prolog.consult('src/engine.pl')
+    re_list = list(prolog.query('myrule(Rice,'+province+',Price,Pro)'))
+    return jsonify(re_list)
 
 
 @app.route('/simplerule/', methods=['POST'])
