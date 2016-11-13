@@ -1,12 +1,12 @@
 :- module(rules, []).
 
-simpleRule(Rice,RiceType,SpecialCase,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
+simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
   province_region_fact:has_region(Province,Region),
   rice_growth:grows_well_in(Rice,SubDis,Season),
   province_region_fact:has_region(SellPlace,Region),
   sub_district_class:is_part_of(SubDis,Disrict),
   district_class:is_part_of(Disrict,Province),
-  ricetype_price:sold_for(RiceType,SpecialCase,SellPlace,Humidity,Price).
+  ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price).
 
 %Work first, smart later!
 expertRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season,PhotoPeriod,Thrips,Mealybug,BrownPlantHopper,WhiteBackedPlantHopper,ZigzagLeafHopper,
@@ -16,7 +16,7 @@ OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,StemRot,GallDwarf,Yello
   province_region_fact:has_region(Province,Region),
   rice_growth:grows_well_in(Rice,SubDis,Season),
   % rice_properties:has_properties(Rice,RiceType,Yield,PhotoPeriod,SpecialCase1),
-  rice_properties:has_properties(Rice,RiceType,[],PhotoPeriod,[]), % fixed for yeild be any thing.
+  rice_properties:has_properties(Rice,RiceType,_,PhotoPeriod,_), % fixed for yeild be any thing.
   province_region_fact:has_region(SellPlace,Region),
   sub_district_class:is_part_of(SubDis,Disrict),
   district_class:is_part_of(Disrict,Province),
@@ -68,5 +68,5 @@ OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,StemRot,GallDwarf,Yello
   not( (YellowDwarf==1,rice_vulnerable_to_disease:vulnerable_to(Rice,yellowDwarf)) ),
   not( (RiceBlast==1,rice_vulnerable_to_disease:vulnerable_to(Rice,riceBlast)) ),
   % ricetype_price:sold_for(RiceType,SpecialCase2,SellPlace,Humidity,Price). old version of frank
-  ricetype_price:sold_for(RiceType,[],SellPlace,Humidity,Price). % fix for SppecialCase 2 can be any thing.
+  ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price). % fix for SppecialCase 2 can be any thing.
 %listTrav([H|T]) :- process(H), listTrav(T).
