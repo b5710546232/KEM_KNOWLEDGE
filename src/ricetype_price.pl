@@ -43,7 +43,7 @@ sold_for(glutinous,none,khonkaen,none,7300).
 sold_for(nonGlutinous,jasmine105,yasothon,15,8750).
 sold_for(glutinous,rd6,udonthani,15,11850).
 sold_for(nonGlutinous,jasmine105,udonthani,none,8750).
-sold_for(nonGlutinous,jasmine105,ubonratchathani,15,9500).
+sold_for(nonGlutinous,jasmine105,ubon_ratchathani,15,9500).
 sold_for(glutinous,rd6,amnatcharoen,15,10000).
 sold_for(nonGlutinous,jasmine105,amnatcharoen,15,9250).
 sold_for(nonGlutinous,jasmine105,surin,15,8900).
