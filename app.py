@@ -22,7 +22,7 @@ def get_result():
 @app.route('/simplerule/', methods=['POST'])
 @cross_origin()
 def get_simple_result():
-    # simpleRule(Rice,RiceType,SpecialCase,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
+    # simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
     print()
     print(request.json['province'])
     print()
@@ -38,13 +38,13 @@ def get_simple_result():
     SELL_PLACE = 'SELL_PLACE'
     HUMIDITY = 'HUMIDITY'
     SEASON = 'SEASON'
-    # prolog = Prolog()
-    # prolog.consult('src/engine.pl')
-    rule = "simpleRule(%s,%s,%s,%s,%s,%s,%s,%s,%s)"%(RICE,RICE_TYPE,SUB_DIS,DISRICT,PROVINCE,PRICE,SELL_PLACE,HUMIDITY,SEASON)
-    # re_list = list(prolog.query(rule))
+    prolog = Prolog()
+    prolog.consult('src/engine.pl')
+    rule = "simpleRule(%s,%s,%s,%s,%s,%s,%s,%s,%s)."%(RICE,RICE_TYPE,SUB_DIS,DISRICT,PROVINCE,PRICE,SELL_PLACE,HUMIDITY,SEASON)
+    re_list = list(prolog.query(rule))
     print(rule)
-    # return jsonify(re_list)
-    return "Hello"
+    return jsonify(re_list)
+    # return "Hello"
 
 if __name__ == '__main__':
     app.run('0.0.0.0',9999)
