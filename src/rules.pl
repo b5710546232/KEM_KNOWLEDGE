@@ -22,13 +22,13 @@
 :- load_files(sub_district_class, [encoding(utf8)]).
 :- module(rulse, []).
 
-simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
+simpleRule(Rice,RiceType,SubDis,District,Province,Price,SellPlace,Humidity,Season) :-
   province_region_fact:has_region(Province,Region),
   rice_growth:grows_well_in(Rice,SubDis,Season),
-  province_region_fact:has_region(Pro,Region),
-  sub_district_class:is_part_of(SubDis,Disrict),
-  district_class:is_part_of(Disrict,Province),
-  ricetype_price:sold_for(RiceType,SpecialCase,Pro,Humidity,Price).
+  province_region_fact:has_region(SellPlace,Region),
+  sub_district_class:is_part_of(SubDis,District),
+  district_class:is_part_of(District,Province),
+  ricetype_price:sold_for(RiceType,SpecialCase,SellPlace,Humidity,Price).
 
 %Work first, smart later!
 expertRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season,PhotoPeriod,Thrips,Mealybug,BrownPlantHopper,WhiteBackedPlantHopper,ZigzagLeafHopper,
@@ -38,10 +38,10 @@ OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,StemRot,GallDwarf,Yello
   province_region_fact:has_region(Province,Region),
   rice_growth:grows_well_in(Rice,SubDis,Season),
   rice_properties:has_properties(Rice,RiceType,Yield,PhotoPeriod,SpecialCase1),
-  province_region_fact:has_region(Pro,Region),
+  province_region_fact:has_region(SellPlace,Region),
   sub_district_class:is_part_of(SubDis,Disrict),
   district_class:is_part_of(Disrict,Province),
-  pest_class:is_subclass_of(P,pest),
+  %pest_class:is_subclass_of(P,pest),
   %Amazingly bug.
   %(insect_class:is_instance_of(Pest,P) ; disease_class:is_instance_of(Pest,P)),
   %(P == insect -> (rice_vulnerable_to_insect:vulnerable_to(Rice,Pest) -> P==P; Pest='') ; (rice_vulnerable_to_disease:vulnerable_to(Rice,Pest) -> P==P; Pest='')),
@@ -88,5 +88,5 @@ OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,StemRot,GallDwarf,Yello
   not( (GallDwarf==1,rice_vulnerable_to_disease:vulnerable_to(Rice,gallDwarf)) ),
   not( (YellowDwarf==1,rice_vulnerable_to_disease:vulnerable_to(Rice,yellowDwarf)) ),
   not( (RiceBlast==1,rice_vulnerable_to_disease:vulnerable_to(Rice,riceBlast)) ),
-  ricetype_price:sold_for(RiceType,SpecialCase2,Pro,Humidity,Price).
+  ricetype_price:sold_for(RiceType,SpecialCase2,SellPlace,Humidity,Price).
 %listTrav([H|T]) :- process(H), listTrav(T).
