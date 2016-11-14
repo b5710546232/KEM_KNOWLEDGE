@@ -45,6 +45,17 @@ def get_simple_result():
     print(rule)
     return jsonify(re_list)
     # return "Hello"
+    #
+@app.route('/ricefact/', methods=['POST'])
+@cross_origin()
+def create_rice_rule():
+    # simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
+    target = open('src/rice_fact','w+')
+    rule = '\nrice(%s).'&(request.json['rice'])
+    target.write(rule)
+    print(rule)
+    return "ok"
+    # return "Hello"
 
 if __name__ == '__main__':
     app.run('0.0.0.0',9999)
