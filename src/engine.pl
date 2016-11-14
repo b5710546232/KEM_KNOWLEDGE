@@ -21,3 +21,4 @@
 :- load_files(soilgroup_class, [encoding(utf8)]).
 :- load_files(sub_district_class, [encoding(utf8)]).
 :- load_files(rules, [encoding(utf8)]).
+:- use_module(library(lists)).
