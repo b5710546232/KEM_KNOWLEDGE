@@ -49,11 +49,20 @@ def get_simple_result():
 @app.route('/ricefact/', methods=['POST'])
 @cross_origin()
 def create_rice_rule():
-    target = open('src/rice_fact.pl','w+')
-    rule = '\nrice(%s).'%(request.json['rice'])
-    target.write(rule)
-    print(rule)
-    return "ok"
+
+    rule = 'rice(%s).'%(request.json['rice'])
+    target = open('src/rice_fact.pl','r')
+    reader = target.read().splitlines()
+    target.close()
+    print(reader)
+    output = open('src/rice_fact.pl','a')
+    if rule in reader :
+        print('alredy')
+        print(rule)
+        return "not_success"
+    else :
+        output.write(rule+"\n")
+    return "success"
 
 if __name__ == '__main__':
     app.run('0.0.0.0',9999)
