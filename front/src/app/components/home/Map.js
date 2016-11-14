@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import {connect} from 'react-redux'
-import RiceInfomationModal from './RiceInfomationModal'
-import {loadLocation} from '../../actions/MapAction'
-import '../../../assets/scss/input.scss'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import RiceInfomationModal from './RiceInfomationModal';
+import { loadLocation } from '../../actions/MapAction';
+import '../../../assets/scss/input.scss';
 
 class Map extends Component {
 
@@ -97,9 +97,9 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
   return {
-    loadLocation:(lat,lon)=>(
-      dispatch(loadLocation(lat,lon))
+    loadLocation: (lat, lon) => (
+      dispatch(loadLocation(lat, lon))
     )
-  }
-}
+  };
+};
 export default connect(mapStateToProps,mapDispatchToProps)(Map)

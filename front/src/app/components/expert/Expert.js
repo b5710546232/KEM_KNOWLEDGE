@@ -4,14 +4,19 @@ import { Input, Button, Table } from 'react-materialize';
 import { loadRice } from '../../actions/RiceAction';
 import { connect } from 'react-redux';
 import SubmitButton from './SubmitButton';
+import expertLoad from '../../actions/ExpertAction';
+
+export default connect(mapStateToProps, mapDispatchToProps)(Expert);
 
 class Expert extends Component {
-  constructor(props) {
-    super(props);
-  }
   onSubmit(event) {
-    console.log($(":input").serializeArray());
     event.preventDefault();
+    const inputs = $(':input');
+    let formData = {};
+    $.map(inputs, (n, i) => {
+        formData[n.name] =$(n).val();
+    });
+    this.props.expertLoad(formData);
   }
   render() {
     return (
@@ -39,14 +44,13 @@ class Expert extends Component {
     );
   }
 }
+
 const mapStateToProps = (state) => {
-  return state
+  state
 }
+
 const mapDispatchToProps = (dispatch) => {
-  return {
-    loadRice: (data)=>{
-      dispatch(loadRice(data))
-    }
+  expertLoad: (data) => {
+    dispatch(expertLoad(data));
   }
 }
-export default connect(mapStateToProps,mapDispatchToProps)(Expert)
