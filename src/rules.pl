@@ -1,12 +1,14 @@
 - module(rules, []).
-
-simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
+% has_property(riceName,riceType,yield,photoPeriod,specialCase).
+simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season,Yield,PhotoPeroid) :-
   province_region_fact:has_region(Province,Region),
   rice_growth:grows_well_in(Rice,SubDis,Season),
   province_region_fact:has_region(SellPlace,Region),
   sub_district_class:is_part_of(SubDis,Disrict),
   district_class:is_part_of(Disrict,Province),
-  ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price).
+  ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price),
+  rice_properties:has_property(Rice,RiceType,Yield,PhotoPeroid,_).
+
 
 %Work first, smart later!
 expertRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season,PhotoPeriod,Thrips,Mealybug,BrownPlantHopper,WhiteBackedPlantHopper,ZigzagLeafHopper,
