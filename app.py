@@ -49,7 +49,6 @@ def get_simple_result():
 @app.route('/ricefact/', methods=['POST'])
 @cross_origin()
 def create_rice_rule():
-    # simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season) :-
     target = open('src/rice_fact.pl','w+')
     rule = '\nrice(%s).'%(request.json['rice'])
     target.write(rule)
