@@ -75,6 +75,9 @@ class RiceInfomationModal extends Component {
                 <thead>
                   <tr>
                     <th data-field="rice">Rice Name</th>
+                    <th data-field="type">Rice Type</th>
+                    <th data-field="humidity">Humidity</th>
+                    <th data-field="season">Season</th>
                     <th data-field="province">Best Price Province</th>
                     <th data-field="price">Price</th>
                   </tr>
@@ -82,14 +85,17 @@ class RiceInfomationModal extends Component {
 
                 <tbody>
                   {
-                    this.props.rices.sort((rice1,rice2)=>rice2.Price-rice1.Price).slice(0,100).map(
+                    this.props.rices.sort((rice1,rice2)=>rice2.PRICE-rice1.PRICE).slice(0,100).map(
                     (rice)=>(
                       <tr
                         key={this.props.rices.indexOf(rice)}
                       >
-                        <td>{rice.Rice}</td>
-                        <td>{getProvince(rice.Pro)}</td>
-                        <td>{rice.Price}</td>
+                        <td>{rice.RICE}</td>
+                        <td>{rice.RICE_TYPE}</td>
+                        <td>{rice.HUMIDITY}</td>
+                        <td>{rice.SEASON}</td>
+                        <td>{getProvince(rice.SELL_PLACE)}</td>
+                        <td>{rice.PRICE}</td>
                       </tr>
                     )
                     )
