@@ -50,7 +50,7 @@ has_region(surin,northeast).
 has_region(buengkan,northeast).
 has_region(phetchabun,central).
 has_region(kamphaengphet,central).
-has_region(ubon_ratchathani,northeast).
+has_region(ubonratchathani,northeast).
 has_region(lampang,north).
 has_region(angthong,central).
 has_region(chiangmai,north).
