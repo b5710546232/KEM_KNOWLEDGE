@@ -1,5 +1,5 @@
 :- module(rice_growth, []).
-% grows_well_in(sub_district,rice_species,harvesting_season).
+% grows_well_in(rice_species,sub_district,harvesting_season).
 grows_well_in(niawsan_pah_tawng,chaem_luang,inSeason).
 grows_well_in(rd6,khuang_pao,inSeason).
 grows_well_in(jasmine105,khuang_pao,inSeason).

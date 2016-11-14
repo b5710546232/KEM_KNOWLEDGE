@@ -72,3 +72,84 @@ OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,StemRot,GallDwarf,Yello
   % ricetype_price:sold_for(RiceType,SpecialCase2,SellPlace,Humidity,Price). old version of frank
   ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price). % fix for SppecialCase 2 can be any thing.
 %listTrav([H|T]) :- process(H), listTrav(T).
+
+findRices(Rice, RiceType, Yield, SubDistrict, District, Province, SellToProvince, Price, Humidity, PhotoPeriod, HarvestingSeason, SpecialCaseYield, SpecialCaseRiceType, CurrentMonth) :-
+  province_region_fact:has_region(Province, Region),
+  district_class:is_part_of(Disrict, Province),
+  sub_district_class:is_part_of(SubDistrict, District),
+  ( isInSeason(CurrentMonth) -> rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseYield ), 
+    rice_growth:grows_well_in(Rice,SubDistrict,HarvestingSeason)
+    ;
+    =(PhotoPeriod,nonSensitivity),
+    =(HarvestingSeason,doubleCrop),
+    rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseYield ),
+    rice_growth:grows_well_in(Rice,SubDistrict,HarvestingSeason)
+  ),
+  %ricetype:sold_for(RiceType, SpecialCaseRiceType, SellToProvince, Humidity, Price),
+  suitableWithCurrentPestSituation(Rice, Region).
+
+isInSeason(CurrentMonth) :-
+  CurrentMonth >= 5,
+  CurrentMonth =< 10.
+
+% As of 20-26 Oct 2016
+suitableWithCurrentPestSituation(Rice, Region) :-
+  ( ( Region = central ; Region = north ; Region = northeast ) 
+    -> (
+        % writeln('In central/north/northeast region'), 
+        ( rice_tolerance_with_insect:tolerance_with(Rice, brownPlantHopper) ; not( rice_vulnerable_to_insect:vulnerable_to(Rice, brownPlantHopper) ) )
+        ,
+        ( rice_tolerance_with_disease:tolerance_with(Rice, riceBlast) ; not(rice_vulnerable_to_disease:vulnerable_to(Rice, riceBlast) ) )
+       )
+    ; (
+        Region = south
+        ->
+        % writeln('In south region'), 
+          ( rice_tolerance_with_disease:tolerance_with(Rice, riceBlast) ; not(rice_vulnerable_to_disease:vulnerable_to(Rice, riceBlast) ) )
+      )
+  ).
+
+  bestPrice(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield, SpecialRice, Province ) :-
+    findall(Price, ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, Price), PricesList),
+    sort(PricesList, SortedPricesList),
+    last(SortedPricesList, BestPrice),
+    format("Best Price is ~w",[BestPrice]),nl,
+    ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, BestPrice),
+    rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield).
+
+  bestYield(Rice, RiceType, CurrentMonth, SellToProvince, PhotoPeriod, SpecialCaseForYield ) :-
+    ( not( isInSeason(CurrentMonth) ) -> =(PhotoPeriod, nonSensitivity) ),
+    findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield ), YieldsList),
+    sort(YieldsList, SortedYieldsList),
+    last(SortedYieldsList, BestYield),
+    format("Best Yield is ~w",[BestYield]),nl,
+    rice_properties:has_properties(Rice, RiceType, BestYield, PhotoPeriod, SpecialCaseForYield),
+    ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, Price).
+  
+  bestPriceAndYield(Rice, RiceType, BestYield, BestPrice, SubDistrict, SellToProvince, Humidity, CurrentMonth) :-
+    ( not( isInSeason(CurrentMonth) ) -> =(PhotoPeriod, nonSensitivity) ),
+    findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield ), YieldsList ),
+    sort(YieldsList, SortedYieldsList),
+    last(SortedYieldsList, BestYield),
+    format("Best Yield is ~w",[BestYield]),nl,
+    rice_properties:has_properties(Rice, RiceType, BestYield, PhotoPeriod, SpecialCaseForYield),
+    ( not( Rice = SpecialRice) -> findall(Price, ricetype_price:sold_for(RiceType, none, SellToProvince, Humidity, Price), PricesList) 
+      ;
+      findall(Price, ricetype_price:sold_for(RiceType, none, SellToProvince, Humidity, Price), PricesList)
+    ),
+    sort(PricesList, SortedPricesList),
+    last(SortedPricesList, BestPrice),
+    format("Best Price is ~w",[BestPrice]),nl,
+    ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, BestPrice).
+    %( isInSeason(CurrentMonth) -> 
+    %  findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield), YieldsList ),
+    %  sort(YieldsList, SortedYieldsList),
+    %  last(SortedYieldsList, BestYield),
+    %;
+    %  =(PhotoPeriod, nonSensitivity)
+    %  findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, nonSensitivity, SpecialCaseForYield), YieldsList ),
+    %  sort(YieldsList, SortedYieldsList),
+    %  last(SortedYieldsList, BestYield),
+    %),
+
+
