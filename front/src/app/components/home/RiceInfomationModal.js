@@ -92,7 +92,7 @@ class RiceInfomationModal extends Component {
                       >
                         <td>{rice.RICE}</td>
                         <td>{rice.RICE_TYPE}</td>
-                        <td>{rice.HUMIDITY}</td>
+                        <td>{rice.HUMIDITY!='none'? <span>{rice.HUMIDITY} %</span>:<span>N/A</span>}</td>
                         <td>{rice.SEASON}</td>
                         <td>{getProvince(rice.SELL_PLACE)}</td>
                         <td>{rice.PRICE}</td>
