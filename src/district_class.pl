@@ -50,3 +50,32 @@ is_part_of(samrong,ubonratchathani).
 is_part_of(sirindhorn,ubonratchathani).
 is_part_of(lao_suea_kok,ubonratchathani).
 is_part_of(tan_sum,ubonratchathani).
+% suphanburi
+is_part_of(don_chedi,suphanburi).
+is_part_of(dan_chang,suphanburi).
+is_part_of(doem_bang_nang_buat,suphanburi).
+is_part_of(bang_pla_ma,suphanburi).
+is_part_of(mueang_saphan_buri,suphanburi).
+is_part_of(si_prachan,suphanburi).
+is_part_of(song_phi_nong,suphanburi).
+is_part_of(sam_chuk,suphanburi).
+is_part_of(nong_ya_sai,suphanburi).
+is_part_of(u_thong,suphanburi).
+% surin
+is_part_of(mueang_surin,surin).
+is_part_of(chumphon_buri,surin).
+is_part_of(tha_tum,surin).
+is_part_of(chom_phra,surin).
+is_part_of(prasat,surin).
+is_part_of(kap_choeng,surin).
+is_part_of(rattanaburi,surin).
+is_part_of(sanom,surin).
+is_part_of(sikhoraphum,surin).
+is_part_of(sangkha,surin).
+is_part_of(lamduan,surin).
+is_part_of(samrong_thap,surin).
+is_part_of(buachet,surin).
+is_part_of(phanom_dong_rak,surin).
+is_part_of(si_narong,surin).
+is_part_of(khwao_sinarin,surin).
+is_part_of(non_narai,surin).
