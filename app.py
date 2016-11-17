@@ -39,7 +39,8 @@ def get_simple_result():
     print(request.json['district'].encode('utf-8'),request.json['sub_district'].encode('utf-8'))
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = "rules:simpleRule(%s,%s,%s,%s,%s,%s,%s,%s,%s)."%(RICE,RICE_TYPE,SUB_DIS,DISRICT,PROVINCE,PRICE,SELL_PLACE,HUMIDITY,SEASON)
+    # simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season,Yield,PhotoPeroid)
+    rule = "rules:simpleRule(%s,%s,%s,%s,%s,%s,%s,%s,%s,_,_)."%(RICE,RICE_TYPE,SUB_DIS,DISRICT,PROVINCE,PRICE,SELL_PLACE,HUMIDITY,SEASON)
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
