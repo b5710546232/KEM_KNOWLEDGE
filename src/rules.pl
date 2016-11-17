@@ -71,30 +71,16 @@ OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,StemRot,GallDwarf,Yello
   ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price). % fix for SppecialCase 2 can be any thing.
 %listTrav([H|T]) :- process(H), listTrav(T).
 
-findRices(Rice, RiceType, Yield, SubDistrict, District, Province, SellToProvince, Price, Humidity, PhotoPeriod, HarvestingSeason, SpecialCaseYield, SpecialCaseRiceType, CurrentMonth) :-
-  province_region_fact:has_region(Province, Region),
-  district_class:is_part_of(Disrict, Province),
-  sub_district_class:is_part_of(SubDistrict, District),
-  ( isInSeason(CurrentMonth) -> rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseYield ), 
-    rice_growth:grows_well_in(Rice,SubDistrict,HarvestingSeason)
-    ;
-    =(PhotoPeriod,nonSensitivity),
-    =(HarvestingSeason,doubleCrop),
-    rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseYield ),
-    rice_growth:grows_well_in(Rice,SubDistrict,HarvestingSeason)
-  ),
-  %ricetype:sold_for(RiceType, SpecialCaseRiceType, SellToProvince, Humidity, Price),
-  suitableWithCurrentPestSituation(Rice, Region).
-
+% Core Rule#1.
 isInSeason(CurrentMonth) :-
   CurrentMonth >= 5,
   CurrentMonth =< 10.
 
-% As of 20-26 Oct 2016
+% Core Rule#2.
+% As of 20-26 Oct 2016 from www.brrd.in.th
 suitableWithCurrentPestSituation(Rice, Region) :-
   ( ( Region = central ; Region = north ; Region = northeast ) 
     -> (
-        % writeln('In central/north/northeast region'), 
         ( rice_tolerance_with_insect:tolerance_with(Rice, brownPlantHopper) ; not( rice_vulnerable_to_insect:vulnerable_to(Rice, brownPlantHopper) ) )
         ,
         ( rice_tolerance_with_disease:tolerance_with(Rice, riceBlast) ; not(rice_vulnerable_to_disease:vulnerable_to(Rice, riceBlast) ) )
@@ -102,52 +88,70 @@ suitableWithCurrentPestSituation(Rice, Region) :-
     ; (
         Region = south
         ->
-        % writeln('In south region'), 
           ( rice_tolerance_with_disease:tolerance_with(Rice, riceBlast) ; not(rice_vulnerable_to_disease:vulnerable_to(Rice, riceBlast) ) )
       )
   ).
 
-  bestPrice(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield, SpecialRice, Province ) :-
-    findall(Price, ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, Price), PricesList),
-    sort(PricesList, SortedPricesList),
-    last(SortedPricesList, BestPrice),
-    format("Best Price is ~w",[BestPrice]),nl,
-    ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, BestPrice),
-    rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield).
+% Recursive case: [not in-season] only rices that are non-sensitive are allowed
+wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeason, CurrentMonth) :-
+  sub_district_class:is_part_of(SubDistrict, District),
+  not( isInSeason(CurrentMonth) ),=(PhotoPeriod,nonSensitivity), =(HarvestingSeason,doubleCrop),
+  rice_growth:grows_well_in(Rice, SubDistrict, HarvestingSeason)
+  ,
+  rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseYield).
 
-  bestYield(Rice, RiceType, CurrentMonth, SellToProvince, PhotoPeriod, SpecialCaseForYield ) :-
-    ( not( isInSeason(CurrentMonth) ) -> =(PhotoPeriod, nonSensitivity) ),
-    findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield ), YieldsList),
-    sort(YieldsList, SortedYieldsList),
-    last(SortedYieldsList, BestYield),
-    format("Best Yield is ~w",[BestYield]),nl,
-    rice_properties:has_properties(Rice, RiceType, BestYield, PhotoPeriod, SpecialCaseForYield),
-    ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, Price).
-  
-  bestPriceAndYield(Rice, RiceType, BestYield, BestPrice, SubDistrict, SellToProvince, Humidity, CurrentMonth) :-
-    ( not( isInSeason(CurrentMonth) ) -> =(PhotoPeriod, nonSensitivity) ),
-    findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield ), YieldsList ),
-    sort(YieldsList, SortedYieldsList),
-    last(SortedYieldsList, BestYield),
-    format("Best Yield is ~w",[BestYield]),nl,
-    rice_properties:has_properties(Rice, RiceType, BestYield, PhotoPeriod, SpecialCaseForYield),
-    ( not( Rice = SpecialRice) -> findall(Price, ricetype_price:sold_for(RiceType, none, SellToProvince, Humidity, Price), PricesList) 
-      ;
-      findall(Price, ricetype_price:sold_for(RiceType, none, SellToProvince, Humidity, Price), PricesList)
-    ),
-    sort(PricesList, SortedPricesList),
-    last(SortedPricesList, BestPrice),
-    format("Best Price is ~w",[BestPrice]),nl,
-    ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, BestPrice).
-    %( isInSeason(CurrentMonth) -> 
-    %  findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseForYield), YieldsList ),
-    %  sort(YieldsList, SortedYieldsList),
-    %  last(SortedYieldsList, BestYield),
-    %;
-    %  =(PhotoPeriod, nonSensitivity)
-    %  findall(Yield, rice_properties:has_properties(Rice, RiceType, Yield, nonSensitivity, SpecialCaseForYield), YieldsList ),
-    %  sort(YieldsList, SortedYieldsList),
-    %  last(SortedYieldsList, BestYield),
-    %),
+% Recursive case: [in-season] allowed rices can be either sensitive or non-sensitive 
+wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeason, CurrentMonth) :-
+  sub_district_class:is_part_of(SubDistrict, District),
+  isInSeason(CurrentMonth),
+  rice_growth:grows_well_in(Rice, SubDistrict, HarvestingSeason),
+  rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseYield).
 
+% Inferred rice based on well-grown ability in a specific sub-district and find the best place to sell for each rice.
 
+/* Check Unification of Rice and SpecialRice in ricetype_price:sold_for (Always true ffs...)
+   true (when) Rice = SpecialRice, sold_for has special case  then find at least one solution of the unification
+   false (when) Rice != SpecialRice, sold for special case is none
+*/
+isSpecialRice(Rice) :-
+  unify_with_occurs_check( 
+    ricetype_price:sold_for(RiceType, Rice, SellToProvince, Humid, Price), ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humid, Price) 
+  ),
+  findall(SpecialRice, ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humid, Price), SpecialRiceList),
+  not( length(SpecialRiceList,0) ).
+
+%  Recursive case: Normal Rice AKA. rice with SpecialCase = none
+bestPriceRice(Rice, RiceType, Price, SellToProvince, SubDistrict, CurrentMonth, BestRicePrice, PhotoPeriod, HarvestingSeason) :-
+  wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeason, CurrentMonth)
+  ,
+  not( isSpecialRice(Rice) )
+  ,
+  bestPriceRiceNormal(Rice, RiceType, BestRicePrice)
+  ,
+  ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humidity, BestRicePrice).
+
+% Recursive case: Special Rice AKA. rice with SpecialCase = Rice
+bestPriceRice(Rice, RiceType, Price, SellToProvince, SubDistrict, CurrentMonth, BestRicePrice, PhotoPeriod, HarvestingSeason) :-
+  wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeason, CurrentMonth)
+  ,
+  isSpecialRice(Rice)
+  ,
+  bestPriceRiceSpecial(Rice, RiceType, BestRicePrice)
+  ,
+  ricetype_price:sold_for(RiceType, Rice, SellToProvince, Humidity, BestRicePrice).
+
+% Rule of Special rice. Find its highest selling price.
+bestPriceRiceSpecial(Rice, RiceType, BestRicePrice) :-
+  writeln('Special case'),findall(RicePrice, ricetype_price:sold_for(RiceType, Rice, SellToProvince, Humidity, RicePrice), RicePriceList),
+  sort(RicePriceList, SortedRicePriceList), last(SortedRicePriceList, BestRicePrice).
+
+% Rule of Non-special rice. Find its highest selling price. 
+bestPriceRiceNormal(Rice, RiceType, BestRicePrice) :-
+  writeln('Not special case'),findall(RicePrice, ricetype_price:sold_for(RiceType, none, SellToProvince, Humidity, RicePrice), RicePriceList),
+  sort(RicePriceList, SortedRicePriceList), last(SortedRicePriceList, BestRicePrice).
+
+bestYieldRice(Rice, RiceType, SubDistrict, BestYield, PhotoPeriod, HarvestingSeason, CurrentMonth) :-
+  wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeason, CurrentMonth),
+  findall(RiceYield, rice_properties:has_properties(Rice, RiceType, Yield, PhotoPeriod, SpecialCaseYield), YieldList ),
+  sort(YieldList, SortedYieldList), last(SortedYieldList, BestYield),
+  rice_properties:has_properties(Rice, RiceType, BestYield, PhotoPeriod, SpecialCaseYield).
