@@ -2029,7 +2029,7 @@ grows_well_in(suphanburi1,wang_yang,inSeason).
 grows_well_in(rd31,wang_yang,inSeason).
 grows_well_in(phitsanulok2,wang_wa,inSeason).
 grows_well_in(suphanburi1,wang_wa,inSeason).
-grows_well_in(CEO,wang_wa,inSeason).
+grows_well_in(rd31,wang_wa,inSeason).
 grows_well_in(phitsanulok2,si_prachan,inSeason).
 grows_well_in(suphanburi1,si_prachan,inSeason).
 grows_well_in(rd31,si_prachan,inSeason).
@@ -2422,7 +2422,7 @@ grows_well_in(rd31,chorakhe_sam_phan,doubleCrop).
 grows_well_in(phitsanulok2,chorakhe_sam_phan,doubleCrop).
 grows_well_in(suphanburi1,chorakhe_sam_phan,doubleCrop).
 grows_well_in(phitsanulok2,chedi,doubleCrop).
-grows_well_in(,chedi,doubleCrop).
+grows_well_in(rd29,chedi,doubleCrop).
 grows_well_in(chainat1,chedi,doubleCrop).
 grows_well_in(suphanburi1,don_kha,doubleCrop).
 grows_well_in(phitsanulok2,don_kha,doubleCrop).

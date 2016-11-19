@@ -7,7 +7,7 @@ simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season
   sub_district_class:is_part_of(SubDis,Disrict),
   district_class:is_part_of(Disrict,Province),
   ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price),
-  rice_properties:has_property(Rice,RiceType,Yield,PhotoPeroid,_).
+  rice_properties:has_properties(Rice,RiceType,Yield,PhotoPeroid,_).
 
 
 %Work first, smart later!
@@ -81,7 +81,7 @@ isInSeason(CurrentMonth) :-
 % Core Rule#2.
 % As of 20-26 Oct 2016 from www.brrd.in.th
 suitableWithCurrentPestSituation(Rice, Region) :-
-  ( ( Region = central ; Region = north ; Region = northeast ) 
+  ( ( Region = central ; Region = north ; Region = northeast )
     -> (
         ( rice_tolerance_with_insect:tolerance_with(Rice, brownPlantHopper) ; not( rice_vulnerable_to_insect:vulnerable_to(Rice, brownPlantHopper) ) )
         ,
@@ -102,7 +102,7 @@ wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeas
   ,
   rice_properties:has_properties(Rice, RiceType, _, PhotoPeriod, _).
 
-% Recursive case: [in-season] allowed rices can be either sensitive or non-sensitive 
+% Recursive case: [in-season] allowed rices can be either sensitive or non-sensitive
 wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeason, CurrentMonth) :-
   sub_district_class:is_part_of(SubDistrict, District),
   isInSeason(CurrentMonth),
@@ -116,8 +116,8 @@ wellGrownRice(Rice, RiceType, SubDistrict, District, PhotoPeriod, HarvestingSeas
    false (when) Rice != SpecialRice, sold for special case is none
 */
 isSpecialRice(Rice) :-
-  unify_with_occurs_check( 
-    ricetype_price:sold_for(RiceType, Rice, SellToProvince, Humid, Price), ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humid, Price) 
+  unify_with_occurs_check(
+    ricetype_price:sold_for(RiceType, Rice, SellToProvince, Humid, Price), ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humid, Price)
   ),
   findall(SpecialRice, ricetype_price:sold_for(RiceType, SpecialRice, SellToProvince, Humid, Price), SpecialRiceList),
   not( length(SpecialRiceList,0) ).
@@ -148,7 +148,7 @@ bestPriceRiceSpecial(Rice, RiceType, BestRicePrice) :-
   findall(RicePrice, ricetype_price:sold_for(RiceType, Rice, _, _, RicePrice), RicePriceList),
   sort(RicePriceList, SortedRicePriceList), last(SortedRicePriceList, BestRicePrice).
 
-% Rule of Non-special rice. Find its highest selling price. 
+% Rule of Non-special rice. Find its highest selling price.
 bestPriceRiceNormal(RiceType, BestRicePrice) :-
   %writeln('Not special case'),
   findall(RicePrice, ricetype_price:sold_for(RiceType, none, _, _, RicePrice), RicePriceList),

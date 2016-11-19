@@ -5,6 +5,34 @@ import ProvinceJSON from '../../../assets/json/province.json'
 import {getProvince} from '../../loader/provinceLoader'
 class RiceInfomationModal extends Component {
 
+  calculatePrice(rice) {
+    let full_price = rice.Price*rice.Yield
+    let humidity = rice.Humidity
+    if (rice.Humidity=='none'){
+      humidity = 0
+    }
+    return full_price-full_price*humidity/100
+  }
+
+  getBestSolution(){
+    if (this.props.rices.length==0) {
+      return []
+    }
+    let sorted_rice = this.props.rices.sort((rice1,rice2)=>this.calculatePrice(rice2)-this.calculatePrice(rice1))
+    let max_price = this.calculatePrice(sorted_rice[0])
+    let result = this.props.rices.filter((rice)=>(this.calculatePrice(rice)==max_price))
+    let non_dup_result = []
+    let non_dup_name = new Set()
+    result.forEach((rice)=>{
+      let size = non_dup_name.size
+      non_dup_name.add(rice.Rice)
+      if (non_dup_name.size!=size){
+        non_dup_result.push(rice)
+      }
+    })
+    return non_dup_result
+  }
+
   componentDidMount(){
     $('#rice-modal').modal()
   }
@@ -71,37 +99,44 @@ class RiceInfomationModal extends Component {
               <div className="row center">
                 <h4 className="amber-text accent-4">Rice not found</h4>
               </div>:
-              <table className="highlight">
-                <thead>
-                  <tr>
-                    <th data-field="rice">Rice Name</th>
-                    <th data-field="type">Rice Type</th>
-                    <th data-field="humidity">Humidity</th>
-                    <th data-field="season">Season</th>
-                    <th data-field="province">Best Price Province</th>
-                    <th data-field="price">Price</th>
-                  </tr>
-                </thead>
+              <div className="row center">
+                <h4>Best Benefit Suggested Rice !</h4>
+                <table className="highlight">
+                  <thead>
+                    <tr>
+                      <th data-field="rice">Rice Name</th>
+                      <th data-field="type">Rice Type</th>
+                      <th data-field="humidity">Humidity</th>
+                      <th data-field="season">Season</th>
+                      <th data-field="yeild">Yield</th>
+                      <th data-field="photo-period">Photo Peroid</th>
+                      <th data-field="province">Sell Place</th>
+                      <th data-field="price">Price</th>
+                    </tr>
+                  </thead>
 
-                <tbody>
-                  {
-                    this.props.rices.sort((rice1,rice2)=>rice2.PRICE-rice1.PRICE).slice(0,100).map(
-                    (rice)=>(
-                      <tr
-                        key={this.props.rices.indexOf(rice)}
-                      >
-                        <td>{rice.RICE}</td>
-                        <td>{rice.RICE_TYPE}</td>
-                        <td>{rice.HUMIDITY!='none'? <span>{rice.HUMIDITY} %</span>:<span>N/A</span>}</td>
-                        <td>{rice.SEASON}</td>
-                        <td>{getProvince(rice.SELL_PLACE)}</td>
-                        <td>{rice.PRICE}</td>
-                      </tr>
-                    )
-                    )
-                  }
-                </tbody>
-              </table>
+                  <tbody>
+                    {
+                      this.getBestSolution().map(
+                      (rice)=>(
+                        <tr
+                          key={this.props.rices.indexOf(rice)}
+                        >
+                          <td>{rice.Rice}</td>
+                          <td>{rice.RiceType}</td>
+                          <td>{rice.Humidity!='none'? <span>{rice.Humidity} %</span>:<span>N/A</span>}</td>
+                          <td>{rice.Season}</td>
+                          <td>{rice.Yield}</td>
+                          <td>{rice.PhotoPeroid}</td>
+                          <td>{getProvince(rice.SellPlace)}</td>
+                          <td>{rice.Price}</td>
+                        </tr>
+                      )
+                      )
+                    }
+                  </tbody>
+                </table>
+              </div>
             }
           </div>
           <div className="modal-footer">
