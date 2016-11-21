@@ -20,14 +20,84 @@ def get_simple_result():
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
-@app.route('/', methods=['POST'])
+@app.route('/yeild', methods=['POST'])
+@cross_origin()
+def get_best_yeild():
+    SubDistrict = request.json['sub_district']
+    CurrentMonth = request.json['month']
+    prolog = Prolog()
+    prolog.consult('src/engine.pl')
+    rule = "bestYieldRice(Rice, RiceType,"+SubDistrict+", BestYield, PhotoPeriod, HarvestingSeason, "+CurrentMonth+")"
+    re_list = list(prolog.query(rule))
+    return jsonify(re_list)
+
+@app.route('/price', methods=['POST'])
+@cross_origin()
+def get_best_price():
+    SubDistrict = request.json['sub_district']
+    CurrentMonth = request.json['month']
+    prolog = Prolog()
+    prolog.consult('src/engine.pl')
+    rule = "bestPriceRice(Rice, RiceType, SellToProvince, "+SubDistrict+", Humidity, BestRicePrice, PhotoPeriod, HarvestingSeason, "+CurrentMonth+")"
+    re_list = list(prolog.query(rule))
+    return jsonify(re_list)
+
+@app.route('/complex', methods=['POST'])
 @cross_origin()
 def get_expert_rule():
-    '''expertRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season,PhotoPeriod,Thrips,Mealybug,BrownPlantHopper,WhiteBackedPlantHopper,ZigzagLeafHopper,
-    GreenRiceLeafHopper,RiceHispa,StemBorer,CutWorm,RiceEarCuttingCaterpilla,RiceLeafFolder,RiceCaseWorm,RiceWhorlMaggot,RiceBlackBug,RiceGallMidge,RiceBug,
-    SeedlingRotInNurseyBox,SheathRot,SheathBlight,BacterialLeafBlight,GrassyStunt,FalseSmut,Bakanae,BacterialLeafStreak,NarrowBrownSpot,BrownSpot,RedStripe,LeafScald,RiceTungro,
-    OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,StemRot,GallDwarf,YellowDwarf,RiceBlast)'''
-    return "TBA"
+    Rice = request.json['Rice']
+    RiceType = request.json['RiceType']
+    SubDis = request.json['SubDis']
+    Disrict = request.json['Disrict']
+    Province = request.json['Province']
+    Price = request.json['Price']
+    SellPlace = request.json['SellPlace']
+    Humidity = request.json['Humidity']
+    Season = request.json['Season']
+    PhotoPeriod = request.json['PhotoPeriod']
+    Thrips = request.json['Thrips']
+    Mealybug = request.json['Mealybug']
+    BrownPlantHopper = request.json['BrownPlantHopper']
+    WhiteBackedPlantHopper = request.json['WhiteBackedPlantHopper']
+    ZigzagLeafHopper = request.json['ZigzagLeafHopper']
+    GreenRiceLeafHopper = request.json['GreenRiceLeafHopper']
+    RiceHispa = request.json['RiceHispa']
+    StemBorer = request.json['StemBorer']
+    CutWorm = request.json['CutWorm']
+    RiceEarCuttingCaterpilla = request.json['RiceEarCuttingCaterpilla']
+    RiceLeafFolder = request.json['RiceLeafFolder']
+    RiceCaseWorm = request.json['RiceCaseWorm']
+    RiceWhorlMaggot = request.json['RiceWhorlMaggot']
+    RiceBlackBug = request.json['RiceBlackBug']
+    RiceGallMidge = request.json['RiceGallMidge']
+    RiceBug = request.json['RiceBug']
+    SeedlingRotInNurseyBox = request.json['SeedlingRotInNurseyBox']
+    SheathRot = request.json['SheathRot']
+    SheathBlight = request.json['SheathBlight']
+    BacterialLeafBlight = request.json['BacterialLeafBlight']
+    GrassyStunt = request.json['GrassyStunt']
+    FalseSmut = request.json['FalseSmut']
+    Bakanae = request.json['Bakanae']
+    BacterialLeafStreak = request.json['BacterialLeafStreak']
+    NarrowBrownSpot = request.json['NarrowBrownSpot']
+    BrownSpot = request.json['BrownSpot']
+    RedStripe = request.json['RedStripe']
+    LeafScald = request.json['LeafScald']
+    RiceTungro = request.json['RiceTungro']
+    OrangeLeaf = request.json['OrangeLeaf']
+    RiceRaggedStunt = request.json['RiceRaggedStunt']
+    DirtyPanicle = request.json['DirtyPanicle']
+    Akiochi = request.json['Akiochi']
+    RootKnot = request.json['RootKnot']
+    StemRot = request.json['StemRot']
+    GallDwarf = request.json['GallDwarf']
+    YellowDwarf = request.json['YellowDwarf']
+    RiceBlast = request.json['RiceBlast']
+    prolog = Prolog()
+    prolog.consult('src/engine.pl')
+    rule = 'expertRule('+Rice+','+RiceType+','+SubDis+','+Disrict+','+Province+','+Price+','+SellPlace+','+Humidity+','+Season+','+PhotoPeriod+','+Thrips+','+Mealybug+','+BrownPlantHopper+','+WhiteBackedPlantHopper+','+ZigzagLeafHopper+','+GreenRiceLeafHopper+','+RiceHispa+','StemBorer+','+CutWorm+','+RiceEarCuttingCaterpilla+','+RiceLeafFolder+','+RiceCaseWorm+','+RiceWhorlMaggot+','+RiceBlackBug+','+RiceGallMidge+','+RiceBug+','+SeedlingRotInNurseyBox+','+SheathRot+','+SheathBlight+','+BacterialLeafBlight+','+GrassyStunt+','+FalseSmut+','+Bakanae+','+BacterialLeafStreak+','+NarrowBrownSpot+','+BrownSpot+','+RedStripe+','+LeafScald+','+RiceTungro+','+OrangeLeaf+','+RiceRaggedStunt+','+DirtyPanicle+','+Akiochi+','+RootKnot+','+StemRot+','+GallDwarf+','+YellowDwarf+','+RiceBlast+')'
+    re_list = list(prolog.query(rule))
+    return jsonify(re_list)
 
 @app.route('/ricefact/', methods=['POST'])
 @cross_origin()
