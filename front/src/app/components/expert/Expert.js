@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import { Input, Button, Table } from 'react-materialize';
+import { Input, Button, Table , Row ,Col} from 'react-materialize';
 import { loadRice } from '../../actions/RiceAction';
 import { connect } from 'react-redux';
 import SubmitButton from './SubmitButton';
@@ -49,7 +49,7 @@ class Expert extends Component {
       {'name': 'pestResistance', 'label': 'Pest Resistance'}
     ];
     const riceInputs = riceInformations.map((data, index) =>
-    <Input key={index} s={12} type="text" name={data.name} label={data.label} />);
+    <Input key={index} s={6} type="text" name={data.name} label={data.label} />);
     const pests = [
       {'name': 'thrips', 'label': 'Thrips'},
       {'name': 'mealybug', 'label': 'Mealybug'},
@@ -66,42 +66,50 @@ class Expert extends Component {
       {'name': 'riceBlackBug', 'label': 'Rice Black Bug'},
       {'name': 'riceGallMidge', 'label': 'Rice Gall Midge'},
       {'name': 'riceBug', 'label': 'Rice Bug'}];
-    const pestCheckboxes = pests.map((data, index) =>  <Input s={12} type="checkbox" name="pestGroup" value={data.name} label={data.label} key={index} />);
+    const pestCheckboxes = pests.map((data, index) =>  <Input s={4} type="checkbox" name="pestGroup" value={data.name} label={data.label} key={index} />);
     const diseases = [
-      {'name': 'SeedlingRotInNurseyBox', 'label': 'SeedlingRotInNurseyBox'},
-      {'name': 'SheathRot', 'label': 'SheathRot'},
-      {'name': 'SheathBlight', 'label': 'SheathBlight'},
-      {'name': 'BacterialLeafBlight', 'label': 'BacterialLeafBlight'},
-      {'name': 'GrassyStunt', 'label': 'GrassyStunt'},
-      {'name': 'FalseSmut', 'label': 'FalseSmut'},
+      {'name': 'SeedlingRotInNurseyBox', 'label': 'Seedling Rot In Nursey Box'},
+      {'name': 'SheathRot', 'label': 'Sheath Rot'},
+      {'name': 'SheathBlight', 'label': 'Sheath Blight'},
+      {'name': 'BacterialLeafBlight', 'label': 'Bacterial Leaf Blight'},
+      {'name': 'GrassyStunt', 'label': 'Grassy Stunt'},
+      {'name': 'FalseSmut', 'label': 'False Smut'},
       {'name': 'Bakanae', 'label': 'Bakanae'},
-      {'name': 'BacterialLeafStreak', 'label': 'BacterialLeafStreak'},
-      {'name': 'NarrowBrownSpot', 'label': 'NarrowBrownSpot'},
-      {'name': 'BrownSpot', 'label': 'BrownSpot'},
-      {'name': 'RedStripe', 'label': 'RedStripe'},
-      {'name': 'LeafScald', 'label': 'LeafScald'},
-      {'name': 'RiceTungro', 'label': 'RiceTungro'},
-      {'name': 'OrangeLeaf', 'label': 'OrangeLeaf'},
-      {'name': 'RiceRaggedStunt', 'label': 'RiceRaggedStunt'},
-      {'name': 'DirtyPanicle', 'label': 'DirtyPanicle'},
+      {'name': 'BacterialLeafStreak', 'label': 'Bacterial Leaf Streak'},
+      {'name': 'NarrowBrownSpot', 'label': 'Narrow Brown Spot'},
+      {'name': 'BrownSpot', 'label': 'Brown Spot'},
+      {'name': 'RedStripe', 'label': 'Red Stripe'},
+      {'name': 'LeafScald', 'label': 'Leaf Scald'},
+      {'name': 'RiceTungro', 'label': 'Rice Tungro'},
+      {'name': 'OrangeLeaf', 'label': 'Orange Leaf'},
+      {'name': 'RiceRaggedStunt', 'label': 'Rice Ragged Stunt'},
+      {'name': 'DirtyPanicle', 'label': 'Dirty Panicle'},
       {'name': 'Akiochi', 'label': 'Akiochi'},
-      {'name': 'RootKnot', 'label': 'RootKnot'},
-      {'name': 'StemRot', 'label': 'StemRot'},
-      {'name': 'GallDwarf', 'label': 'GallDwarf'},
-      {'name': 'YellowDwarf', 'label': 'YellowDwarf'},
-      {'name': 'RiceBlast', 'label': 'RiceBlast'}];
-    const diseaseCheckboxes = diseases.map((data, index) => <Input s={12} type="checkbox" name="diseaseGroup" value={data.name} label={data.label} key={index} />);
+      {'name': 'RootKnot', 'label': 'Root Knot'},
+      {'name': 'StemRot', 'label': 'Stem Rot'},
+      {'name': 'GallDwarf', 'label': 'Gall Dwarf'},
+      {'name': 'YellowDwarf', 'label': 'Yellow Dwarf'},
+      {'name': 'RiceBlast', 'label': 'Rice Blast'}];
+    const diseaseCheckboxes = diseases.map((data, index) => <Input s={4} type="checkbox" name="diseaseGroup" value={data.name} label={data.label} key={index} />);
     return (
       <div className="container">
+        <h3 className="light teal-text accent-4">Advance Rice Specification Finder</h3>
         <form id="expert">
-          {riceInputs}
+          <Row>
+            <Col s={12}></Col>
+            {riceInputs}
+          </Row>
           <div className="pests">
             <label>Pests</label>
-            {pestCheckboxes}
+            <Row>
+              {pestCheckboxes}
+            </Row>
           </div>
           <div className="diseases">
             <label>Disease</label>
-            {diseaseCheckboxes}
+            <Row>
+              {diseaseCheckboxes}
+            </Row>
           </div>
           <SubmitButton onSubmit={e => this.onSubmit(e)} />
         </form>
