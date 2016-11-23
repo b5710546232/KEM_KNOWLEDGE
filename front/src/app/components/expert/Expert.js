@@ -3,9 +3,16 @@ import { Link } from 'react-router';
 import { Input, Button, Table , Row ,Col} from 'react-materialize';
 import { loadExpertRiceList } from '../../actions/RiceAction';
 import { connect } from 'react-redux';
+import RiceList from './RiceList'
 import SubmitButton from './SubmitButton';
 
 class Expert extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      data : []
+    }
+  }
   onSubmit(event) {
     const inputs = $('form').serializeArray();
     let array = inputs.slice();
@@ -28,11 +35,17 @@ class Expert extends Component {
     if (!formData['pestGroup']) {
       formData['pestGroup'] = []
     }
+    this.setState({
+      data:array
+    })
     this.props.loadExpertRice(formData)
+  }
+  getData(){
+    return this.data
   }
   render() {
     const riceInformations = [
-      {'name': 'riceName', 'label': 'Rice Name'},
+      // {'name': 'riceName', 'label': 'Rice Name'},
       // {'name': 'otherName', 'label': 'Other Name'},
       {'name': 'riceType', 'label': 'Rice Type'},
       // {'name': 'height', 'label': 'Height'},
@@ -100,7 +113,6 @@ class Expert extends Component {
       {'name': 'riceBlast', 'label': 'Rice Blast'}
     ];
     const diseaseCheckboxes = diseases.map((data, index) => <Input s={4} type="checkbox" name="diseaseGroup" value={data.name} label={data.label} key={index} />);
-    console.log(this.props.expert);
     return (
       <div className="container">
         <h3 className="light teal-text accent-4">Advance Rice Specification Finder</h3>
@@ -121,8 +133,16 @@ class Expert extends Component {
               {diseaseCheckboxes}
             </Row>
           </div>
-          <SubmitButton onSubmit={e => this.onSubmit(e)} />
+          <Row>
+            <SubmitButton onSubmit={e => this.onSubmit(e)} />
+          </Row>
         </form>
+        {this.props.expert?
+          <RiceList
+            data={this.state.data}
+          />:
+          <div></div>
+          }
       </div>
     );
   }

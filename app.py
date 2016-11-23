@@ -46,9 +46,10 @@ def get_best_price():
 @app.route('/expert', methods=['POST'])
 @cross_origin()
 def get_expert_rule():
-    Rice = str(request.json[u'riceName'])
-    if Rice == '' :
-        Rice = 'Rice'
+    Rice = 'Rice'
+    # Rice = str(request.json[u'riceName'])
+    # if Rice == '' :
+    #     Rice = 'Rice'
     RiceType = str(request.json[u'riceType'])
     if RiceType == '' :
         RiceType = 'RiceType'
