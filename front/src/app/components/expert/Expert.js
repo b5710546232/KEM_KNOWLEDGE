@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { Input, Button, Table , Row ,Col} from 'react-materialize';
-import { loadRice } from '../../actions/RiceAction';
+import { loadExpertRiceList } from '../../actions/RiceAction';
 import { connect } from 'react-redux';
 import SubmitButton from './SubmitButton';
 
@@ -22,34 +22,41 @@ class Expert extends Component {
         formData[data.name] = data.value;
       }
     });
-    console.log(formData);
-    $.ajax({
-        method: "POST",
-        url: "#",
-        data: formData
-    })
-    .done(function( data ) {
-        //TODO: Show something on screen.
-    });
+    if (!formData['diseaseGroup']) {
+      formData['diseaseGroup'] = []
+    }
+    if (!formData['pestGroup']) {
+      formData['pestGroup'] = []
+    }
+    this.props.loadExpertRice(formData)
   }
   render() {
     const riceInformations = [
-      {'name': 'riceName', 'label': 'Rice Name'}, {'name': 'otherName', 'label': 'Other Name'}, {'name': 'riceType', 'label': 'Rice Type'}, {'name': 'height', 'label': 'Height'},
-      {'name': 'age', 'label': 'Age'},
-      {'name': 'harvestingPeriod', 'label': 'Harvesting Period'},
-      {'name': 'suitableSeason', 'label': 'Suitable Season'},
-      {'name': 'region', 'label': 'Region'},
-      {'name': 'ecosystem', 'label': 'Ecosystem'},
-      {'name': 'waterLevel', 'label': 'Water Level'},
-      {'name': 'yield', 'label': 'Yield'},
+      {'name': 'riceName', 'label': 'Rice Name'},
+      // {'name': 'otherName', 'label': 'Other Name'},
+      {'name': 'riceType', 'label': 'Rice Type'},
+      // {'name': 'height', 'label': 'Height'},
+      {'name': 'subDis', 'label': 'Sub-District'},
+      {'name': 'district', 'label': 'District'},
+      {'name': 'province', 'label': 'Province'},
+      // {'name': 'age', 'label': 'Age'},
+      {'name': 'price', 'label': 'Price'},
+      {'name': 'sellPlace', 'label': 'Sell Place'},
+      {'name': 'humidity', 'label': 'Humidity'},
+      // {'name': 'harvestingPeriod', 'label': 'Harvesting Period'},
+      {'name': 'season', 'label': 'Suitable Season'},
+      // {'name': 'region', 'label': 'Region'},
       {'name': 'photoPeriod', 'label': 'Photo Period'},
-      {'name': 'diseaseResistance', 'label': 'Disease Resistance'},
-      {'name': 'vulnerableDisease', 'label': 'Vulnerable Disease'},
-      {'name': 'vulnerablePest', 'label': 'Vulnerable Pest'},
-      {'name': 'pestResistance', 'label': 'Pest Resistance'}
+      // {'name': 'ecosystem', 'label': 'Ecosystem'},
+      // {'name': 'waterLevel', 'label': 'Water Level'},
+      // {'name': 'yield', 'label': 'Yield'},
+      // {'name': 'photoPeriod', 'label': 'Photo Period'},
+      // {'name': 'diseaseResistance', 'label': 'Disease Resistance'},
+      // {'name': 'vulnerableDisease', 'label': 'Vulnerable Disease'},
+      // {'name': 'vulnerablePest', 'label': 'Vulnerable Pest'},
+      // {'name': 'pestResistance', 'label': 'Pest Resistance'}
     ];
-    const riceInputs = riceInformations.map((data, index) =>
-    <Input key={index} s={6} type="text" name={data.name} label={data.label} />);
+    const riceInputs = riceInformations.map((data, index) =><Input key={index} s={6} type="text" name={data.name} label={data.label}/>);
     const pests = [
       {'name': 'thrips', 'label': 'Thrips'},
       {'name': 'mealybug', 'label': 'Mealybug'},
@@ -65,32 +72,35 @@ class Expert extends Component {
       {'name': 'riceWhorlMaggot', 'label': 'Rice Whorl Maggot'},
       {'name': 'riceBlackBug', 'label': 'Rice Black Bug'},
       {'name': 'riceGallMidge', 'label': 'Rice Gall Midge'},
-      {'name': 'riceBug', 'label': 'Rice Bug'}];
-    const pestCheckboxes = pests.map((data, index) =>  <Input s={4} type="checkbox" name="pestGroup" value={data.name} label={data.label} key={index} />);
+      {'name': 'riceBug', 'label': 'Rice Bug'}
+    ];
+    const pestCheckboxes = pests.map((data, index) => <Input s={4} type="checkbox" name="pestGroup" value={data.name} label={data.label} key={index} />);
     const diseases = [
-      {'name': 'SeedlingRotInNurseyBox', 'label': 'Seedling Rot In Nursey Box'},
-      {'name': 'SheathRot', 'label': 'Sheath Rot'},
-      {'name': 'SheathBlight', 'label': 'Sheath Blight'},
-      {'name': 'BacterialLeafBlight', 'label': 'Bacterial Leaf Blight'},
-      {'name': 'GrassyStunt', 'label': 'Grassy Stunt'},
-      {'name': 'FalseSmut', 'label': 'False Smut'},
-      {'name': 'Bakanae', 'label': 'Bakanae'},
-      {'name': 'BacterialLeafStreak', 'label': 'Bacterial Leaf Streak'},
-      {'name': 'NarrowBrownSpot', 'label': 'Narrow Brown Spot'},
-      {'name': 'BrownSpot', 'label': 'Brown Spot'},
-      {'name': 'RedStripe', 'label': 'Red Stripe'},
-      {'name': 'LeafScald', 'label': 'Leaf Scald'},
-      {'name': 'RiceTungro', 'label': 'Rice Tungro'},
-      {'name': 'OrangeLeaf', 'label': 'Orange Leaf'},
-      {'name': 'RiceRaggedStunt', 'label': 'Rice Ragged Stunt'},
-      {'name': 'DirtyPanicle', 'label': 'Dirty Panicle'},
-      {'name': 'Akiochi', 'label': 'Akiochi'},
-      {'name': 'RootKnot', 'label': 'Root Knot'},
-      {'name': 'StemRot', 'label': 'Stem Rot'},
-      {'name': 'GallDwarf', 'label': 'Gall Dwarf'},
-      {'name': 'YellowDwarf', 'label': 'Yellow Dwarf'},
-      {'name': 'RiceBlast', 'label': 'Rice Blast'}];
+      {'name': 'seedlingRotInNurseyBox', 'label': 'Seedling Rot In Nursey Box'},
+      {'name': 'sheathRot', 'label': 'Sheath Rot'},
+      {'name': 'sheathBlight', 'label': 'Sheath Blight'},
+      {'name': 'bacterialLeafBlight', 'label': 'Bacterial Leaf Blight'},
+      {'name': 'grassyStunt', 'label': 'Grassy Stunt'},
+      {'name': 'falseSmut', 'label': 'False Smut'},
+      {'name': 'bakanae', 'label': 'Bakanae'},
+      {'name': 'bacterialLeafStreak', 'label': 'Bacterial Leaf Streak'},
+      {'name': 'narrowBrownSpot', 'label': 'Narrow Brown Spot'},
+      {'name': 'brownSpot', 'label': 'Brown Spot'},
+      {'name': 'redStripe', 'label': 'Red Stripe'},
+      {'name': 'leafScald', 'label': 'Leaf Scald'},
+      {'name': 'riceTungro', 'label': 'Rice Tungro'},
+      {'name': 'orangeLeaf', 'label': 'Orange Leaf'},
+      {'name': 'riceRaggedStunt', 'label': 'Rice Ragged Stunt'},
+      {'name': 'dirtyPanicle', 'label': 'Dirty Panicle'},
+      {'name': 'akiochi', 'label': 'Akiochi'},
+      {'name': 'rootKnot', 'label': 'Root Knot'},
+      {'name': 'stemRot', 'label': 'Stem Rot'},
+      {'name': 'gallDwarf', 'label': 'Gall Dwarf'},
+      {'name': 'yellowDwarf', 'label': 'Yellow Dwarf'},
+      {'name': 'riceBlast', 'label': 'Rice Blast'}
+    ];
     const diseaseCheckboxes = diseases.map((data, index) => <Input s={4} type="checkbox" name="diseaseGroup" value={data.name} label={data.label} key={index} />);
+    console.log(this.props.expert);
     return (
       <div className="container">
         <h3 className="light teal-text accent-4">Advance Rice Specification Finder</h3>
@@ -123,8 +133,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    loadRice: (data) => {
-      dispatch(loadRice(data))
+    loadExpertRice: (data) => {
+      dispatch(loadExpertRiceList(data))
     }
   };
 };

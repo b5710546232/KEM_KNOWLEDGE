@@ -43,57 +43,158 @@ def get_best_price():
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
-@app.route('/complex', methods=['POST'])
+@app.route('/expert', methods=['POST'])
 @cross_origin()
 def get_expert_rule():
-    Rice = request.json['Rice']
-    RiceType = request.json['RiceType']
-    SubDis = request.json['SubDis']
-    Disrict = request.json['Disrict']
-    Province = request.json['Province']
-    Price = request.json['Price']
-    SellPlace = request.json['SellPlace']
-    Humidity = request.json['Humidity']
-    Season = request.json['Season']
-    PhotoPeriod = request.json['PhotoPeriod']
-    Thrips = request.json['Thrips']
-    Mealybug = request.json['Mealybug']
-    BrownPlantHopper = request.json['BrownPlantHopper']
-    WhiteBackedPlantHopper = request.json['WhiteBackedPlantHopper']
-    ZigzagLeafHopper = request.json['ZigzagLeafHopper']
-    GreenRiceLeafHopper = request.json['GreenRiceLeafHopper']
-    RiceHispa = request.json['RiceHispa']
-    StemBorer = request.json['StemBorer']
-    CutWorm = request.json['CutWorm']
-    RiceEarCuttingCaterpilla = request.json['RiceEarCuttingCaterpilla']
-    RiceLeafFolder = request.json['RiceLeafFolder']
-    RiceCaseWorm = request.json['RiceCaseWorm']
-    RiceWhorlMaggot = request.json['RiceWhorlMaggot']
-    RiceBlackBug = request.json['RiceBlackBug']
-    RiceGallMidge = request.json['RiceGallMidge']
-    RiceBug = request.json['RiceBug']
-    SeedlingRotInNurseyBox = request.json['SeedlingRotInNurseyBox']
-    SheathRot = request.json['SheathRot']
-    SheathBlight = request.json['SheathBlight']
-    BacterialLeafBlight = request.json['BacterialLeafBlight']
-    GrassyStunt = request.json['GrassyStunt']
-    FalseSmut = request.json['FalseSmut']
-    Bakanae = request.json['Bakanae']
-    BacterialLeafStreak = request.json['BacterialLeafStreak']
-    NarrowBrownSpot = request.json['NarrowBrownSpot']
-    BrownSpot = request.json['BrownSpot']
-    RedStripe = request.json['RedStripe']
-    LeafScald = request.json['LeafScald']
-    RiceTungro = request.json['RiceTungro']
-    OrangeLeaf = request.json['OrangeLeaf']
-    RiceRaggedStunt = request.json['RiceRaggedStunt']
-    DirtyPanicle = request.json['DirtyPanicle']
-    Akiochi = request.json['Akiochi']
-    RootKnot = request.json['RootKnot']
-    StemRot = request.json['StemRot']
-    GallDwarf = request.json['GallDwarf']
-    YellowDwarf = request.json['YellowDwarf']
-    RiceBlast = request.json['RiceBlast']
+    Rice = str(request.json[u'riceName'])
+    if Rice == '' :
+        Rice = 'Rice'
+    RiceType = str(request.json[u'riceType'])
+    if RiceType == '' :
+        RiceType = 'RiceType'
+    SubDis = str(request.json[u'subDis'])
+    if SubDis == '' :
+        SubDis = 'SubDis'
+    Disrict = str(request.json[u'district'])
+    if Disrict == '' :
+        Disrict = 'Disrict'
+    Province = str(request.json[u'province'])
+    if Province == '' :
+        Province = 'Province'
+    Price = str(request.json[u'price'])
+    if Price == '' :
+        Price = 'Price'
+    SellPlace = str(request.json[u'sellPlace'])
+    if SellPlace == '' :
+        SellPlace = 'SellPlace'
+    Humidity = str(request.json[u'humidity'])
+    if Humidity == '' :
+        Humidity = 'Humidity'
+    Season = str(request.json[u'season'])
+    if Season == '' :
+        Season = 'Season'
+    PhotoPeriod = str(request.json[u'photoPeriod'])
+    if PhotoPeriod == '' :
+        PhotoPeriod = 'PhotoPeriod'
+
+    Thrips = 'Thrips'
+    Mealybug = 'Mealybug'
+    BrownPlantHopper = 'BrownPlantHopper'
+    WhiteBackedPlantHopper = 'WhiteBackedPlantHopper'
+    ZigzagLeafHopper = 'ZigzagLeafHopper'
+    GreenRiceLeafHopper = 'GreenRiceLeafHopper'
+    RiceHispa = 'RiceHispa'
+    StemBorer = 'StemBorer'
+    CutWorm = 'CutWorm'
+    RiceEarCuttingCaterpilla = 'RiceEarCuttingCaterpilla'
+    RiceLeafFolder = 'RiceLeafFolder'
+    RiceCaseWorm = 'RiceCaseWorm'
+    RiceWhorlMaggot = 'RiceWhorlMaggot'
+    RiceBlackBug = 'RiceBlackBug'
+    RiceGallMidge = 'RiceGallMidge'
+    RiceBug = 'RiceBug'
+    pestGroup = request.json[u'pestGroup']
+    for i in pestGroup :
+        if i == 'thrips' :
+            Thrips = '"true"'
+        elif i == 'mealybug' :
+            Mealybug = '"true"'
+        elif i == 'brownPlantHopper' :
+            BrownPlantHopper = '"true"'
+        elif i == 'whiteBackedPlantHopper' :
+            WhiteBackedPlantHopper = '"true"'
+        elif i == 'greenRiceLeafHopper' :
+            GreenRiceLeafHopper = '"true"'
+        elif i == 'riceHispa' :
+            RiceHispa = '"true"'
+        elif i == 'stemBorer' :
+            StemBorer = '"true"'
+        elif i == 'cutWorm' :
+            CutWorm = '"true"'
+        elif i == 'riceEarCuttingCaterpilla' :
+            RiceEarCuttingCaterpilla = '"true"'
+        elif i == 'riceLeafFolder' :
+            RiceLeafFolder = '"true"'
+        elif i == 'riceCaseWorm' :
+            RiceCaseWorm = '"true"'
+        elif i == 'riceWhorlMaggot' :
+            RiceWhorlMaggot = '"true"'
+        elif i == 'riceBlackBug' :
+            RiceBlackBug = '"true"'
+        elif i == 'riceGallMidge' :
+            RiceGallMidge = '"true"'
+        elif i == 'riceBug' :
+            RiceBug = '"true"'
+
+    SeedlingRotInNurseyBox = 'SeedlingRotInNurseyBox'
+    SheathRot = 'SheathRot'
+    SheathBlight = 'SheathBlight'
+    BacterialLeafBlight = 'BacterialLeafBlight'
+    GrassyStunt = 'GrassyStunt'
+    FalseSmut = 'FalseSmut'
+    Bakanae = 'Bakanae'
+    BacterialLeafStreak = 'BacterialLeafStreak'
+    NarrowBrownSpot = 'NarrowBrownSpot'
+    BrownSpot = 'BrownSpot'
+    RedStripe = 'RedStripe'
+    LeafScald = 'LeafScald'
+    RiceTungro ='RiceTungro'
+    OrangeLeaf = 'OrangeLeaf'
+    RiceRaggedStunt = 'RiceRaggedStunt'
+    DirtyPanicle = 'DirtyPanicle'
+    Akiochi = 'Akiochi'
+    RootKnot = 'RootKnot'
+    StemRot = 'StemRot'
+    GallDwarf = 'GallDwarf'
+    YellowDwarf = 'YellowDwarf'
+    RiceBlast = 'RiceBlast'
+
+    disceaseGroup = request.json[u'diseaseGroup']
+    for i in pestGroup :
+        if i == 'seedlingRotInNurseyBox' :
+            SeedlingRotInNurseyBox = '"true"'
+        elif i == 'sheathRot' :
+            SheathRot = '"true"'
+        elif i == 'sheathBlight' :
+            SheathBlight = '"true"'
+        elif i == 'bacterialLeafBlight' :
+            BacterialLeafBlight = '"true"'
+        elif i == 'grassyStunt' :
+            GrassyStunt = '"true"'
+        elif i == 'falseSmut' :
+            FalseSmut = '"true"'
+        elif i == 'bakanae' :
+            Bakanae = '"true"'
+        elif i == 'bacterialLeafStreak' :
+            BacterialLeafStreak = '"true"'
+        elif i == 'narrowBrownSpot' :
+            NarrowBrownSpot = '"true"'
+        elif i == 'brownSpot' :
+            BrownSpot = '"true"'
+        elif i == 'redStripe' :
+            RedStripe = '"true"'
+        elif i == 'leafScald' :
+            LeafScald = '"true"'
+        elif i == 'riceTungro' :
+            RiceTungro ='"true"'
+        elif i == 'orangeLeaf' :
+            OrangeLeaf = '"true"'
+        elif i == 'riceRaggedStunt' :
+            RiceRaggedStunt = '"true"'
+        elif i == 'dirtyPanicle' :
+            DirtyPanicle = '"true"'
+        elif i == 'akiochi' :
+            Akiochi = '"true"'
+        elif i == 'rootKnot' :
+            RootKnot = '"true"'
+        elif i == 'stemRot' :
+            StemRot = '"true"'
+        elif i == 'gallDwarf' :
+            GallDwarf = '"true"'
+        elif i == 'yellowDwarf' :
+            YellowDwarf = '"true"'
+        elif i == 'riceBlast' :
+            RiceBlast = '"true"'
     prolog = Prolog()
     prolog.consult('src/engine.pl')
     rule = 'expertRule('+Rice+','+RiceType+','+SubDis+','+Disrict+','+Province+','+Price+','+SellPlace+','+Humidity

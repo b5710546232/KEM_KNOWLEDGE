@@ -60,7 +60,7 @@ export const loadExpertRiceList = (data) => (
   (dispatch) =>
     dispatch({
       [CALL_API]: {
-        endpoint: API+'expert/',
+        endpoint: API+'expert',
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
