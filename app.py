@@ -4,11 +4,12 @@ from flask import Flask,request,jsonify
 from pyswip import Prolog
 from flask.ext.cors import CORS, cross_origin
 import json
+import time
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/', methods=['POST'])
+@app.route('/simple', methods=['POST'])
 @cross_origin()
 def get_simple_result():
     SUB_DIS = request.json['sub_district']
@@ -16,7 +17,7 @@ def get_simple_result():
     PROVINCE = request.json['province'].encode('utf-8')
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = "rules:simpleRule(Rice,RiceType,"+SUB_DIS+","+DISRICT+","+PROVINCE+",Price,SellPlace,Humidity,Season,Yield,PhotoPeroid)"
+    rule = "rules:simpleRule(Rice,RiceType,"+SUB_DIS+","+DISRICT+","+PROVINCE+",Price,SellPlace,Humidity,HarvestingSeason,Yield,PhotoPeroid)"
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
@@ -24,10 +25,10 @@ def get_simple_result():
 @cross_origin()
 def get_best_yeild():
     SubDistrict = request.json['sub_district']
-    CurrentMonth = request.json['month']
+    CurrentMonth = time.localtime(time.time()).tm_mon
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = "bestYieldRice(Rice, RiceType,"+SubDistrict+", BestYield, PhotoPeriod, HarvestingSeason, "+CurrentMonth+")"
+    rule = "bestYieldRice(Rice, RiceType,"+SubDistrict+", BestYield, PhotoPeriod, HarvestingSeason, "+str(CurrentMonth)+")"
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
@@ -35,10 +36,10 @@ def get_best_yeild():
 @cross_origin()
 def get_best_price():
     SubDistrict = request.json['sub_district']
-    CurrentMonth = request.json['month']
+    CurrentMonth = time.localtime(time.time()).tm_mon
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = "bestPriceRice(Rice, RiceType, SellToProvince, "+SubDistrict+", Humidity, BestRicePrice, PhotoPeriod, HarvestingSeason, "+CurrentMonth+")"
+    rule = "bestPriceRice(Rice, RiceType, SellPlace, "+SubDistrict+", Humidity, Price, PhotoPeriod, HarvestingSeason, "+str(CurrentMonth)+")"
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
@@ -95,7 +96,15 @@ def get_expert_rule():
     RiceBlast = request.json['RiceBlast']
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = 'expertRule('+Rice+','+RiceType+','+SubDis+','+Disrict+','+Province+','+Price+','+SellPlace+','+Humidity+','+Season+','+PhotoPeriod+','+Thrips+','+Mealybug+','+BrownPlantHopper+','+WhiteBackedPlantHopper+','+ZigzagLeafHopper+','+GreenRiceLeafHopper+','+RiceHispa+','StemBorer+','+CutWorm+','+RiceEarCuttingCaterpilla+','+RiceLeafFolder+','+RiceCaseWorm+','+RiceWhorlMaggot+','+RiceBlackBug+','+RiceGallMidge+','+RiceBug+','+SeedlingRotInNurseyBox+','+SheathRot+','+SheathBlight+','+BacterialLeafBlight+','+GrassyStunt+','+FalseSmut+','+Bakanae+','+BacterialLeafStreak+','+NarrowBrownSpot+','+BrownSpot+','+RedStripe+','+LeafScald+','+RiceTungro+','+OrangeLeaf+','+RiceRaggedStunt+','+DirtyPanicle+','+Akiochi+','+RootKnot+','+StemRot+','+GallDwarf+','+YellowDwarf+','+RiceBlast+')'
+    rule = 'expertRule('+Rice+','+RiceType+','+SubDis+','+Disrict+','+Province+','+Price+','+SellPlace+','+Humidity
+    rule = rule+','+Season+','+PhotoPeriod+','+Thrips+','+Mealybug+','+BrownPlantHopper+','+WhiteBackedPlantHopper
+    rule = rule+','+ZigzagLeafHopper+','+GreenRiceLeafHopper+','+RiceHispa+','+StemBorer+','+CutWorm+','
+    rule = rule+RiceEarCuttingCaterpilla+','+RiceLeafFolder+','+RiceCaseWorm+','+RiceWhorlMaggot+','
+    rule = rule+RiceBlackBug+','+RiceGallMidge+','+RiceBug+','+SeedlingRotInNurseyBox+','+SheathRot+','+SheathBlight
+    rule = rule+','+BacterialLeafBlight+','+GrassyStunt+','+FalseSmut+','+Bakanae+','+BacterialLeafStreak+','
+    rule = rule+NarrowBrownSpot+','+BrownSpot+','+RedStripe+','+LeafScald+','+RiceTungro+','+OrangeLeaf+','
+    rule = rule+RiceRaggedStunt+','+DirtyPanicle+','+Akiochi+','+RootKnot+','+StemRot+','+GallDwarf+','
+    rule = rule+YellowDwarf+','+RiceBlast+')'
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 

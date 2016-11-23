@@ -34,7 +34,7 @@ export const loadLocation = (lat,lon) => (
                   sub_district : sub_district,
                   province : province
                 }
-                dispatch(loadRice(rice_data))
+                dispatch(loadRice(rice_data,'simple'))
                 return data
               })
             }

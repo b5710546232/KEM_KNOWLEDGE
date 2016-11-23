@@ -2,39 +2,54 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {Modal} from 'react-materialize'
 import ProvinceJSON from '../../../assets/json/province.json'
-import {getProvince} from '../../loader/provinceLoader'
+import RiceTable from './RiceTable'
+import {loadRice,loadYeild} from '../../actions/RiceAction'
+import {load} from '../../actions/LoadAction'
+import BestYeildTable from './BestYeildTable'
 class RiceInfomationModal extends Component {
 
-  calculatePrice(rice) {
-    let full_price = rice.Price*rice.Yield
-    let humidity = rice.Humidity
-    if (rice.Humidity=='none'){
-      humidity = 0
+  constructor(props){
+    super(props)
+    this.state = {
+      mode : "simple"
     }
-    return full_price-full_price*humidity/100
-  }
-
-  getBestSolution(){
-    if (this.props.rices.length==0) {
-      return []
-    }
-    let sorted_rice = this.props.rices.sort((rice1,rice2)=>this.calculatePrice(rice2)-this.calculatePrice(rice1))
-    let max_price = this.calculatePrice(sorted_rice[0])
-    let result = this.props.rices.filter((rice)=>(this.calculatePrice(rice)==max_price))
-    let non_dup_result = []
-    let non_dup_name = new Set()
-    result.forEach((rice)=>{
-      let size = non_dup_name.size
-      non_dup_name.add(rice.Rice)
-      if (non_dup_name.size!=size){
-        non_dup_result.push(rice)
-      }
-    })
-    return non_dup_result
+    this.handleChange = this.changeMode.bind(this)
   }
 
   componentDidMount(){
     $('#rice-modal').modal()
+    // $('#rice-collection').change(function(){
+    //    changeMode()
+    // });
+  }
+
+  componentDidUpdate(){
+    $('select').material_select()
+    // let changeMode = this.changeMode.bind(this)
+  }
+
+  changeMode(){
+    let mode = document.getElementById("rice-collection").value
+    this.setState({mode:mode})
+    this.loadRice(mode)
+  }
+  loadRice(mode){
+    console.log(mode);
+    if (this.props.location.sub_district) {
+      let sub_district = this.props.location.sub_district.toLowerCase().split(" ").join("_")
+      let district = this.props.location.district.toLowerCase().split(" ").slice(0,this.props.location.district.toLowerCase().split(" ").length-1).join("_")
+      let province=this.props.location.province.toLowerCase().split(' ').join('')
+      let data = {
+      province,
+        district,
+      sub_district
+      }
+      if (mode=="yeild"){
+        this.props.loadYeild(data)
+      }else {
+        this.props.loadRice(data,mode)
+      }
+    }
   }
 
   render(){
@@ -95,60 +110,51 @@ class RiceInfomationModal extends Component {
                 </img>
               </div>
             </div>
-            {this.props.rices.length<=0?
+            {this.props.rices.data.length<=0?
               <div className="row center">
-                <h4 className="amber-text accent-4">Rice not found</h4>
+                <h4 className="amber-text accent-4">Rice not available now see you next time...</h4>
               </div>:
               <div className="row center">
-                <h4>Best Benefit Suggested Rice !</h4>
-                <table className="highlight">
-                  <thead>
-                    <tr>
-                      <th data-field="rice">Rice Name</th>
-                      <th data-field="type">Rice Type</th>
-                      <th data-field="humidity">Humidity</th>
-                      <th data-field="season">Season</th>
-                      <th data-field="yeild">Yield</th>
-                      <th data-field="photo-period">Photo Peroid</th>
-                      <th data-field="province">Sell Place</th>
-                      <th data-field="price">Price</th>
-                    </tr>
-                  </thead>
-
-                  <tbody>
-                    {
-                      this.getBestSolution().map(
-                      (rice)=>(
-                        <tr
-                          key={this.props.rices.indexOf(rice)}
-                        >
-                          <td>{rice.Rice}</td>
-                          <td>{rice.RiceType}</td>
-                          <td>{rice.Humidity!='none'? <span>{rice.Humidity} %</span>:<span>N/A</span>}</td>
-                          <td>{rice.Season}</td>
-                          <td>{rice.Yield}</td>
-                          <td>{rice.PhotoPeroid}</td>
-                          <td>{getProvince(rice.SellPlace)}</td>
-                          <td>{rice.Price}</td>
-                        </tr>
-                      )
-                      )
-                    }
-                  </tbody>
-                </table>
-              </div>
-            }
-          </div>
-          <div className="modal-footer">
-            <a className=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                <div className="row">
+                  <div className="input-field col s12">
+                    <select id="rice-collection" value={this.state.mode} onChange={this.handleChange}>
+                      <option value="simple">All Rice Variety in {this.props.location.sub_district}</option>
+                      <option value="price" >Best Price Rice Variety in {this.props.location.sub_district}</option>
+                      <option value="yeild" >Best Yeild Rice Variety in {this.props.location.sub_district}</option>
+                    </select>
+                    <label>Select Rice Variety Collection</label>
+                  </div>
+                </div>
+                {
+                  this.state.mode=="yeild"?
+                  <BestYeildTable/>:
+                    <RiceTable/>
+                  }
+                </div>
+              }
+            </div>
+            <div className="modal-footer">
+              <a className=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
           </div>
         </div>
-      </div>
-    )
+      )
+    }
   }
-}
-const mapStateToProps = (state) => {
-  return state
-}
-
-export default connect(mapStateToProps)(RiceInfomationModal)
+  const mapStateToProps = (state) => {
+    return state
+  }
+  const mapDispatchToProps = (dispatch) => {
+    return {
+      loadRice: (data,path)=>(
+        dispatch(loadRice(data,path))
+      ),
+      loadYeild: (data)=>(
+        dispatch(loadYeild(data))
+      ),
+      load : ()=>(
+        dispatch(load())
+      )
+    }
+  }
+  export default connect(mapStateToProps,mapDispatchToProps)(RiceInfomationModal)
