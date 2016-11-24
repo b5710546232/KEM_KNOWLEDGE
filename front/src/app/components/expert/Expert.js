@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import RiceList from './RiceList'
 import SubmitButton from './SubmitButton';
 import ProvinceJSON from '../../../assets/json/province.json'
-
+import '../../../assets/scss/overlay.scss'
 class Expert extends Component {
   constructor(props){
     super(props)
@@ -115,6 +115,59 @@ class Expert extends Component {
     const diseaseCheckboxes = diseases.map((data, index) => <Input s={4} type="checkbox" name="diseaseGroup" value={data.name} label={data.label} key={index} />);
     return (
       <div className="container">
+        {!this.props.expert.success?
+          <div>
+            <div className="custom-overlay"></div>
+            <div className="custom-overlay-component">
+              <div className="component">
+                <div className="preloader-wrapper big active">
+                  <div className="spinner-layer spinner-blue">
+                    <div className="circle-clipper left">
+                      <div className="circle"></div>
+                    </div><div className="gap-patch">
+                      <div className="circle"></div>
+                    </div><div className="circle-clipper right">
+                      <div className="circle"></div>
+                    </div>
+                  </div>
+
+                  <div className="spinner-layer spinner-red">
+                    <div className="circle-clipper left">
+                      <div className="circle"></div>
+                    </div><div className="gap-patch">
+                      <div className="circle"></div>
+                    </div><div className="circle-clipper right">
+                      <div className="circle"></div>
+                    </div>
+                  </div>
+
+                  <div className="spinner-layer spinner-yellow">
+                    <div className="circle-clipper left">
+                      <div className="circle"></div>
+                    </div><div className="gap-patch">
+                      <div className="circle"></div>
+                    </div><div className="circle-clipper right">
+                      <div className="circle"></div>
+                    </div>
+                  </div>
+
+                  <div className="spinner-layer spinner-green">
+                    <div className="circle-clipper left">
+                      <div className="circle"></div>
+                    </div><div className="gap-patch">
+                      <div className="circle"></div>
+                    </div><div className="circle-clipper right">
+                      <div className="circle"></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="teal-text accent-4 center">Fetching Data</div>
+              </div>
+
+            </div>
+
+          </div>:<div></div>
+          }
         <h3 className="light teal-text accent-4">Advance Rice Specification Finder</h3>
         <form id="expert">
           <Row>

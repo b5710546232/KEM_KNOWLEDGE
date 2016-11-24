@@ -50,7 +50,7 @@ class Expert extends Component {
       <div>
         <div className="divider"></div>
         {
-          this.props.expert.map((rice)=>(
+          this.props.expert.data.map((rice)=>(
             <div>
               <div className="row">
                 <div className="col s6">

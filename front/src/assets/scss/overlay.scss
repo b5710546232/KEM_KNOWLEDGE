@@ -1,0 +1,32 @@
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2000;
+  background-color: rgba(0,0,0,0.5);
+}
+.custom-overlay-component{
+  z-index: 2100;
+  /* change position to fixed if you want to prevent the dialog from scrolling away, and center it */
+  position:fixed;
+  top:50%;
+  left:50%;
+  width: 128px;
+  line-height: 128px;
+  height: 128px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  vertical-align: middle;
+}
+.component {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
