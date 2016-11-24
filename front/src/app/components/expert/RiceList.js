@@ -88,7 +88,7 @@ class Expert extends Component {
                         rice.SubDis?
                           <span>{rice.SubDis}</span>
                         :
-                        <span>{this.props.data[1].value}</span>
+                        <span>{this.props.data[2].value}</span>
                       }
                     </div>
                   </div>
@@ -103,7 +103,7 @@ class Expert extends Component {
                         rice.Disrict?
                           <span>{rice.Disrict}</span>
                         :
-                        <span>{this.props.data[2].value}</span>
+                        <span>{this.props.data[3].value}</span>
                       }
                     </div>
                   </div>
@@ -118,7 +118,7 @@ class Expert extends Component {
                         rice.Province?
                           <span>{rice.Province}</span>
                         :
-                        <span>{this.props.data[3].value}</span>
+                        <span>{this.props.data[4].value}</span>
                       }
                     </div>
                   </div>
@@ -133,7 +133,7 @@ class Expert extends Component {
                         rice.Price?
                           <span>{rice.Price}</span>
                         :
-                        <span>{this.props.data[4].value}</span>
+                        <span>{this.props.data[5].value}</span>
                       }
                     </div>
                   </div>
@@ -148,7 +148,7 @@ class Expert extends Component {
                         rice.SellPlace?
                           <span>{rice.SellPlace}</span>
                         :
-                        <span>{this.props.data[5].value}</span>
+                        <span>{this.props.data[6].value}</span>
                       }
                     </div>
                   </div>
@@ -163,7 +163,7 @@ class Expert extends Component {
                         rice.Humidity?
                           <span>{rice.Humidity}</span>
                         :
-                        <span>{this.props.data[6].value}</span>
+                        <span>{this.props.data[7].value}</span>
                       }
                     </div>
                   </div>
@@ -178,7 +178,7 @@ class Expert extends Component {
                         rice.Season?
                           <span>{rice.Season}</span>
                         :
-                        <span>{this.props.data[7].value}</span>
+                        <span>{this.props.data[1].value}</span>
                       }
                     </div>
                   </div>
