@@ -11,30 +11,31 @@ class RiceInfomationModal extends Component {
   constructor(props){
     super(props)
     this.state = {
-      mode : "simple"
+      mode : "simple",
+      init : true
     }
-    this.handleChange = this.changeMode.bind(this)
   }
 
   componentDidMount(){
     $('#rice-modal').modal()
-    // $('#rice-collection').change(function(){
-    //    changeMode()
-    // });
   }
 
   componentDidUpdate(){
     $('select').material_select()
-    // let changeMode = this.changeMode.bind(this)
+    console.log(this.state.init);
+    if (this.state.init) {
+      console.log(this.state.init);
+      $('#rice-collection').change(this.changeMode.bind(this));
+    }
   }
 
   changeMode(){
     let mode = document.getElementById("rice-collection").value
     this.setState({mode:mode})
     this.loadRice(mode)
+    this.setState({init:false})
   }
   loadRice(mode){
-    console.log(mode);
     if (this.props.location.sub_district) {
       let sub_district = this.props.location.sub_district.toLowerCase().split(" ").join("_")
       let district = this.props.location.district.toLowerCase().split(" ").slice(0,this.props.location.district.toLowerCase().split(" ").length-1).join("_")
@@ -117,7 +118,7 @@ class RiceInfomationModal extends Component {
               <div className="row center">
                 <div className="row">
                   <div className="input-field col s12">
-                    <select id="rice-collection" value={this.state.mode} onChange={this.handleChange}>
+                    <select id="rice-collection" value={this.state.mode} >
                       <option value="simple">All Rice Variety in {this.props.location.sub_district}</option>
                       <option value="price" >Best Price Rice Variety in {this.props.location.sub_district}</option>
                       <option value="yeild" >Best Yeild Rice Variety in {this.props.location.sub_district}</option>
