@@ -120,15 +120,18 @@ class Expert extends Component {
           <Row>
             <Col s={12}></Col>
             <Input s={6} name="riceType" type="select" label="Rice Type">
+              <option value=''>Any Type</option>
               <option value='glutinous'>Glutinous</option>
               <option value='nonGlutinous'>Non-Glutinous</option>
             </Input>
             <Input s={6} name="season" type='select' label="Suitable Season">
+              <option value=''>Any Season</option>
               <option value='inSeason'>In Season</option>
               <option value='doubleCrop'>Double Crop</option>
             </Input>
             {riceInputs}
             <Input s={4} name="province" type='select' label="Province">
+              <option value=''>Any Province</option>
               {
                 ProvinceJSON.map((province)=>(
                   <option value={province.lowername}>{province.name}</option>
@@ -137,14 +140,16 @@ class Expert extends Component {
             </Input>
             <Input  s={6} type="number" name="price" label="Price"/>
             <Input s={6} name="sellPlace" type='select' label="Sell Place">
+              <option value=''>Any Sell Place</option>
               {
                 ProvinceJSON.map((province)=>(
-                  <option value={province.lowername}>{province.name}</option>
+                <option value={province.lowername}>{province.name}</option>
                 ))
               }
             </Input>
             <Input  s={6} type="number" name="humidity" label="Humidity"/>
             <Input s={6} name="photoPeriod" type='select' label="Photo Period">
+              <option value=''>Any Sensitivity</option>
               <option value='sensitivity'>Sensitivity</option>
               <option value='nonSensitivity'>Non-Sensitivity</option>
             </Input>
