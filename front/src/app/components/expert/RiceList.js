@@ -206,7 +206,7 @@ class Expert extends Component {
                     {
                       rice[pest.name.charAt(0).toUpperCase()+pest.name.substring(1,pest.name.length)]?
                         <span>
-                          {rice[pest.name.charAt(0).toUpperCase()+pest.name.substring(1,pest.name.length)]=='"true"'?
+                          {rice[pest.name.charAt(0).toUpperCase()+pest.name.substring(1,pest.name.length)]=='true'?
                             <span><i className="material-icons green-text">done</i></span>
                             :
                             <span><i className="material-icons red-text">clear</i></span>
@@ -230,7 +230,7 @@ class Expert extends Component {
                       {
                         rice[disease.name.charAt(0).toUpperCase()+disease.name.substring(1,disease.name.length)]?
                           <span>
-                            {rice[disease.name.charAt(0).toUpperCase()+disease.name.substring(1,disease.name.length)]=='"true"'?
+                            {rice[disease.name.charAt(0).toUpperCase()+disease.name.substring(1,disease.name.length)]=='true'?
                               <span><i className="material-icons green-text">done</i></span>
                               :
                               <span><i className="material-icons red-text">clear</i></span>

@@ -25,11 +25,11 @@ class HeaderNavbar extends Component {
           <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
           <ul className="hide-on-med-and-down " style={margin}>
             <li className="left"><Link className="waves-effect waves-light" to={{ pathname:'/' }}>Simple</Link></li>
-            <li className="left"><Link className="waves-effect waves-light" to={{ pathname:'/expert' }}>Expert</Link></li>
+            <li className="left"><Link className="waves-effect waves-light" to={{ pathname:'/expert' }}>Advanced</Link></li>
           </ul>
           <ul className="side-nav teal accent-4  " id="mobile-demo">
             <li><Link className="waves-effect waves-light white-text" onClick={()=>this.hideNav()} to={{ pathname:'/' }}>Simple</Link></li>
-            <li><Link className="waves-effect waves-light white-text" onClick={()=>this.hideNav()} to={{ pathname:'/expert' }}>Expert</Link></li>
+            <li><Link className="waves-effect waves-light white-text" onClick={()=>this.hideNav()} to={{ pathname:'/expert' }}>Advanced</Link></li>
           </ul>
         </div>
       </nav>
