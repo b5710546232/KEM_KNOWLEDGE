@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Input, Button, Table , Row ,Col} from 'react-materialize';
 import { connect } from 'react-redux';
+import {getSeason,getSensitivity,getRiceType} from '../../loader/universalLoader'
+import {getProvince} from '../../loader/provinceLoader'
 
 class Expert extends Component {
   render(){
@@ -50,8 +52,8 @@ class Expert extends Component {
       <div>
         <div className="divider"></div>
         {
-          this.props.expert.data.map((rice)=>(
-            <div>
+          this.props.expert.data.map((rice,index)=>(
+            <div key={index}>
               <div className="row">
                 <div className="col s6">
                   <div className="row">
@@ -71,9 +73,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.RiceType?
-                          <span>{rice.RiceType}</span>
+                          <span>{getRiceType(rice.RiceType)}</span>
                         :
-                        <span>{this.props.data[0].value}</span>
+                        <span>{getRiceType(this.props.data[0].value)}</span>
                       }
                     </div>
                   </div>
@@ -116,9 +118,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.Province?
-                          <span>{rice.Province}</span>
+                          <span>{getProvince(rice.Province)}</span>
                         :
-                        <span>{this.props.data[4].value}</span>
+                        <span>{getProvince(this.props.data[4].value)}</span>
                       }
                     </div>
                   </div>
@@ -146,9 +148,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.SellPlace?
-                          <span>{rice.SellPlace}</span>
+                          <span>{getProvince(rice.SellPlace)}</span>
                         :
-                        <span>{this.props.data[6].value}</span>
+                        <span>{getProvince(this.props.data[6].value)}</span>
                       }
                     </div>
                   </div>
@@ -161,9 +163,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.Humidity?
-                          <span>{rice.Humidity}</span>
+                          <span>{rice.Humidity} %</span>
                         :
-                        <span>{this.props.data[7].value}</span>
+                        <span>{this.props.data[7].value} %</span>
                       }
                     </div>
                   </div>
@@ -176,9 +178,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.Season?
-                          <span>{rice.Season}</span>
+                          <span>{getSeason(rice.Season)}</span>
                         :
-                        <span>{this.props.data[1].value}</span>
+                        <span>{getSeason(this.props.data[1].value)}</span>
                       }
                     </div>
                   </div>
@@ -191,9 +193,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.PhotoPeriod?
-                          <span>{rice.PhotoPeriod}</span>
+                          <span>{getSensitivity(rice.PhotoPeriod)}</span>
                         :
-                        <span>{this.props.data[8].value}</span>
+                        <span>{getSensitivity(this.props.data[8].value)}</span>
                       }
                     </div>
                   </div>

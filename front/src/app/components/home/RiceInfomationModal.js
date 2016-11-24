@@ -118,7 +118,7 @@ class RiceInfomationModal extends Component {
               <div className="row center">
                 <div className="row">
                   <div className="input-field col s12">
-                    <select id="rice-collection" value={this.state.mode} >
+                    <select id="rice-collection" value={this.state.mode} onChange={this.changeMode} >
                       <option value="simple">All Rice Variety in {this.props.location.sub_district}</option>
                       <option value="price" >Best Price Rice Variety in {this.props.location.sub_district}</option>
                       <option value="yeild" >Best Yeild Rice Variety in {this.props.location.sub_district}</option>

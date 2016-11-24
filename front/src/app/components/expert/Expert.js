@@ -167,7 +167,7 @@ class Expert extends Component {
             </div>
 
           </div>:<div></div>
-          }
+        }
         <h3 className="light teal-text accent-4">Advance Rice Specification Finder</h3>
         <form id="expert">
           <Row>
@@ -186,8 +186,8 @@ class Expert extends Component {
             <Input s={4} name="province" type='select' label="Province">
               <option value=''>Any Province</option>
               {
-                ProvinceJSON.map((province)=>(
-                  <option value={province.lowername}>{province.name}</option>
+                ProvinceJSON.map((province,index)=>(
+                  <option key={index} value={province.lowername}>{province.name}</option>
                 ))
               }
             </Input>
@@ -195,8 +195,8 @@ class Expert extends Component {
             <Input s={6} name="sellPlace" type='select' label="Sell Place">
               <option value=''>Any Sell Place</option>
               {
-                ProvinceJSON.map((province)=>(
-                <option value={province.lowername}>{province.name}</option>
+                ProvinceJSON.map((province,index)=>(
+                  <option key={index} value={province.lowername}>{province.name}</option>
                 ))
               }
             </Input>
