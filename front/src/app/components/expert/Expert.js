@@ -5,6 +5,7 @@ import { loadExpertRiceList } from '../../actions/RiceAction';
 import { connect } from 'react-redux';
 import RiceList from './RiceList'
 import SubmitButton from './SubmitButton';
+import ProvinceJSON from '../../../assets/json/province.json'
 
 class Expert extends Component {
   constructor(props){
@@ -47,19 +48,18 @@ class Expert extends Component {
     const riceInformations = [
       // {'name': 'riceName', 'label': 'Rice Name'},
       // {'name': 'otherName', 'label': 'Other Name'},
-      {'name': 'riceType', 'label': 'Rice Type'},
       // {'name': 'height', 'label': 'Height'},
-      {'name': 'subDis', 'label': 'Sub-District'},
-      {'name': 'district', 'label': 'District'},
-      {'name': 'province', 'label': 'Province'},
+      {'name': 'subDis', 'label': 'Sub-District',length:4},
+      {'name': 'district', 'label': 'District',length:4},
+      // {'name': 'province', 'label': 'Province',length:4},
       // {'name': 'age', 'label': 'Age'},
-      {'name': 'price', 'label': 'Price'},
-      {'name': 'sellPlace', 'label': 'Sell Place'},
-      {'name': 'humidity', 'label': 'Humidity'},
+      // {'name': 'price', 'label': 'Price',length:6},
+      // {'name': 'sellPlace', 'label': 'Sell Place',length:6},
+      // {'name': 'humidity', 'label': 'Humidity',length:6},
       // {'name': 'harvestingPeriod', 'label': 'Harvesting Period'},
-      {'name': 'season', 'label': 'Suitable Season'},
+      // {'name': 'season', 'label': 'Suitable Season'},
       // {'name': 'region', 'label': 'Region'},
-      {'name': 'photoPeriod', 'label': 'Photo Period'},
+      // {'name': 'photoPeriod', 'label': 'Photo Period'},
       // {'name': 'ecosystem', 'label': 'Ecosystem'},
       // {'name': 'waterLevel', 'label': 'Water Level'},
       // {'name': 'yield', 'label': 'Yield'},
@@ -69,7 +69,7 @@ class Expert extends Component {
       // {'name': 'vulnerablePest', 'label': 'Vulnerable Pest'},
       // {'name': 'pestResistance', 'label': 'Pest Resistance'}
     ];
-    const riceInputs = riceInformations.map((data, index) =><Input key={index} s={6} type="text" name={data.name} label={data.label}/>);
+    const riceInputs = riceInformations.map((data, index) =><Input key={index} s={data.length} type="text" name={data.name} label={data.label}/>);
     const pests = [
       {'name': 'thrips', 'label': 'Thrips'},
       {'name': 'mealybug', 'label': 'Mealybug'},
@@ -119,7 +119,35 @@ class Expert extends Component {
         <form id="expert">
           <Row>
             <Col s={12}></Col>
+            <Input s={6} name="riceType" type="select" label="Rice Type">
+              <option value='glutinous'>Glutinous</option>
+              <option value='nonGlutinous'>Non-Glutinous</option>
+            </Input>
+            <Input s={6} name="season" type='select' label="Suitable Season">
+              <option value='inSeason'>In Season</option>
+              <option value='doubleCrop'>Double Crop</option>
+            </Input>
             {riceInputs}
+            <Input s={4} name="province" type='select' label="Province">
+              {
+                ProvinceJSON.map((province)=>(
+                  <option value={province.lowername}>{province.name}</option>
+                ))
+              }
+            </Input>
+            <Input  s={6} type="number" name="price" label="Price"/>
+            <Input s={6} name="sellPlace" type='select' label="Sell Place">
+              {
+                ProvinceJSON.map((province)=>(
+                  <option value={province.lowername}>{province.name}</option>
+                ))
+              }
+            </Input>
+            <Input  s={6} type="number" name="humidity" label="Humidity"/>
+            <Input s={6} name="photoPeriod" type='select' label="Photo Period">
+              <option value='sensitivity'>Sensitivity</option>
+              <option value='nonSensitivity'>Non-Sensitivity</option>
+            </Input>
           </Row>
           <div className="pests">
             <label>Pests</label>
