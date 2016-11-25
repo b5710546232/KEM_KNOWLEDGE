@@ -11,7 +11,9 @@ export const getDistinct = (district) =>{
   return district.district
 }
 export const getSubDistrict = (subdistrict) =>{
+  console.log('ssss',sub_district);
   let sub_district = SubDistrictJSON.find((current_sub_district)=>current_sub_district.sub_district_lower==subdistrict)
+  console.log(sub_district);
   return sub_district.sub_district
 }
 export const getListOfDistrict = (province) =>{

@@ -90,7 +90,7 @@ class Expert extends Component {
                         rice.SubDis?
                           <span>{getSubDistrict(rice.SubDis)}</span>
                         :
-                        <span>{getSubDistrict(this.props.data[2].value)}</span>
+                        <span>{getSubDistrict(this.props.data[4].value)}</span>
                       }
                     </div>
                   </div>
@@ -120,7 +120,7 @@ class Expert extends Component {
                         rice.Province?
                           <span>{getProvince(rice.Province)}</span>
                         :
-                        <span>{getProvince(this.props.data[4].value)}</span>
+                        <span>{getProvince(this.props.data[2].value)}</span>
                       }
                     </div>
                   </div>
