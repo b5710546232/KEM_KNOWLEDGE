@@ -48,214 +48,200 @@ class Expert extends Component {
       {'name': 'riceBlast', 'label': 'Rice Blast'}
     ];
     console.log('data',this.props.data);
+    console.log('rice-data',this.props.expert.data);
     return (
       <div>
         <div className="divider"></div>
         {
           this.props.expert.data.map((rice,index)=>(
             <div key={index}>
-              <div className="row">
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Rice Name : </span>
-                    </div>
-                    <div className="col s6">
-                      <span>{rice.Rice}</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Rice Type : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.RiceType?
-                          <span>{getRiceType(rice.RiceType)}</span>
-                        :
-                        <span>{getRiceType(this.props.data[0].value)}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Sub-District : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.SubDis?
-                          <span>{getSubDistrict(rice.SubDis)}</span>
-                        :
-                        <span>{getSubDistrict(this.props.data[4].value)}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>District : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.Disrict?
-                          <span>{getDistinct(rice.Disrict)}</span>
-                        :
-                        <span>{getDistinct(this.props.data[3].value)}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Province : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.Province?
-                          <span>{getProvince(rice.Province)}</span>
-                        :
-                        <span>{getProvince(this.props.data[2].value)}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Price : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.Price?
-                          <span>{rice.Price}</span>
-                        :
-                        <span>{this.props.data[5].value}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Sell Place : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.SellPlace?
-                          <span>{getProvince(rice.SellPlace)}</span>
-                        :
-                        <span>{getProvince(this.props.data[6].value)}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Humidity : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.Humidity?
-                          <span>{rice.Humidity} %</span>
-                        :
-                        <span>{this.props.data[7].value} %</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Suitable Season : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.Season?
-                          <span>{getSeason(rice.Season)}</span>
-                        :
-                        <span>{getSeason(this.props.data[1].value)}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-                <div className="col s6">
-                  <div className="row">
-                    <div className="col s6">
-                      <span>Photo Period : </span>
-                    </div>
-                    <div className="col s6">
-                      {
-                        rice.PhotoPeriod?
-                          <span>{getSensitivity(rice.PhotoPeriod)}</span>
-                        :
-                        <span>{getSensitivity(this.props.data[8].value)}</span>
-                      }
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <label>Pests</label>
-              <div className="row">
-                {pests.map((pest)=>(
-                  <div key={"pest"+pests.indexOf(pest)} className="col s4">
-                    {
-                      rice[pest.name.charAt(0).toUpperCase()+pest.name.substring(1,pest.name.length)]?
-                        <span>
-                          {rice[pest.name.charAt(0).toUpperCase()+pest.name.substring(1,pest.name.length)]=='true'?
-                            <span><i className="material-icons green-text">done</i></span>
+              <div  className="card">
+                <div className="row card-content">
+                  <table key="rice" className="highlight centered bordered responsive-table">
+                    <thead className="teal accent-4">
+                      <tr>
+                        <th className="white-text">Rice Name</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="center" key="type">
+                          {rice.Rice}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <label>Location</label>
+                  <table key="location" className="highlight centered bordered responsive-table">
+                    <thead className="teal accent-4">
+                      <tr className="white-text">
+                        <th>Province</th>
+                        <th>District</th>
+                        <th>Sub-District</th>
+                      </tr>
+                    </thead>
+                    <tbody className="center">
+                      <tr>
+                        <td className="center" key="province">
+                          {
+                            rice.Province?
+                              <span>{getProvince(rice.Province,"api")}</span>
                             :
-                            <span><i className="material-icons red-text">clear</i></span>
+                            <span>{getProvince(this.props.data[2].value,"dat")}</span>
                           }
-                        </span>
-                      :
-                      <span>
-                        <span><i className="material-icons green-text">done</i></span>
-                      </span>
-                    }
-                    <span>{pest.label}</span>
-                  </div>
-                  ))
-                }
-              </div>
-              <label>Disease</label>
-              <div className="row">
-                {
-                  diseases.map((disease)=>(
-                    <div key={"disease"+diseases.indexOf(disease)} className="col s4">
-                      {
-                        rice[disease.name.charAt(0).toUpperCase()+disease.name.substring(1,disease.name.length)]?
+                        </td>
+                        <td className="center" key="district">
+                          {
+                            rice.Disrict?
+                              <span>{getDistinct(rice.Disrict,"api")}</span>
+                            :
+                            <span>{getDistinct(this.props.data[3].value,"dat")}</span>
+                          }
+                        </td>
+                        <td className="center" key="subdis">
+                          {
+                            rice.SubDis?
+                              <span>{getSubDistrict(rice.SubDis,"api")}</span>
+                            :
+                            <span>{getSubDistrict(this.props.data[4].value,"dat")}</span>
+                          }
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <label>Properties</label>
+                  <table key="prop" className="highlight bordered centered responsive-table">
+                    <thead className="teal accent-4">
+                      <tr className="white-text">
+                        <th>Rice Type</th>
+                        <th>Suitable Season</th>
+                        <th>Photo Period</th>
+                      </tr>
+                    </thead>
+                    <tbody className="center">
+                      <tr>
+                        <td className="center" key="type">
+                          {
+                            rice.RiceType?
+                              <span>{getRiceType(rice.RiceType)}</span>
+                            :
+                            <span>{getRiceType(this.props.data[0].value)}</span>
+                          }
+                        </td>
+                        <td className="center" key="season">
+                          {
+                            rice.Season?
+                              <span>{getSeason(rice.Season)}</span>
+                            :
+                            <span>{getSeason(this.props.data[1].value)}</span>
+                          }
+                        </td>
+                        <td className="center" key="sensitivity">
+                          {
+                            rice.PhotoPeriod?
+                              <span>{getSensitivity(rice.PhotoPeriod)}</span>
+                            :
+                            <span>{getSensitivity(this.props.data[8].value)}</span>
+                          }
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <label>Market</label>
+                  <table key="market" className="highlight centered bordered responsive-table">
+                    <thead className="teal accent-4">
+                      <tr className="white-text">
+                        <th>Sell Place</th>
+                        <th>Humidity</th>
+                        <th>Price</th>
+                      </tr>
+                    </thead>
+                    <tbody className="center">
+                      <tr>
+                        <td className="center" key="sell">
+                          {
+                            rice.SellPlace?
+                              <span>{getProvince(rice.SellPlace)}</span>
+                            :
+                            <span>{getProvince(this.props.data[6].value)}</span>
+                          }
+                        </td>
+                        <td className="center" key="humidity">
+                          {
+                            rice.Humidity?
+                              <span>{rice.Humidity} %</span>
+                            :
+                            <span>{this.props.data[7].value} %</span>
+                          }
+                        </td>
+                        <td className="center" key="price">
+                          {
+                            rice.Price?
+                              <span>{rice.Price}</span>
+                            :
+                            <span>{this.props.data[5].value}</span>
+                          }
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div className="card-action">
+                  <label>Pests</label>
+                  <div className="row">
+                    {pests.map((pest)=>(
+                      <div key={"pest"+pests.indexOf(pest)} className="col s4">
+                        {
+                          rice[pest.name.charAt(0).toUpperCase()+pest.name.substring(1,pest.name.length)]?
+                            <span>
+                              {rice[pest.name.charAt(0).toUpperCase()+pest.name.substring(1,pest.name.length)]=='true'?
+                                <span><i className="material-icons green-text">done</i></span>
+                                :
+                                <span><i className="material-icons red-text">clear</i></span>
+                              }
+                            </span>
+                          :
                           <span>
-                            {rice[disease.name.charAt(0).toUpperCase()+disease.name.substring(1,disease.name.length)]=='true'?
-                              <span><i className="material-icons green-text">done</i></span>
-                              :
-                              <span><i className="material-icons red-text">clear</i></span>
-                            }
+                            <span><i className="material-icons green-text">done</i></span>
                           </span>
-                        :
-                        <span>
-                          <i className="material-icons green">done</i>
-                        </span>
-                      }
-                      <span>{disease.label}</span>
-                    </div>
-                  ))
-                }
+                        }
+                        <span>{pest.label}</span>
+                      </div>
+                      ))
+                    }
+                  </div>
+                  <label>Disease</label>
+                  <div className="row">
+                    {
+                      diseases.map((disease)=>(
+                        <div key={"disease"+diseases.indexOf(disease)} className="col s4">
+                          {
+                            rice[disease.name.charAt(0).toUpperCase()+disease.name.substring(1,disease.name.length)]?
+                              <span>
+                                {rice[disease.name.charAt(0).toUpperCase()+disease.name.substring(1,disease.name.length)]=='true'?
+                                  <span><i className="material-icons green-text">done</i></span>
+                                  :
+                                  <span><i className="material-icons red-text">clear</i></span>
+                                }
+                              </span>
+                            :
+                            <span>
+                              <i className="material-icons green">done</i>
+                            </span>
+                          }
+                          <span>{disease.label}</span>
+                        </div>
+                      ))
+                    }
+                  </div>
+                </div>
               </div>
-              <div className="divider"></div>
             </div>
           ))
         }
-
       </div>
-    )
-  }
+  )
+}
 }
 const mapStateToProps = (state) => {
   return state;

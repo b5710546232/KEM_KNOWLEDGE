@@ -4,7 +4,7 @@
   "description": "Online water and bottle store",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --progress --open",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --progress --open --host  0.0.0.0 --port 8080",
     "start-server": "NODE_ENV=production webpack-dev-server --hot --inline --progress",
     "start-win": "cross-env NODE_ENV=production webpack-dev-server --hot --inline --progress --open",
     "build": "npm run test && cross-env NODE_ENV=production webpack --progress --colors --optimize-min",
