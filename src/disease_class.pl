@@ -22,3 +22,13 @@ is_instance_of(stemRot,disease).
 is_instance_of(gallDwarf,disease).
 is_instance_of(yellowDwarf,disease).
 is_instance_of(riceBlast,disease).
+% Update diseases
+is_instance_of(bacterialMosaic,disease).
+is_instance_of(pinkSeed,disease).
+is_instance_of(alternariaLeafBlight,disease).
+is_instance_of(anthracnose,disease).
+is_instance_of(ascochytaLeafSpot,disease).
+is_instance_of(aureobasidiumDecay,disease).
+is_instance_of(cephalosporiumStripe,disease).
+is_instance_of(cerealCystNematode,disease).
+is_instance_of(grassCystNematode,disease).

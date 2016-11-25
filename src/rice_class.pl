@@ -130,3 +130,14 @@ is_instance_of(rdh1,rice).
 is_instance_of(rdp3,rice).
 is_instance_of(phrae60,rice).
 is_instance_of(fahng60,rice).
+% Update rices
+is_instance_of(bernstein,rice).
+is_instance_of(emilio,rice).
+is_instance_of(findus,rice).
+is_instance_of(angelus,rice).
+is_instance_of(avenir,rice).
+is_instance_of(lukullus,rice).
+is_instance_of(energo,rice).
+is_instance_of(laurenzio,rice).
+is_instance_of(element,rice).
+is_instance_of(albertus,rice).

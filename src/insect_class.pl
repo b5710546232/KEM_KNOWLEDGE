@@ -16,3 +16,7 @@ is_instance_of(riceWhorlMaggot,insect).
 is_instance_of(riceBlackBug,insect).
 is_instance_of(riceGallMidge,insect).
 is_instance_of(riceBug,insect).
+%Update insects
+is_instance_of(grainWeevil,insect).
+is_instance_of(wireWorm,insect).
+is_instance_of(cockchaferGrub,insect).

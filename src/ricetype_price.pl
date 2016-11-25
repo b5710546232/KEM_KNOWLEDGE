@@ -50,3 +50,20 @@ sold_for(nonGlutinous,jasmine105,surin,15,8900).
 sold_for(nonGlutinous,none,nakhonsithammarat,15,7400).
 sold_for(nonGlutinous,none,phatthalung,15,7400).
 sold_for(nonGlutinous,none,songkhla,15,7400).
+% Update rice type prices
+sold_for(wheat,none,baden_wurttemberg,none,4296).
+sold_for(wheat,none,bavaria,none,4296).
+sold_for(wheat,none,berlin,none,4296).
+sold_for(wheat,none,brandenburg,none,4296).
+sold_for(wheat,none,bremen,none,4296).
+sold_for(wheat,none,hamburg,none,4296).
+sold_for(wheat,none,hesse,none,4296).
+sold_for(wheat,none,mecklenburg_vorpommern,none,4296).
+sold_for(wheat,none,lower_saxony,none,4296).
+sold_for(wheat,none,north_rhine_westphalia,none,4296).
+sold_for(wheat,none,rhineland_palatinate,none,4296).
+sold_for(wheat,none,saarland,none,4296).
+sold_for(wheat,none,saxony,none,4296).
+sold_for(wheat,none,saxony_anhalt,none,4296).
+sold_for(wheat,none,schleswig_holstein,none,4296).
+sold_for(wheat,none,thuringia,none,4296).
