@@ -7,11 +7,15 @@ import RiceList from './RiceList'
 import SubmitButton from './SubmitButton';
 import ProvinceJSON from '../../../assets/json/province.json'
 import '../../../assets/scss/overlay.scss'
+import {getListOfDistrict,getListOfSubDistrict} from '../../loader/provinceLoader'
+
 class Expert extends Component {
   constructor(props){
     super(props)
     this.state = {
-      data : []
+      data : [],
+      province : "",
+      district : ""
     }
   }
   onSubmit(event) {
@@ -44,13 +48,23 @@ class Expert extends Component {
   getData(){
     return this.data
   }
+  onChange(e){
+    e.preventDefault
+    console.log(e.target.value);
+    this.setState({province:e.target.value})
+  }
+  onDistrictChange(e){
+    e.preventDefault
+    console.log(e.target.value);
+    this.setState({district:e.target.value})
+  }
   render() {
     const riceInformations = [
       // {'name': 'riceName', 'label': 'Rice Name'},
       // {'name': 'otherName', 'label': 'Other Name'},
       // {'name': 'height', 'label': 'Height'},
-      {'name': 'subDis', 'label': 'Sub-District',length:4},
-      {'name': 'district', 'label': 'District',length:4},
+      // {'name': 'subDis', 'label': 'Sub-District',length:4},
+      // {'name': 'district', 'label': 'District',length:4},
       // {'name': 'province', 'label': 'Province',length:4},
       // {'name': 'age', 'label': 'Age'},
       // {'name': 'price', 'label': 'Price',length:6},
@@ -182,15 +196,32 @@ class Expert extends Component {
               <option value='inSeason'>In Season</option>
               <option value='doubleCrop'>Double Crop</option>
             </Input>
-            {riceInputs}
-            <Input s={4} name="province" type='select' label="Province">
+            <Input s={4} name="province" type='select' label="Province" onChange={(e)=>this.onChange(e)} value={this.state.province}>
               <option value=''>Any Province</option>
               {
-                ProvinceJSON.map((province,index)=>(
+                ProvinceJSON.sort((o1,o2)=>o1.name.charCodeAt(0)-o2.name.charCodeAt(0)).map((province,index)=>(
                   <option key={index} value={province.lowername}>{province.name}</option>
                 ))
               }
             </Input>
+            <Input s={4} name="district" type='select' label="District" onChange={(e)=>this.onDistrictChange(e)} value={this.state.district}>
+              <option value=''>Any District</option>
+              {
+                getListOfDistrict(this.state.province).sort((o1,o2)=>o1.district.charCodeAt(0)-o2.district.charCodeAt(0)).map((district,index)=>(
+                  <option key={index} value={district.district_lower}>{district.district}</option>
+                ))
+              }
+            </Input>
+            <Input s={4} name="subDis" type='select' label="Sub-District">
+              <option value=''>Any Sub-District</option>
+              {
+                getListOfSubDistrict(this.state.district,this.state.province).sort((o1,o2)=>o1.sub_district.charCodeAt(0)-o2.sub_district.charCodeAt(0)).map((sub_district,index)=>(
+                  <option key={index} value={sub_district.sub_district_lower}>{sub_district.sub_district}</option>
+                ))
+              }
+            </Input>
+
+
             <Input  s={6} type="number" name="price" label="Price"/>
             <Input s={6} name="sellPlace" type='select' label="Sell Place">
               <option value=''>Any Sell Place</option>

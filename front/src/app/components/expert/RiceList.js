@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Input, Button, Table , Row ,Col} from 'react-materialize';
 import { connect } from 'react-redux';
 import {getSeason,getSensitivity,getRiceType} from '../../loader/universalLoader'
-import {getProvince} from '../../loader/provinceLoader'
+import {getProvince,getDistinct,getSubDistrict} from '../../loader/provinceLoader'
 
 class Expert extends Component {
   render(){
@@ -88,9 +88,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.SubDis?
-                          <span>{rice.SubDis}</span>
+                          <span>{getSubDistrict(rice.SubDis)}</span>
                         :
-                        <span>{this.props.data[2].value}</span>
+                        <span>{getSubDistrict(this.props.data[2].value)}</span>
                       }
                     </div>
                   </div>
@@ -103,9 +103,9 @@ class Expert extends Component {
                     <div className="col s6">
                       {
                         rice.Disrict?
-                          <span>{rice.Disrict}</span>
+                          <span>{getDistinct(rice.Disrict)}</span>
                         :
-                        <span>{this.props.data[3].value}</span>
+                        <span>{getDistinct(this.props.data[3].value)}</span>
                       }
                     </div>
                   </div>

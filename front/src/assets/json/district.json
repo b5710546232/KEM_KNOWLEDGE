@@ -1,0 +1,6331 @@
+[
+
+{
+
+"district" : "Mueang Satun",
+"district_lower" : "mueang_satun",
+"province_lower" : "satun"
+}
+,
+{
+
+"district" : "Mueang Rayong",
+"district_lower" : "mueang_rayong",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Mueang Chumphon",
+"district_lower" : "mueang_chumphon",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Sawi",
+"district_lower" : "sawi",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Mueang Maha Sarakham",
+"district_lower" : "mueang_maha_sarakham",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Ko Samui",
+"district_lower" : "ko_samui",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Sattahip",
+"district_lower" : "sattahip",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Hat Samran",
+"district_lower" : "hat_samran",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Pathio",
+"district_lower" : "pathio",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Thung Tako",
+"district_lower" : "thung_tako",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Laem Sing",
+"district_lower" : "laem_sing",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Khura Buri",
+"district_lower" : "khura_buri",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Ko Kut",
+"district_lower" : "ko_kut",
+"province_lower" : "trat"
+}
+,
+{
+
+"district" : "Suk Samran",
+"district_lower" : "suk_samran",
+"province_lower" : "ranong"
+}
+,
+{
+
+"district" : "Kantang",
+"district_lower" : "kantang",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Don Sak",
+"district_lower" : "don_sak",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Mueang Phuket",
+"district_lower" : "mueang_phuket",
+"province_lower" : "phuket"
+}
+,
+{
+
+"district" : "Sikao",
+"district_lower" : "sikao",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Si Racha",
+"district_lower" : "si_racha",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Mueang Krabi",
+"district_lower" : "mueang_krabi",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Ao Luek",
+"district_lower" : "ao_luek",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Mueang Ranong",
+"district_lower" : "mueang_ranong",
+"province_lower" : "ranong"
+}
+,
+{
+
+"district" : "Thalang",
+"district_lower" : "thalang",
+"province_lower" : "phuket"
+}
+,
+{
+
+"district" : "Bang Lamung",
+"district_lower" : "bang_lamung",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Klaeng",
+"district_lower" : "klaeng",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Papoe",
+"district_lower" : "papoe",
+"province_lower" : "ranong"
+}
+,
+{
+
+"district" : "Ko Lanta",
+"district_lower" : "ko_lanta",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Ko Pha-ngan",
+"district_lower" : "ko_pha-ngan",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Khlung",
+"district_lower" : "khlung",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Phra Nakhon",
+"district_lower" : "phra_nakhon",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Ko Yao",
+"district_lower" : "ko_yao",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Palian",
+"district_lower" : "palian",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Nuea Khlong",
+"district_lower" : "nuea_khlong",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Tha Mai",
+"district_lower" : "tha_mai",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Ko Chang",
+"district_lower" : "ko_chang",
+"province_lower" : "trat"
+}
+,
+{
+
+"district" : "Dusit",
+"district_lower" : "dusit",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Pom Prap Sattruphai",
+"district_lower" : "pom_prap_sattruphai",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Samphanthawong",
+"district_lower" : "samphanthawong",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Chon Buri",
+"district_lower" : "mueang_chon_buri",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Bang Rak",
+"district_lower" : "bang_rak",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Lang Suan",
+"district_lower" : "lang_suan",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Khanom",
+"district_lower" : "khanom",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Mueang Samut Sakhon",
+"district_lower" : "mueang_samut_sakhon",
+"province_lower" : "samutsakhon"
+}
+,
+{
+
+"district" : "Thon Buri",
+"district_lower" : "thon_buri",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Khlong San",
+"district_lower" : "khlong_san",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Phasi Charoen",
+"district_lower" : "phasi_charoen",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Sena",
+"district_lower" : "sena",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Bangkok Yai",
+"district_lower" : "bangkok_yai",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Lop Buri",
+"district_lower" : "mueang_lop_buri",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Phra Pradaeng",
+"district_lower" : "phra_pradaeng",
+"province_lower" : "samutprakan"
+}
+,
+{
+
+"district" : "Mueang Ang Thong",
+"district_lower" : "mueang_ang_thong",
+"province_lower" : "angthong"
+}
+,
+{
+
+"district" : "Rat Thewi",
+"district_lower" : "rat_thewi",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Taling Chan",
+"district_lower" : "taling_chan",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Phra Nakhon Si Ayutthaya",
+"district_lower" : "phra_nakhon_si_ayutthaya",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Pathum Wan",
+"district_lower" : "pathum_wan",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Pattani",
+"district_lower" : "mueang_pattani",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Mueang Chiang Mai",
+"district_lower" : "mueang_chiang_mai",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Wat Sing",
+"district_lower" : "wat_sing",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Bangkok Noi",
+"district_lower" : "bangkok_noi",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Bang Kho Laem",
+"district_lower" : "bang_kho_laem",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Bang Bua Thong",
+"district_lower" : "bang_bua_thong",
+"province_lower" : "nonthaburi"
+}
+,
+{
+
+"district" : "Mueang Chai Nat",
+"district_lower" : "mueang_chai_nat",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Laplae",
+"district_lower" : "laplae",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Khlong Toei",
+"district_lower" : "khlong_toei",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Sa Thon",
+"district_lower" : "sa_thon",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Ban Phai",
+"district_lower" : "ban_phai",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Watthana",
+"district_lower" : "watthana",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Nakhon Si Thammarat",
+"district_lower" : "mueang_nakhon_si_thammarat",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Chum Saeng",
+"district_lower" : "chum_saeng",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Bang Phlat",
+"district_lower" : "bang_phlat",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Pak Kret",
+"district_lower" : "pak_kret",
+"province_lower" : "nonthaburi"
+}
+,
+{
+
+"district" : "Mueang Phetchaburi",
+"district_lower" : "mueang_phetchaburi",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Mueang Sing Buri",
+"district_lower" : "mueang_sing_buri",
+"province_lower" : "singburi"
+}
+,
+{
+
+"district" : "Bang Khonthi",
+"district_lower" : "bang_khonthi",
+"province_lower" : "samutsongkhram"
+}
+,
+{
+
+"district" : "Ban Pong",
+"district_lower" : "ban_pong",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Mueang Nakhon Nayok",
+"district_lower" : "mueang_nakhon_nayok",
+"province_lower" : "nakhonnayok"
+}
+,
+{
+
+"district" : "Phak Hai",
+"district_lower" : "phak_hai",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Kaeng Khoi",
+"district_lower" : "kaeng_khoi",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Chom Thong",
+"district_lower" : "chom_thong",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Nakhon Chai Si",
+"district_lower" : "nakhon_chai_si",
+"province_lower" : "nakhonpathom"
+}
+,
+{
+
+"district" : "Bang Kruai",
+"district_lower" : "bang_kruai",
+"province_lower" : "nonthaburi"
+}
+,
+{
+
+"district" : "Amphawa",
+"district_lower" : "amphawa",
+"province_lower" : "samutsongkhram"
+}
+,
+{
+
+"district" : "Phanat Nikhom",
+"district_lower" : "phanat_nikhom",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Tha Maka",
+"district_lower" : "tha_maka",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Mueang Pathum Thani",
+"district_lower" : "mueang_pathum_thani",
+"province_lower" : "pathumthani"
+}
+,
+{
+
+"district" : "Mueang Saraburi",
+"district_lower" : "mueang_saraburi",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Mueang Phitsanulok",
+"district_lower" : "mueang_phitsanulok",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Bang Sai",
+"district_lower" : "bang_sai",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Mueang Chachoengsao",
+"district_lower" : "mueang_chachoengsao",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Chaiyo",
+"district_lower" : "chaiyo",
+"province_lower" : "angthong"
+}
+,
+{
+
+"district" : "Mueang Chiang Rai",
+"district_lower" : "mueang_chiang_rai",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Photharam",
+"district_lower" : "photharam",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Krasae Sin",
+"district_lower" : "krasae_sin",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "San Kamphaeng",
+"district_lower" : "san_kamphaeng",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Sam Khok",
+"district_lower" : "sam_khok",
+"province_lower" : "pathumthani"
+}
+,
+{
+
+"district" : "Mueang Samut Prakan",
+"district_lower" : "mueang_samut_prakan",
+"province_lower" : "samutprakan"
+}
+,
+{
+
+"district" : "Ban Lat",
+"district_lower" : "ban_lat",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Mueang Nonthaburi",
+"district_lower" : "mueang_nonthaburi",
+"province_lower" : "nonthaburi"
+}
+,
+{
+
+"district" : "Tha Ruea",
+"district_lower" : "tha_ruea",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Nong Chik",
+"district_lower" : "nong_chik",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Sao Hai",
+"district_lower" : "sao_hai",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Mueang Samut Songkhram",
+"district_lower" : "mueang_samut_songkhram",
+"province_lower" : "samutsongkhram"
+}
+,
+{
+
+"district" : "Hat Yai",
+"district_lower" : "hat_yai",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Hang Dong",
+"district_lower" : "hang_dong",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Pa Sang",
+"district_lower" : "pa_sang",
+"province_lower" : "lamphun"
+}
+,
+{
+
+"district" : "Bang Pahan",
+"district_lower" : "bang_pahan",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Mueang Phang-nga",
+"district_lower" : "mueang_phang-nga",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Phrao",
+"district_lower" : "phrao",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Ban Phraek",
+"district_lower" : "ban_phraek",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Mueang Nong Khai",
+"district_lower" : "mueang_nong_khai",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Mueang Ubon Ratchathani",
+"district_lower" : "mueang_ubon_ratchathani",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Mueang Sukhothai",
+"district_lower" : "mueang_sukhothai",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "mueang Nakhon Pathom",
+"district_lower" : "mueang_nakhon_pathom",
+"province_lower" : "nakhonpathom"
+}
+,
+{
+
+"district" : "La-ngu",
+"district_lower" : "la-ngu",
+"province_lower" : "satun"
+}
+,
+{
+
+"district" : "Mueang Phayao",
+"district_lower" : "mueang_phayao",
+"province_lower" : "phayao"
+}
+,
+{
+
+"district" : "Krathum Baen",
+"district_lower" : "krathum_baen",
+"province_lower" : "samutsakhon"
+}
+,
+{
+
+"district" : "Mueang Chanthaburi",
+"district_lower" : "mueang_chanthaburi",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Doi Saket",
+"district_lower" : "doi_saket",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Maha Rat",
+"district_lower" : "maha_rat",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Takua Pa",
+"district_lower" : "takua_pa",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Uthai",
+"district_lower" : "uthai",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Ranot",
+"district_lower" : "ranot",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Mueang Lamphun",
+"district_lower" : "mueang_lamphun",
+"province_lower" : "lamphun"
+}
+,
+{
+
+"district" : "Huai Khwang",
+"district_lower" : "huai_khwang",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Nong Khayang",
+"district_lower" : "nong_khayang",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Mueang Surat Thani",
+"district_lower" : "mueang_surat_thani",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Yaring",
+"district_lower" : "yaring",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Bang Ban",
+"district_lower" : "bang_ban",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Bang Pa-in",
+"district_lower" : "bang_pa-in",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Mae Wang",
+"district_lower" : "mae_wang",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Saraphi",
+"district_lower" : "saraphi",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Yannawa",
+"district_lower" : "yannawa",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Phrae",
+"district_lower" : "mueang_phrae",
+"province_lower" : "phrae"
+}
+,
+{
+
+"district" : "Pho Thong",
+"district_lower" : "pho_thong",
+"province_lower" : "angthong"
+}
+,
+{
+
+"district" : "Lom Sak",
+"district_lower" : "lom_sak",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Mueang Mae Hong Son",
+"district_lower" : "mueang_mae_hong_son",
+"province_lower" : "maehongson"
+}
+,
+{
+
+"district" : "Damnoen Saduak",
+"district_lower" : "damnoen_saduak",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Nakhon Luang",
+"district_lower" : "nakhon_luang",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Rat Burana",
+"district_lower" : "rat_burana",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Buri Ram",
+"district_lower" : "mueang_buri_ram",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Pa Mok",
+"district_lower" : "pa_mok",
+"province_lower" : "angthong"
+}
+,
+{
+
+"district" : "San Sai",
+"district_lower" : "san_sai",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Mae Rim",
+"district_lower" : "mae_rim",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Sung Men",
+"district_lower" : "sung_men",
+"province_lower" : "phrae"
+}
+,
+{
+
+"district" : "Taphan Hin",
+"district_lower" : "taphan_hin",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Lak Si",
+"district_lower" : "lak_si",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Lat Phrao",
+"district_lower" : "lat_phrao",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Muaeng Songkhla",
+"district_lower" : "muaeng_songkhla",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Mueang Nan",
+"district_lower" : "mueang_nan",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Bang Mun Nak",
+"district_lower" : "bang_mun_nak",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Mayo",
+"district_lower" : "mayo",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Sawankhalok",
+"district_lower" : "sawankhalok",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Mai Kaen",
+"district_lower" : "mai_kaen",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Nong Saeng",
+"district_lower" : "nong_saeng",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Sam Phran",
+"district_lower" : "sam_phran",
+"province_lower" : "nakhonpathom"
+}
+,
+{
+
+"district" : "Raman",
+"district_lower" : "raman",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Ko Sichang",
+"district_lower" : "ko_sichang",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Wiset Chai Chan",
+"district_lower" : "wiset_chai_chan",
+"province_lower" : "angthong"
+}
+,
+{
+
+"district" : "Doem Bang Nang Buat",
+"district_lower" : "doem_bang_nang_buat",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Mueang Saphan Buri",
+"district_lower" : "mueang_saphan_buri",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Bang Khla",
+"district_lower" : "bang_khla",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Mueang Yala",
+"district_lower" : "mueang_yala",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Bang Yai",
+"district_lower" : "bang_yai",
+"province_lower" : "nonthaburi"
+}
+,
+{
+
+"district" : "Ban Pho",
+"district_lower" : "ban_pho",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Mueang Uthai Thani",
+"district_lower" : "mueang_uthai_thani",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Mueang Trang",
+"district_lower" : "mueang_trang",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Sung Noen",
+"district_lower" : "sung_noen",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Warin Chamrap",
+"district_lower" : "warin_chamrap",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Si Samrong",
+"district_lower" : "si_samrong",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Yarang",
+"district_lower" : "yarang",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Mueang Phetchabun",
+"district_lower" : "mueang_phetchabun",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Nong Muang Khai",
+"district_lower" : "nong_muang_khai",
+"province_lower" : "phrae"
+}
+,
+{
+
+"district" : "Ban Mi",
+"district_lower" : "ban_mi",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Pak Tho",
+"district_lower" : "pak_tho",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Tha Muang",
+"district_lower" : "tha_muang",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Ban Laem",
+"district_lower" : "ban_laem",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Phan Thong",
+"district_lower" : "phan_thong",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Chulabhorn",
+"district_lower" : "chulabhorn",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Nong Khae",
+"district_lower" : "nong_khae",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Sathing Phra",
+"district_lower" : "sathing_phra",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Mueang Prachin Buri",
+"district_lower" : "mueang_prachin_buri",
+"province_lower" : "prachinburi"
+}
+,
+{
+
+"district" : "Doi Lo",
+"district_lower" : "doi_lo",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Mueang Tak",
+"district_lower" : "mueang_tak",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Phachi",
+"district_lower" : "phachi",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Mueang Ratchaburi",
+"district_lower" : "mueang_ratchaburi",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Tha Chang",
+"district_lower" : "tha_chang",
+"province_lower" : "singburi"
+}
+,
+{
+
+"district" : "Phanom Phrai",
+"district_lower" : "phanom_phrai",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Singhanakhon",
+"district_lower" : "singhanakhon",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Phibun Mangsahan",
+"district_lower" : "phibun_mangsahan",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Phunphin",
+"district_lower" : "phunphin",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Din Daeng",
+"district_lower" : "din_daeng",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Nakhon Ratchasima",
+"district_lower" : "mueang_nakhon_ratchasima",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "That Phanom",
+"district_lower" : "that_phanom",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Mueang Nakhon Phanom",
+"district_lower" : "mueang_nakhon_phanom",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Mae Taeng",
+"district_lower" : "mae_taeng",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Phra Samut Chedi",
+"district_lower" : "phra_samut_chedi",
+"province_lower" : "samutprakan"
+}
+,
+{
+
+"district" : "Thung Song",
+"district_lower" : "thung_song",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Phrom Buri",
+"district_lower" : "phrom_buri",
+"province_lower" : "singburi"
+}
+,
+{
+
+"district" : "Phaya Thai",
+"district_lower" : "phaya_thai",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Sa Bot",
+"district_lower" : "sa_bot",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "San Pa Tong",
+"district_lower" : "san_pa_tong",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Mueang Mukdahan",
+"district_lower" : "mueang_mukdahan",
+"province_lower" : "mukdahan"
+}
+,
+{
+
+"district" : "Aranyaprathet",
+"district_lower" : "aranyaprathet",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Bang Khae",
+"district_lower" : "bang_khae",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Sai Buri",
+"district_lower" : "sai_buri",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Panare",
+"district_lower" : "panare",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Tha Yang",
+"district_lower" : "tha_yang",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Tha Wung",
+"district_lower" : "tha_wung",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Mueang Udon Thani",
+"district_lower" : "mueang_udon_thani",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Chian Yai",
+"district_lower" : "chian_yai",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Ngao",
+"district_lower" : "ngao",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Wang Yang",
+"district_lower" : "wang_yang",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Khlong Sam Wa",
+"district_lower" : "khlong_sam_wa",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Don Phut",
+"district_lower" : "don_phut",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Kumphawapi",
+"district_lower" : "kumphawapi",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Bang Pakong",
+"district_lower" : "bang_pakong",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Khukhan",
+"district_lower" : "khukhan",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Pak Thong Chai",
+"district_lower" : "pak_thong_chai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Mueang Phichit",
+"district_lower" : "mueang_phichit",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Khok Pho",
+"district_lower" : "khok_pho",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Mueang Lampang",
+"district_lower" : "mueang_lampang",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Khlong Khuean",
+"district_lower" : "khlong_khuean",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Chana",
+"district_lower" : "chana",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Mae Chan",
+"district_lower" : "mae_chan",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Nong Chang",
+"district_lower" : "nong_chang",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Mueang Yasothon",
+"district_lower" : "mueang_yasothon",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Wan Yai",
+"district_lower" : "wan_yai",
+"province_lower" : "mukdahan"
+}
+,
+{
+
+"district" : "Na Yong",
+"district_lower" : "na_yong",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Mueang Phatthalung",
+"district_lower" : "mueang_phatthalung",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Wat Phleng",
+"district_lower" : "wat_phleng",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Mueang Roi Et",
+"district_lower" : "mueang_roi_et",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Ban Mo",
+"district_lower" : "ban_mo",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Bang Klam",
+"district_lower" : "bang_klam",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Si Somdet",
+"district_lower" : "si_somdet",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Hua Sai",
+"district_lower" : "hua_sai",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Mueang Nakhon Sawan",
+"district_lower" : "mueang_nakhon_sawan",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Lat Krabang",
+"district_lower" : "lat_krabang",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Chaloem Phra Kiet",
+"district_lower" : "chaloem_phra_kiet",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Sawaeng Ha",
+"district_lower" : "sawaeng_ha",
+"province_lower" : "angthong"
+}
+,
+{
+
+"district" : "Lam Plai Mat",
+"district_lower" : "lam_plai_mat",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Khao Yoi",
+"district_lower" : "khao_yoi",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Ban Phaeo",
+"district_lower" : "ban_phaeo",
+"province_lower" : "samutsakhon"
+}
+,
+{
+
+"district" : "Kamphaeng Saen",
+"district_lower" : "kamphaeng_saen",
+"province_lower" : "nakhonpathom"
+}
+,
+{
+
+"district" : "Si Maha Phot",
+"district_lower" : "si_maha_phot",
+"province_lower" : "prachinburi"
+}
+,
+{
+
+"district" : "Don Tum",
+"district_lower" : "don_tum",
+"province_lower" : "nakhonpathom"
+}
+,
+{
+
+"district" : "Thap Than",
+"district_lower" : "thap_than",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Uthumphon Phisai",
+"district_lower" : "uthumphon_phisai",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Khlong Yai",
+"district_lower" : "khlong_yai",
+"province_lower" : "trat"
+}
+,
+{
+
+"district" : "Khuan Don",
+"district_lower" : "khuan_don",
+"province_lower" : "satun"
+}
+,
+{
+
+"district" : "Kong Krailat",
+"district_lower" : "kong_krailat",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Bang Pla Ma",
+"district_lower" : "bang_pla_ma",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Pak Phli",
+"district_lower" : "pak_phli",
+"province_lower" : "nakhonnayok"
+}
+,
+{
+
+"district" : "Thung Khu",
+"district_lower" : "thung_khu",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Phra Phutthabat",
+"district_lower" : "phra_phutthabat",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Bang Kapi",
+"district_lower" : "bang_kapi",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Pak Phanang",
+"district_lower" : "pak_phanang",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Huai Yot",
+"district_lower" : "huai_yot",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "In Buri",
+"district_lower" : "in_buri",
+"province_lower" : "singburi"
+}
+,
+{
+
+"district" : "Mueang Narathiwat",
+"district_lower" : "mueang_narathiwat",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Sai Mai",
+"district_lower" : "sai_mai",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Tha Wang Pha",
+"district_lower" : "tha_wang_pha",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Pak Phayun",
+"district_lower" : "pak_phayun",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Kao Liao",
+"district_lower" : "kao_liao",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Chaiya",
+"district_lower" : "chaiya",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Prawet",
+"district_lower" : "prawet",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Lom Kao",
+"district_lower" : "lom_kao",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Changhan",
+"district_lower" : "changhan",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Mueang Loei",
+"district_lower" : "mueang_loei",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Khok Samrong",
+"district_lower" : "khok_samrong",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Rong Kham",
+"district_lower" : "rong_kham",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Non Sung",
+"district_lower" : "non_sung",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Bang Su",
+"district_lower" : "bang_su",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Wiang Nong Long",
+"district_lower" : "wiang_nong_long",
+"province_lower" : "lamphun"
+}
+,
+{
+
+"district" : "Huai Rat",
+"district_lower" : "huai_rat",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Prachantakham",
+"district_lower" : "prachantakham",
+"province_lower" : "prachinburi"
+}
+,
+{
+
+"district" : "Phra Khanong",
+"district_lower" : "phra_khanong",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Bang Bo",
+"district_lower" : "bang_bo",
+"province_lower" : "samutprakan"
+}
+,
+{
+
+"district" : "Na Dun",
+"district_lower" : "na_dun",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Phutthamonthon",
+"district_lower" : "phutthamonthon",
+"province_lower" : "nakhonpathom"
+}
+,
+{
+
+"district" : "Samko",
+"district_lower" : "samko",
+"province_lower" : "angthong"
+}
+,
+{
+
+"district" : "Selaphum",
+"district_lower" : "selaphum",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Ban Khai",
+"district_lower" : "ban_khai",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Mueang Surin",
+"district_lower" : "mueang_surin",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Phu Wiang",
+"district_lower" : "phu_wiang",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Bueng Bun",
+"district_lower" : "bueng_bun",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Song Phi Nong",
+"district_lower" : "song_phi_nong",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Phu Phiang",
+"district_lower" : "phu_phiang",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Kra Buri",
+"district_lower" : "kra_buri",
+"province_lower" : "ranong"
+}
+,
+{
+
+"district" : "Sankhaburi",
+"district_lower" : "sankhaburi",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Ban Na",
+"district_lower" : "ban_na",
+"province_lower" : "nakhonnayok"
+}
+,
+{
+
+"district" : "Chai Prakan",
+"district_lower" : "chai_prakan",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Song",
+"district_lower" : "song",
+"province_lower" : "phrae"
+}
+,
+{
+
+"district" : "Mueang Uttaradit",
+"district_lower" : "mueang_uttaradit",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Suwannaphum",
+"district_lower" : "suwannaphum",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Lat Lum Kaeo",
+"district_lower" : "lat_lum_kaeo",
+"province_lower" : "pathumthani"
+}
+,
+{
+
+"district" : "Na Thawi",
+"district_lower" : "na_thawi",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Mueang Prachuap Khiri Khan",
+"district_lower" : "mueang_prachuap_khiri_khan",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Renu Nakhon",
+"district_lower" : "renu_nakhon",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Thanyaburi",
+"district_lower" : "thanyaburi",
+"province_lower" : "pathumthani"
+}
+,
+{
+
+"district" : "Khai Bang Rachan",
+"district_lower" : "khai_bang_rachan",
+"province_lower" : "singburi"
+}
+,
+{
+
+"district" : "Na Wa",
+"district_lower" : "na_wa",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Ku Kaeo",
+"district_lower" : "ku_kaeo",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Bang Phae",
+"district_lower" : "bang_phae",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Bang Rachan",
+"district_lower" : "bang_rachan",
+"province_lower" : "singburi"
+}
+,
+{
+
+"district" : "Phu Phaman",
+"district_lower" : "phu_phaman",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Khao Wong",
+"district_lower" : "khao_wong",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Thung  Wa",
+"district_lower" : "thung__wa",
+"province_lower" : "satun"
+}
+,
+{
+
+"district" : "Khon San",
+"district_lower" : "khon_san",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Khueang Nai",
+"district_lower" : "khueang_nai",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Nong Sung",
+"district_lower" : "nong_sung",
+"province_lower" : "mukdahan"
+}
+,
+{
+
+"district" : "Chai Badan",
+"district_lower" : "chai_badan",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Mueang Si Sa Ket",
+"district_lower" : "mueang_si_sa_ket",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Ko kha",
+"district_lower" : "ko_kha",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Samrong Thap",
+"district_lower" : "samrong_thap",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Nong Chok",
+"district_lower" : "nong_chok",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Chiang Khwan",
+"district_lower" : "chiang_khwan",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Bang Na",
+"district_lower" : "bang_na",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Pho Si Suwan",
+"district_lower" : "pho_si_suwan",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Thawat Buri",
+"district_lower" : "thawat_buri",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Nong Khaem",
+"district_lower" : "nong_khaem",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Wang Noi",
+"district_lower" : "wang_noi",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Huai Thalaeng",
+"district_lower" : "huai_thalaeng",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Phrom Khiri",
+"district_lower" : "phrom_khiri",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Sapphaya",
+"district_lower" : "sapphaya",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Khao Chaison",
+"district_lower" : "khao_chaison",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Krok Phra",
+"district_lower" : "krok_phra",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Srinagarindra",
+"district_lower" : "srinagarindra",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Phayakkhaphum Phisai",
+"district_lower" : "phayakkhaphum_phisai",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Ratsada",
+"district_lower" : "ratsada",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Khamcha-i",
+"district_lower" : "khamcha-i",
+"province_lower" : "mukdahan"
+}
+,
+{
+
+"district" : "Samrong",
+"district_lower" : "samrong",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Mueang Sakon Nakhon",
+"district_lower" : "mueang_sakon_nakhon",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Nang Rong",
+"district_lower" : "nang_rong",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Pua",
+"district_lower" : "pua",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Wang Thong Lang",
+"district_lower" : "wang_thong_lang",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Thung Khao Luang",
+"district_lower" : "thung_khao_luang",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Mueang Kamphaeng Phet",
+"district_lower" : "mueang_kamphaeng_phet",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Bang Len",
+"district_lower" : "bang_len",
+"province_lower" : "nakhonpathom"
+}
+,
+{
+
+"district" : "Phanom Thuan",
+"district_lower" : "phanom_thuan",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Ban Dung",
+"district_lower" : "ban_dung",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Phon",
+"district_lower" : "phon",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Bang Khen",
+"district_lower" : "bang_khen",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Tak Bai",
+"district_lower" : "tak_bai",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Mae Sot",
+"district_lower" : "mae_sot",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Yi-ngo",
+"district_lower" : "yi-ngo",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Trakan Phuet Phon",
+"district_lower" : "trakan_phuet_phon",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Kantharawichai",
+"district_lower" : "kantharawichai",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Sak Lek",
+"district_lower" : "sak_lek",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "La-un",
+"district_lower" : "la-un",
+"province_lower" : "ranong"
+}
+,
+{
+
+"district" : "Su-ngai Kolok",
+"district_lower" : "su-ngai_kolok",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "At Samat",
+"district_lower" : "at_samat",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Yaha",
+"district_lower" : "yaha",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Lat Bua Luang",
+"district_lower" : "lat_bua_luang",
+"province_lower" : "phranakhonsiayutthaya"
+}
+,
+{
+
+"district" : "Kham Khuean Kaeo",
+"district_lower" : "kham_khuean_kaeo",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Yan Ta Khao",
+"district_lower" : "yan_ta_khao",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Wihan Daeng",
+"district_lower" : "wihan_daeng",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Tha Uthen",
+"district_lower" : "tha_uthen",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Chom Phra",
+"district_lower" : "chom_phra",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Thawi Watthana",
+"district_lower" : "thawi_watthana",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Pai",
+"district_lower" : "pai",
+"province_lower" : "maehongson"
+}
+,
+{
+
+"district" : "Sahatsakhan",
+"district_lower" : "sahatsakhan",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Takhli",
+"district_lower" : "takhli",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Nong Ki",
+"district_lower" : "nong_ki",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Chum Phae",
+"district_lower" : "chum_phae",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Ban Khwao",
+"district_lower" : "ban_khwao",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Khuan Khanun",
+"district_lower" : "khuan_khanun",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Kanchanadit",
+"district_lower" : "kanchanadit",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Rasi Salai",
+"district_lower" : "rasi_salai",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Chawang",
+"district_lower" : "chawang",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Mueang Trat",
+"district_lower" : "mueang_trat",
+"province_lower" : "trat"
+}
+,
+{
+
+"district" : "Kuchinarai",
+"district_lower" : "kuchinarai",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Nikhom Nam un",
+"district_lower" : "nikhom_nam_un",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Khun Han",
+"district_lower" : "khun_han",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Chaturaphak Phiman",
+"district_lower" : "chaturaphak_phiman",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Laem Ngop",
+"district_lower" : "laem_ngop",
+"province_lower" : "trat"
+}
+,
+{
+
+"district" : "U Thong",
+"district_lower" : "u_thong",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Bang Krathum",
+"district_lower" : "bang_krathum",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Huai Mek",
+"district_lower" : "huai_mek",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Kosum Phisai",
+"district_lower" : "kosum_phisai",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Chiang Yuen",
+"district_lower" : "chiang_yuen",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Yang Sisurat",
+"district_lower" : "yang_sisurat",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Sanom",
+"district_lower" : "sanom",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Ban Bueng",
+"district_lower" : "ban_bueng",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Wanon Niwat",
+"district_lower" : "wanon_niwat",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Kathu",
+"district_lower" : "kathu",
+"province_lower" : "phuket"
+}
+,
+{
+
+"district" : "Pueai Noi",
+"district_lower" : "pueai_noi",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Phrai Bueng",
+"district_lower" : "phrai_bueng",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Pho Chai",
+"district_lower" : "pho_chai",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Phan",
+"district_lower" : "phan",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Moei Wadi",
+"district_lower" : "moei_wadi",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Nong Kung Si",
+"district_lower" : "nong_kung_si",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Kapho",
+"district_lower" : "kapho",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Chonnabot",
+"district_lower" : "chonnabot",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Waritchaphum",
+"district_lower" : "waritchaphum",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Si Mahosot",
+"district_lower" : "si_mahosot",
+"province_lower" : "prachinburi"
+}
+,
+{
+
+"district" : "Mae Tha",
+"district_lower" : "mae_tha",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Mae Lan",
+"district_lower" : "mae_lan",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Waeng",
+"district_lower" : "waeng",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Kanthararom",
+"district_lower" : "kanthararom",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Non Sila",
+"district_lower" : "non_sila",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Tha Sala",
+"district_lower" : "tha_sala",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Khong Chai",
+"district_lower" : "khong_chai",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Cha-am",
+"district_lower" : "cha-am",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Phayuha Hkiri",
+"district_lower" : "phayuha_hkiri",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Mae Sai",
+"district_lower" : "mae_sai",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Mae On",
+"district_lower" : "mae_on",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Thap Sakae",
+"district_lower" : "thap_sakae",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Mueang Amnat Charoen",
+"district_lower" : "mueang_amnat_charoen",
+"province_lower" : "amnatcharoen"
+}
+,
+{
+
+"district" : "Na Wang",
+"district_lower" : "na_wang",
+"province_lower" : "nongbualamphu"
+}
+,
+{
+
+"district" : "Wang Hin",
+"district_lower" : "wang_hin",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Cha-uat",
+"district_lower" : "cha-uat",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Nong Bua",
+"district_lower" : "nong_bua",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Na Kae",
+"district_lower" : "na_kae",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Doi Tao",
+"district_lower" : "doi_tao",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Thung Yang Daeng",
+"district_lower" : "thung_yang_daeng",
+"province_lower" : "pattani"
+}
+,
+{
+
+"district" : "Phanom Sarakham",
+"district_lower" : "phanom_sarakham",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Phra Phrom",
+"district_lower" : "phra_phrom",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Phon Thong",
+"district_lower" : "phon_thong",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Maha Chana Chai",
+"district_lower" : "maha_chana_chai",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Lue Amnat",
+"district_lower" : "lue_amnat",
+"province_lower" : "amnatcharoen"
+}
+,
+{
+
+"district" : "Tha Bo",
+"district_lower" : "tha_bo",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Borabue",
+"district_lower" : "borabue",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Khon Sawan",
+"district_lower" : "khon_sawan",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Sam Sung",
+"district_lower" : "sam_sung",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Si Prachan",
+"district_lower" : "si_prachan",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Bang Kaeo",
+"district_lower" : "bang_kaeo",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Yang Talat",
+"district_lower" : "yang_talat",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Thung Fon",
+"district_lower" : "thung_fon",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Prasat",
+"district_lower" : "prasat",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Sang Khom",
+"district_lower" : "sang_khom",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Suwannakhuha",
+"district_lower" : "suwannakhuha",
+"province_lower" : "nongbualamphu"
+}
+,
+{
+
+"district" : "Phon Charoen",
+"district_lower" : "phon_charoen",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "khlong Luang",
+"district_lower" : "khlong_luang",
+"province_lower" : "pathumthani"
+}
+,
+{
+
+"district" : "Wapi Pathum",
+"district_lower" : "wapi_pathum",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Chanae",
+"district_lower" : "chanae",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Lam Luk Ka",
+"district_lower" : "lam_luk_ka",
+"province_lower" : "pathumthani"
+}
+,
+{
+
+"district" : "Bang Sao Thong",
+"district_lower" : "bang_sao_thong",
+"province_lower" : "samutprakan"
+}
+,
+{
+
+"district" : "Non Narai",
+"district_lower" : "non_narai",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Bung Kum",
+"district_lower" : "bung_kum",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Mueang Kalasin",
+"district_lower" : "mueang_kalasin",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Sai Noi",
+"district_lower" : "sai_noi",
+"province_lower" : "nonthaburi"
+}
+,
+{
+
+"district" : "Chamni",
+"district_lower" : "chamni",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Su-ngai Padi",
+"district_lower" : "su-ngai_padi",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Na Mom",
+"district_lower" : "na_mom",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Manorom",
+"district_lower" : "manorom",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Yang Chum Noi",
+"district_lower" : "yang_chum_noi",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Si Mueang Mai",
+"district_lower" : "si_mueang_mai",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Tha Pla",
+"district_lower" : "tha_pla",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Nong Hi",
+"district_lower" : "nong_hi",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Suan Luang",
+"district_lower" : "suan_luang",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Na Chueak",
+"district_lower" : "na_chueak",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Nong Bunmak",
+"district_lower" : "nong_bunmak",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Bua Yai",
+"district_lower" : "bua_yai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Sirindhorn",
+"district_lower" : "sirindhorn",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Phrom Phiram",
+"district_lower" : "phrom_phiram",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Phra Yuen",
+"district_lower" : "phra_yuen",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Mueang Chan",
+"district_lower" : "mueang_chan",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Khiri Rat Nikhom",
+"district_lower" : "khiri_rat_nikhom",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Min Buri",
+"district_lower" : "min_buri",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Bang Phli",
+"district_lower" : "bang_phli",
+"province_lower" : "samutprakan"
+}
+,
+{
+
+"district" : "Chok Chai",
+"district_lower" : "chok_chai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Na Khu",
+"district_lower" : "na_khu",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Mae Lao",
+"district_lower" : "mae_lao",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Kranuan",
+"district_lower" : "kranuan",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Ban Na Doem",
+"district_lower" : "ban_na_doem",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Somdet",
+"district_lower" : "somdet",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Phayu",
+"district_lower" : "phayu",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Kae Dam",
+"district_lower" : "kae_dam",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Si Chiang Mai",
+"district_lower" : "si_chiang_mai",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Prang Ku",
+"district_lower" : "prang_ku",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Ban Dan",
+"district_lower" : "ban_dan",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Ongkharak",
+"district_lower" : "ongkharak",
+"province_lower" : "nakhonnayok"
+}
+,
+{
+
+"district" : "Chuen Chom",
+"district_lower" : "chuen_chom",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Sida",
+"district_lower" : "sida",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Kong Ra",
+"district_lower" : "kong_ra",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Khanna Yao",
+"district_lower" : "khanna_yao",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Kamalasai",
+"district_lower" : "kamalasai",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Nong Hong",
+"district_lower" : "nong_hong",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Pho Thale",
+"district_lower" : "pho_thale",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Ban Lueam",
+"district_lower" : "ban_lueam",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Nam Phong",
+"district_lower" : "nam_phong",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Chiang Klang",
+"district_lower" : "chiang_klang",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Wiang Sa",
+"district_lower" : "wiang_sa",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Huai Thap Than",
+"district_lower" : "huai_thap_than",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Ban Mai Chaiyaphot",
+"district_lower" : "ban_mai_chaiyaphot",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Kham Muang",
+"district_lower" : "kham_muang",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Mueang Chaiyaphum",
+"district_lower" : "mueang_chaiyaphum",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Ban Sang",
+"district_lower" : "ban_sang",
+"province_lower" : "prachinburi"
+}
+,
+{
+
+"district" : "Nong Don",
+"district_lower" : "nong_don",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Thoeng",
+"district_lower" : "thoeng",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Mueang Suang",
+"district_lower" : "mueang_suang",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Pakham",
+"district_lower" : "pakham",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Pho Tak",
+"district_lower" : "pho_tak",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Lat Yao",
+"district_lower" : "lat_yao",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Tron",
+"district_lower" : "tron",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Khon Buri",
+"district_lower" : "khon_buri",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Prakhon Chai",
+"district_lower" : "prakhon_chai",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Kantharalak",
+"district_lower" : "kantharalak",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Saphan Sung",
+"district_lower" : "saphan_sung",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Muang Sam Sip",
+"district_lower" : "muang_sam_sip",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Don Tan",
+"district_lower" : "don_tan",
+"province_lower" : "mukdahan"
+}
+,
+{
+
+"district" : "Krasang",
+"district_lower" : "krasang",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Sila Lat",
+"district_lower" : "sila_lat",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Si Sakhon",
+"district_lower" : "si_sakhon",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Phran Kratai",
+"district_lower" : "phran_kratai",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Kabin Buri",
+"district_lower" : "kabin_buri",
+"province_lower" : "prachinburi"
+}
+,
+{
+
+"district" : "Si Nakhon",
+"district_lower" : "si_nakhon",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Ban Phue",
+"district_lower" : "ban_phue",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Lao Suea Kok",
+"district_lower" : "lao_suea_kok",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Na Yai Am",
+"district_lower" : "na_yai_am",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Si Satchanalai",
+"district_lower" : "si_satchanalai",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Si Rattana",
+"district_lower" : "si_rattana",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Kui Buri",
+"district_lower" : "kui_buri",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Non Din Daeng",
+"district_lower" : "non_din_daeng",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Long",
+"district_lower" : "long",
+"province_lower" : "phrae"
+}
+,
+{
+
+"district" : "Hua Taphan",
+"district_lower" : "hua_taphan",
+"province_lower" : "amnatcharoen"
+}
+,
+{
+
+"district" : "Waeng Yai",
+"district_lower" : "waeng_yai",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Nong Song Hong",
+"district_lower" : "nong_song_hong",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Khiri Mat",
+"district_lower" : "khiri_mat",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Ban Hong",
+"district_lower" : "ban_hong",
+"province_lower" : "lamphun"
+}
+,
+{
+
+"district" : "Sam Chuk",
+"district_lower" : "sam_chuk",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Den Chai",
+"district_lower" : "den_chai",
+"province_lower" : "phrae"
+}
+,
+{
+
+"district" : "Ubolratana",
+"district_lower" : "ubolratana",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Prathai",
+"district_lower" : "prathai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Pa Daet",
+"district_lower" : "pa_daet",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Khao Suan Kwang",
+"district_lower" : "khao_suan_kwang",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Lam Sonthi",
+"district_lower" : "lam_sonthi",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Si Bun Rueang",
+"district_lower" : "si_bun_rueang",
+"province_lower" : "nongbualamphu"
+}
+,
+{
+
+"district" : "Hankha",
+"district_lower" : "hankha",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Dan Sai",
+"district_lower" : "dan_sai",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Ron Phibun",
+"district_lower" : "ron_phibun",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Dong Charoen",
+"district_lower" : "dong_charoen",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Lamtaman Chai",
+"district_lower" : "lamtaman_chai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Pla Pak",
+"district_lower" : "pla_pak",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Sawang Daen Din",
+"district_lower" : "sawang_daen_din",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Satuek",
+"district_lower" : "satuek",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Rattanaburi",
+"district_lower" : "rattanaburi",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Phutthaisong",
+"district_lower" : "phutthaisong",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Khuan Niang",
+"district_lower" : "khuan_niang",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Dan Khun Thot",
+"district_lower" : "dan_khun_thot",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Rattanawapi",
+"district_lower" : "rattanawapi",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Rueso",
+"district_lower" : "rueso",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Khwao Sinarin",
+"district_lower" : "khwao_sinarin",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Pathum Rat",
+"district_lower" : "pathum_rat",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Mueang Nong Bua Lam Phu",
+"district_lower" : "mueang_nong_bua_lam_phu",
+"province_lower" : "nongbualamphu"
+}
+,
+{
+
+"district" : "Mae Ai",
+"district_lower" : "mae_ai",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Ban Na San",
+"district_lower" : "ban_na_san",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Pa Phayom",
+"district_lower" : "pa_phayom",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Ban Phaeng",
+"district_lower" : "ban_phaeng",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Bang Nam Priao",
+"district_lower" : "bang_nam_priao",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Khok Si Suphan",
+"district_lower" : "khok_si_suphan",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Si Chomphu",
+"district_lower" : "si_chomphu",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Kham Sakaesaeng",
+"district_lower" : "kham_sakaesaeng",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Nong Ruea",
+"district_lower" : "nong_ruea",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Phon Sai",
+"district_lower" : "phon_sai",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Hua Hin",
+"district_lower" : "hua_hin",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Nam Kliang",
+"district_lower" : "nam_kliang",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Non Thai",
+"district_lower" : "non_thai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Khlong Khlung",
+"district_lower" : "khlong_khlung",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Pran Buri",
+"district_lower" : "pran_buri",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Si Khio",
+"district_lower" : "si_khio",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Chatuchak",
+"district_lower" : "chatuchak",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Wiang Pa Pao",
+"district_lower" : "wiang_pa_pao",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Hang Chat",
+"district_lower" : "hang_chat",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Sikhoraphum",
+"district_lower" : "sikhoraphum",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Wang Nuea",
+"district_lower" : "wang_nuea",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Sai Mun",
+"district_lower" : "sai_mun",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Thap Put",
+"district_lower" : "thap_put",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Ratchasan",
+"district_lower" : "ratchasan",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Kham Thale So",
+"district_lower" : "kham_thale_so",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Benchalak",
+"district_lower" : "benchalak",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Mueang Khon Kaen",
+"district_lower" : "mueang_khon_kaen",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Phanna Nikhom",
+"district_lower" : "phanna_nikhom",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Chumphon Buri",
+"district_lower" : "chumphon_buri",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Rattaphum",
+"district_lower" : "rattaphum",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Nikhom Kham Soi",
+"district_lower" : "nikhom_kham_soi",
+"province_lower" : "mukdahan"
+}
+,
+{
+
+"district" : "Banphot Phisai",
+"district_lower" : "banphot_phisai",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Tha Sae",
+"district_lower" : "tha_sae",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Krong Pinang",
+"district_lower" : "krong_pinang",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Pho Sai",
+"district_lower" : "pho_sai",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Bang Bon",
+"district_lower" : "bang_bon",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Bua Lai",
+"district_lower" : "bua_lai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Tao Ngoi",
+"district_lower" : "tao_ngoi",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Lamduan",
+"district_lower" : "lamduan",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Kaset Wisai",
+"district_lower" : "kaset_wisai",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Kut Chum",
+"district_lower" : "kut_chum",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Si That",
+"district_lower" : "si_that",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Senangkhanikhom",
+"district_lower" : "senangkhanikhom",
+"province_lower" : "amnatcharoen"
+}
+,
+{
+
+"district" : "Det Udom",
+"district_lower" : "det_udom",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Phu Sing",
+"district_lower" : "phu_sing",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Lan Saka",
+"district_lower" : "lan_saka",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Phanom",
+"district_lower" : "phanom",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Ban Rai",
+"district_lower" : "ban_rai",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Na Pho",
+"district_lower" : "na_pho",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Bang Saphan",
+"district_lower" : "bang_saphan",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Don Mot Daeng",
+"district_lower" : "don_mot_daeng",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Non Sang",
+"district_lower" : "non_sang",
+"province_lower" : "nongbualamphu"
+}
+,
+{
+
+"district" : "Tha Phae",
+"district_lower" : "tha_phae",
+"province_lower" : "satun"
+}
+,
+{
+
+"district" : "Tha Tum",
+"district_lower" : "tha_tum",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Phichai",
+"district_lower" : "phichai",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Nam Som",
+"district_lower" : "nam_som",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Waeng Noi",
+"district_lower" : "waeng_noi",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Don Chan",
+"district_lower" : "don_chan",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Pa Tio",
+"district_lower" : "pa_tio",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Mueang Kanchanaburi",
+"district_lower" : "mueang_kanchanaburi",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Bang Saphan Noi",
+"district_lower" : "bang_saphan_noi",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Nong Bua Rawe",
+"district_lower" : "nong_bua_rawe",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Na Klang",
+"district_lower" : "na_klang",
+"province_lower" : "nongbualamphu"
+}
+,
+{
+
+"district" : "Wat Bot",
+"district_lower" : "wat_bot",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Ra-ngae",
+"district_lower" : "ra-ngae",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Thai Charoen",
+"district_lower" : "thai_charoen",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Don Mueang",
+"district_lower" : "don_mueang",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Pak Khat",
+"district_lower" : "pak_khat",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "Non Khun",
+"district_lower" : "non_khun",
+"province_lower" : "sisaket"
+}
+,
+{
+
+"district" : "Tha Chana",
+"district_lower" : "tha_chana",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Bamnet Narong",
+"district_lower" : "bamnet_narong",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Chiang Khan",
+"district_lower" : "chiang_khan",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Non Daeng",
+"district_lower" : "non_daeng",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Wang Saphung",
+"district_lower" : "wang_saphung",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Tan Sum",
+"district_lower" : "tan_sum",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Na Mon",
+"district_lower" : "na_mon",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Ban Fang",
+"district_lower" : "ban_fang",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Tak Fa",
+"district_lower" : "tak_fa",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Khlong Hoi Khong",
+"district_lower" : "khlong_hoi_khong",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Nong Wua So",
+"district_lower" : "nong_wua_so",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Bueng Samakkhi",
+"district_lower" : "bueng_samakkhi",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Huai Phueng",
+"district_lower" : "huai_phueng",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Phana",
+"district_lower" : "phana",
+"province_lower" : "amnatcharoen"
+}
+,
+{
+
+"district" : "Ban Ta Khun",
+"district_lower" : "ban_ta_khun",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Khemarat",
+"district_lower" : "khemarat",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Kho Wang",
+"district_lower" : "kho_wang",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Nong Muang",
+"district_lower" : "nong_muang",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Khong",
+"district_lower" : "khong",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Thung Si Udom",
+"district_lower" : "thung_si_udom",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Kaeng Khro",
+"district_lower" : "kaeng_khro",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Phipun",
+"district_lower" : "phipun",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Chang Klang",
+"district_lower" : "chang_klang",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Ban Kruat",
+"district_lower" : "ban_kruat",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Pathum Ratchawongsa",
+"district_lower" : "pathum_ratchawongsa",
+"province_lower" : "amnatcharoen"
+}
+,
+{
+
+"district" : "Tha Luang",
+"district_lower" : "tha_luang",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Chakkarat",
+"district_lower" : "chakkarat",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Nong Suea",
+"district_lower" : "nong_suea",
+"province_lower" : "pathumthani"
+}
+,
+{
+
+"district" : "Prachaksinlapakhom",
+"district_lower" : "prachaksinlapakhom",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Phu Luang",
+"district_lower" : "phu_luang",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Khao Chakan",
+"district_lower" : "khao_chakan",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Nong Na Kham",
+"district_lower" : "nong_na_kham",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Bueng Kan",
+"district_lower" : "bueng_kan",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "Non Sa-at",
+"district_lower" : "non_sa-at",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Kap Choeng",
+"district_lower" : "kap_choeng",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Makham",
+"district_lower" : "makham",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Ban Chang",
+"district_lower" : "ban_chang",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Thung Saliam",
+"district_lower" : "thung_saliam",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Ban Luang",
+"district_lower" : "ban_luang",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Nakhon Thai",
+"district_lower" : "nakhon_thai",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Sakhrai",
+"district_lower" : "sakhrai",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Sichon",
+"district_lower" : "sichon",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Thoen",
+"district_lower" : "thoen",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Si Songkhram",
+"district_lower" : "si_songkhram",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Sadao",
+"district_lower" : "sadao",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Sawang Arom",
+"district_lower" : "sawang_arom",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Chum Phuang",
+"district_lower" : "chum_phuang",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Wiang Chai",
+"district_lower" : "wiang_chai",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Than To",
+"district_lower" : "than_to",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Phimai",
+"district_lower" : "phimai",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Nong Phok",
+"district_lower" : "nong_phok",
+"province_lower" : "roiet"
+}
+,
+{
+
+"district" : "Fao Rai",
+"district_lower" : "fao_rai",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Fang",
+"district_lower" : "fang",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Bo Thong",
+"district_lower" : "bo_thong",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Kaset Sombun",
+"district_lower" : "kaset_sombun",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Phon Na Kaeo",
+"district_lower" : "phon_na_kaeo",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Tamot",
+"district_lower" : "tamot",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Wachirabarami",
+"district_lower" : "wachirabarami",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Phra Thong Kham",
+"district_lower" : "phra_thong_kham",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Phanh khon",
+"district_lower" : "phanh_khon",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Ban Thaen",
+"district_lower" : "ban_thaen",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Bueng Sam Phan",
+"district_lower" : "bueng_sam_phan",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Tha Tako",
+"district_lower" : "tha_tako",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Don Chedi",
+"district_lower" : "don_chedi",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Lamae",
+"district_lower" : "lamae",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Tha Khantho",
+"district_lower" : "tha_khantho",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Phaya Mengrai",
+"district_lower" : "phaya_mengrai",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Lan Krabue",
+"district_lower" : "lan_krabue",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Lahan Sai",
+"district_lower" : "lahan_sai",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Kut Khaopun",
+"district_lower" : "kut_khaopun",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Wang Chan",
+"district_lower" : "wang_chan",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Akat Amnuai",
+"district_lower" : "akat_amnuai",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Phlapphla Chai",
+"district_lower" : "phlapphla_chai",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Khaen Dong",
+"district_lower" : "khaen_dong",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Kut Rang",
+"district_lower" : "kut_rang",
+"province_lower" : "mahasarakham"
+}
+,
+{
+
+"district" : "Sap Yai",
+"district_lower" : "sap_yai",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Buachet",
+"district_lower" : "buachet",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Phon Phisai",
+"district_lower" : "phon_phisai",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "Sam Ngao",
+"district_lower" : "sam_ngao",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Na Tan",
+"district_lower" : "na_tan",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Pho Prathap Chang",
+"district_lower" : "pho_prathap_chang",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Nong Mamong",
+"district_lower" : "nong_mamong",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Na Duang",
+"district_lower" : "na_duang",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Phon Sawan",
+"district_lower" : "phon_sawan",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Khao kho",
+"district_lower" : "khao_kho",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Khong Chiam",
+"district_lower" : "khong_chiam",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Phrasaeng",
+"district_lower" : "phrasaeng",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Wiang Kao",
+"district_lower" : "wiang_kao",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Phatthana Nikhom",
+"district_lower" : "phatthana_nikhom",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Kosamphi Nakhon",
+"district_lower" : "kosamphi_nakhon",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Bang Rakam",
+"district_lower" : "bang_rakam",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Wang Thong",
+"district_lower" : "wang_thong",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Kaeng Sanam Nang",
+"district_lower" : "kaeng_sanam_nang",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Khu Mueang",
+"district_lower" : "khu_mueang",
+"province_lower" : "buriram"
+}
+,
+{
+
+"district" : "Bueng Na Rang",
+"district_lower" : "bueng_na_rang",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Sam Ngam",
+"district_lower" : "sam_ngam",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Ban Haet",
+"district_lower" : "ban_haet",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Khok Sung",
+"district_lower" : "khok_sung",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Chatturat",
+"district_lower" : "chatturat",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Si Thep",
+"district_lower" : "si_thep",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Phu Khiao",
+"district_lower" : "phu_khiao",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Bueng Khong Long",
+"district_lower" : "bueng_khong_long",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "Seka",
+"district_lower" : "seka",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "Bang Khun Thian",
+"district_lower" : "bang_khun_thian",
+"province_lower" : "bangkok"
+}
+,
+{
+
+"district" : "Khanu Woralaksaburi",
+"district_lower" : "khanu_woralaksaburi",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Chae Hom",
+"district_lower" : "chae_hom",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Mueang Sa Kaeo",
+"district_lower" : "mueang_sa_kaeo",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Chiang Saen",
+"district_lower" : "chiang_saen",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Si Narong",
+"district_lower" : "si_narong",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Phanom Dong Rak",
+"district_lower" : "phanom_dong_rak",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Phen",
+"district_lower" : "phen",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Ban Tak",
+"district_lower" : "ban_tak",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Watthana Nakhon",
+"district_lower" : "watthana_nakhon",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Wang Pong",
+"district_lower" : "wang_pong",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Sangkhom",
+"district_lower" : "sangkhom",
+"province_lower" : "nongkhai"
+}
+,
+{
+
+"district" : "So Phisai",
+"district_lower" : "so_phisai",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "Nong Phai",
+"district_lower" : "nong_phai",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Chiang Khong",
+"district_lower" : "chiang_khong",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Loeng Nok Tha",
+"district_lower" : "loeng_nok_tha",
+"province_lower" : "yasothon"
+}
+,
+{
+
+"district" : "Wiang Haeng",
+"district_lower" : "wiang_haeng",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Sam Chai",
+"district_lower" : "sam_chai",
+"province_lower" : "kalasin"
+}
+,
+{
+
+"district" : "Sawang Wirawong",
+"district_lower" : "sawang_wirawong",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Sangkha",
+"district_lower" : "sangkha",
+"province_lower" : "surin"
+}
+,
+{
+
+"district" : "Thepha",
+"district_lower" : "thepha",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Wang Wiset",
+"district_lower" : "wang_wiset",
+"province_lower" : "trang"
+}
+,
+{
+
+"district" : "Wang Muang",
+"district_lower" : "wang_muang",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Noen Sa-nga",
+"district_lower" : "noen_sa-nga",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Na Chaluai",
+"district_lower" : "na_chaluai",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Khlong Hat",
+"district_lower" : "khlong_hat",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Ban Thi",
+"district_lower" : "ban_thi",
+"province_lower" : "lamphun"
+}
+,
+{
+
+"district" : "Santi Suk",
+"district_lower" : "santi_suk",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Si Banphot",
+"district_lower" : "si_banphot",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Nikhom Phatthana",
+"district_lower" : "nikhom_phatthana",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Wichian Buri",
+"district_lower" : "wichian_buri",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Si Wilai",
+"district_lower" : "si_wilai",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "Nopphitam",
+"district_lower" : "nopphitam",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Wang Sai Phun",
+"district_lower" : "wang_sai_phun",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Pha  Khao",
+"district_lower" : "pha__khao",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Na Di",
+"district_lower" : "na_di",
+"province_lower" : "prachinburi"
+}
+,
+{
+
+"district" : "Khok Pho Chai",
+"district_lower" : "khok_pho_chai",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Na Noi",
+"district_lower" : "na_noi",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Song Dao",
+"district_lower" : "song_dao",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Tham Phannara",
+"district_lower" : "tham_phannara",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Dan Makham Tia",
+"district_lower" : "dan_makham_tia",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Mae Charim",
+"district_lower" : "mae_charim",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Takua Thung",
+"district_lower" : "takua_thung",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Chanuman",
+"district_lower" : "chanuman",
+"province_lower" : "amnatcharoen"
+}
+,
+{
+
+"district" : "Kut Chap",
+"district_lower" : "kut_chap",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Wang Sam Mo",
+"district_lower" : "wang_sam_mo",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Na Bon",
+"district_lower" : "na_bon",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Charoen Sin",
+"district_lower" : "charoen_sin",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Khian Sa",
+"district_lower" : "khian_sa",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Mueang Yang",
+"district_lower" : "mueang_yang",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Wang Chao",
+"district_lower" : "wang_chao",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Cho-airong",
+"district_lower" : "cho-airong",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Pa Bon",
+"district_lower" : "pa_bon",
+"province_lower" : "phatthalung"
+}
+,
+{
+
+"district" : "Na Yia",
+"district_lower" : "na_yia",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Nam Yuen",
+"district_lower" : "nam_yuen",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Lam Thap",
+"district_lower" : "lam_thap",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Sai Thong Watthana",
+"district_lower" : "sai_thong_watthana",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Khun Tan",
+"district_lower" : "khun_tan",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Sukhirin",
+"district_lower" : "sukhirin",
+"province_lower" : "narathiwat"
+}
+,
+{
+
+"district" : "Nong Hin",
+"district_lower" : "nong_hin",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Thepharak",
+"district_lower" : "thepharak",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Ban Dan Lan Hoi",
+"district_lower" : "ban_dan_lan_hoi",
+"province_lower" : "sukhothai"
+}
+,
+{
+
+"district" : "Hot",
+"district_lower" : "hot",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Um Phang",
+"district_lower" : "um_phang",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Tha Li",
+"district_lower" : "tha_li",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Nong Yai",
+"district_lower" : "nong_yai",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Boontharik",
+"district_lower" : "boontharik",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Kaeng Hang Maeo",
+"district_lower" : "kaeng_hang_maeo",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Ban Muang",
+"district_lower" : "ban_muang",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Khao Saming",
+"district_lower" : "khao_saming",
+"province_lower" : "trat"
+}
+,
+{
+
+"district" : "Mae Suai",
+"district_lower" : "mae_suai",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Pleang Yao",
+"district_lower" : "pleang_yao",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Mancha Khiri",
+"district_lower" : "mancha_khiri",
+"province_lower" : "khonkaen"
+}
+,
+{
+
+"district" : "Lan Sak",
+"district_lower" : "lan_sak",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Tap Khlo",
+"district_lower" : "tap_khlo",
+"province_lower" : "phichit"
+}
+,
+{
+
+"district" : "Nam Khun",
+"district_lower" : "nam_khun",
+"province_lower" : "ubonratchathani"
+}
+,
+{
+
+"district" : "Phu Kradueng",
+"district_lower" : "phu_kradueng",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Thung Yai",
+"district_lower" : "thung_yai",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Khao Khitchakut",
+"district_lower" : "khao_khitchakut",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Saba Yoi",
+"district_lower" : "saba_yoi",
+"province_lower" : "songkhla"
+}
+,
+{
+
+"district" : "Nong Ya Sai",
+"district_lower" : "nong_ya_sai",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Mae Ramat",
+"district_lower" : "mae_ramat",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Wiang Kaen",
+"district_lower" : "wiang_kaen",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Pluak Daeng",
+"district_lower" : "pluak_daeng",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Bannang Sata",
+"district_lower" : "bannang_sata",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Phibun Rak",
+"district_lower" : "phibun_rak",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Huai Khot",
+"district_lower" : "huai_khot",
+"province_lower" : "uthaithani"
+}
+,
+{
+
+"district" : "Mae Phrik",
+"district_lower" : "mae_phrik",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Noen Kham",
+"district_lower" : "noen_kham",
+"province_lower" : "chainat"
+}
+,
+{
+
+"district" : "Erawan",
+"district_lower" : "erawan",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Thai Mueang",
+"district_lower" : "thai_mueang",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Ko Chan",
+"district_lower" : "ko_chan",
+"province_lower" : "chonburi"
+}
+,
+{
+
+"district" : "Noen Maprang",
+"district_lower" : "noen_maprang",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Chon Daen",
+"district_lower" : "chon_daen",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Chai Wan",
+"district_lower" : "chai_wan",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Doi Luang",
+"district_lower" : "doi_luang",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Sai Ngam",
+"district_lower" : "sai_ngam",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Soi Dao",
+"district_lower" : "soi_dao",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Kaeng Krachan",
+"district_lower" : "kaeng_krachan",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Bang Khan",
+"district_lower" : "bang_khan",
+"province_lower" : "nakhonsithammarat"
+}
+,
+{
+
+"district" : "Wang Chin",
+"district_lower" : "wang_chin",
+"province_lower" : "phrae"
+}
+,
+{
+
+"district" : "Kapong",
+"district_lower" : "kapong",
+"province_lower" : "phangnga"
+}
+,
+{
+
+"district" : "Khok Charoen",
+"district_lower" : "khok_charoen",
+"province_lower" : "lopburi"
+}
+,
+{
+
+"district" : "Bo Rai",
+"district_lower" : "bo_rai",
+"province_lower" : "trat"
+}
+,
+{
+
+"district" : "Chum Ta Bong",
+"district_lower" : "chum_ta_bong",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Phu Ruea",
+"district_lower" : "phu_ruea",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Betong",
+"district_lower" : "betong",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Wiang Chiang Rung",
+"district_lower" : "wiang_chiang_rung",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Lao Khwan",
+"district_lower" : "lao_khwan",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Pong Nam Ron",
+"district_lower" : "pong_nam_ron",
+"province_lower" : "chanthaburi"
+}
+,
+{
+
+"district" : "Plai Phraya",
+"district_lower" : "plai_phraya",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Phaisali",
+"district_lower" : "phaisali",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Na Muen",
+"district_lower" : "na_muen",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Phop Phra",
+"district_lower" : "phop_phra",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Chom Bueng",
+"district_lower" : "chom_bueng",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Khao Chamao",
+"district_lower" : "khao_chamao",
+"province_lower" : "rayong"
+}
+,
+{
+
+"district" : "Wang Nam Yen",
+"district_lower" : "wang_nam_yen",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Mae Sariang",
+"district_lower" : "mae_sariang",
+"province_lower" : "maehongson"
+}
+,
+{
+
+"district" : "Na Yung",
+"district_lower" : "na_yung",
+"province_lower" : "udonthani"
+}
+,
+{
+
+"district" : "Manang",
+"district_lower" : "manang",
+"province_lower" : "satun"
+}
+,
+{
+
+"district" : "Li",
+"district_lower" : "li",
+"province_lower" : "lamphun"
+}
+,
+{
+
+"district" : "Bung Khla",
+"district_lower" : "bung_khla",
+"province_lower" : "buengkan"
+}
+,
+{
+
+"district" : "Khuan Kalong",
+"district_lower" : "khuan_kalong",
+"province_lower" : "satun"
+}
+,
+{
+
+"district" : "Nong Ya Plong",
+"district_lower" : "nong_ya_plong",
+"province_lower" : "phetchaburi"
+}
+,
+{
+
+"district" : "Na Thom",
+"district_lower" : "na_thom",
+"province_lower" : "nakhonphanom"
+}
+,
+{
+
+"district" : "Kham Ta Kla",
+"district_lower" : "kham_ta_kla",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Kusuman",
+"district_lower" : "kusuman",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Dan Chang",
+"district_lower" : "dan_chang",
+"province_lower" : "suphanburi"
+}
+,
+{
+
+"district" : "Suan Phueng",
+"district_lower" : "suan_phueng",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Soem Ngam",
+"district_lower" : "soem_ngam",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Mae Wong",
+"district_lower" : "mae_wong",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Khlong Thom",
+"district_lower" : "khlong_thom",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Sop Prap",
+"district_lower" : "sop_prap",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Ta Phraya",
+"district_lower" : "ta_phraya",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Muak Lek",
+"district_lower" : "muak_lek",
+"province_lower" : "saraburi"
+}
+,
+{
+
+"district" : "Fak Tha",
+"district_lower" : "fak_tha",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Huai Krachao",
+"district_lower" : "huai_krachao",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Nong Bua Daeng",
+"district_lower" : "nong_bua_daeng",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Chai Buri",
+"district_lower" : "chai_buri",
+"province_lower" : "suratthani"
+}
+,
+{
+
+"district" : "Pak Chom",
+"district_lower" : "pak_chom",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Thong Saen Khan",
+"district_lower" : "thong_saen_khan",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Wang Nam Khiao",
+"district_lower" : "wang_nam_khiao",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Pang Sila Thong",
+"district_lower" : "pang_sila_thong",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Phu Phan",
+"district_lower" : "phu_phan",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Sop Moei",
+"district_lower" : "sop_moei",
+"province_lower" : "maehongson"
+}
+,
+{
+
+"district" : "Chat Trakan",
+"district_lower" : "chat_trakan",
+"province_lower" : "phitsanulok"
+}
+,
+{
+
+"district" : "Mae Fa Luang",
+"district_lower" : "mae_fa_luang",
+"province_lower" : "chiangrai"
+}
+,
+{
+
+"district" : "Na Haeo",
+"district_lower" : "na_haeo",
+"province_lower" : "loei"
+}
+,
+{
+
+"district" : "Sam Roi Yot",
+"district_lower" : "sam_roi_yot",
+"province_lower" : "prachuapkhirikhan"
+}
+,
+{
+
+"district" : "Ban Kha",
+"district_lower" : "ban_kha",
+"province_lower" : "ratchaburi"
+}
+,
+{
+
+"district" : "Nong Prue",
+"district_lower" : "nong_prue",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Mae La Noi",
+"district_lower" : "mae_la_noi",
+"province_lower" : "maehongson"
+}
+,
+{
+
+"district" : "Soeng Sang",
+"district_lower" : "soeng_sang",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Kabang",
+"district_lower" : "kabang",
+"province_lower" : "yala"
+}
+,
+{
+
+"district" : "Phakdi Chumphon",
+"district_lower" : "phakdi_chumphon",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Wang Sombun",
+"district_lower" : "wang_sombun",
+"province_lower" : "sakaeo"
+}
+,
+{
+
+"district" : "Mae Chaem",
+"district_lower" : "mae_chaem",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Sai Yok",
+"district_lower" : "sai_yok",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Pak Chong",
+"district_lower" : "pak_chong",
+"province_lower" : "nakhonratchasima"
+}
+,
+{
+
+"district" : "Thep Sathit",
+"district_lower" : "thep_sathit",
+"province_lower" : "chaiyaphum"
+}
+,
+{
+
+"district" : "Khao Phanom",
+"district_lower" : "khao_phanom",
+"province_lower" : "krabi"
+}
+,
+{
+
+"district" : "Thung Chang",
+"district_lower" : "thung_chang",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Ban Khok",
+"district_lower" : "ban_khok",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Phato",
+"district_lower" : "phato",
+"province_lower" : "chumphon"
+}
+,
+{
+
+"district" : "Bo Kluea",
+"district_lower" : "bo_kluea",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Sanam Chai Khet",
+"district_lower" : "sanam_chai_khet",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Nam Nao",
+"district_lower" : "nam_nao",
+"province_lower" : "phetchabun"
+}
+,
+{
+
+"district" : "Kut Bak",
+"district_lower" : "kut_bak",
+"province_lower" : "sakonnakhon"
+}
+,
+{
+
+"district" : "Mae Mo",
+"district_lower" : "mae_mo",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Thung Hua Chang",
+"district_lower" : "thung_hua_chang",
+"province_lower" : "lamphun"
+}
+,
+{
+
+"district" : "Mueang Pan",
+"district_lower" : "mueang_pan",
+"province_lower" : "lampang"
+}
+,
+{
+
+"district" : "Thong Pha Phum",
+"district_lower" : "thong_pha_phum",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Khun Yuam",
+"district_lower" : "khun_yuam",
+"province_lower" : "maehongson"
+}
+,
+{
+
+"district" : "Samoeng",
+"district_lower" : "samoeng",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Chiang Dao",
+"district_lower" : "chiang_dao",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Kanlayaniwatthana",
+"district_lower" : "kanlayaniwatthana",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Song Khwae",
+"district_lower" : "song_khwae",
+"province_lower" : "nan"
+}
+,
+{
+
+"district" : "Nam Pat",
+"district_lower" : "nam_pat",
+"province_lower" : "uttaradit"
+}
+,
+{
+
+"district" : "Tha Song Yang",
+"district_lower" : "tha_song_yang",
+"province_lower" : "tak"
+}
+,
+{
+
+"district" : "Si Sawat",
+"district_lower" : "si_sawat",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Bo Phloi",
+"district_lower" : "bo_phloi",
+"province_lower" : "kanchanaburi"
+}
+,
+{
+
+"district" : "Pang Mapha",
+"district_lower" : "pang_mapha",
+"province_lower" : "maehongson"
+}
+,
+{
+
+"district" : "Khlong Lan",
+"district_lower" : "khlong_lan",
+"province_lower" : "kamphaengphet"
+}
+,
+{
+
+"district" : "Omkoi",
+"district_lower" : "omkoi",
+"province_lower" : "chiangmai"
+}
+,
+{
+
+"district" : "Mae Pern",
+"district_lower" : "mae_pern",
+"province_lower" : "nakhonsawan"
+}
+,
+{
+
+"district" : "Tha Takiap",
+"district_lower" : "tha_takiap",
+"province_lower" : "chachoengsao"
+}
+,
+{
+
+"district" : "Sangkhla Buri",
+"district_lower" : "sangkhla_buri",
+"province_lower" : "kanchanaburi"
+}
+
+]
