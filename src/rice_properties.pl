@@ -138,3 +138,14 @@ has_properties(samerng1,wheat,330,none,riceTypeWheat).
 has_properties(samerng2,wheat,450,none,riceTypeWheat).
 has_properties(phrae60,wheat,285,none,none).
 has_properties(fahng60,wheat,280,none,none).
+% Update rices' properties
+has_properties(bernstein,wheat,4103,none,none).
+has_properties(emilio,wheat,4683,none,none).
+has_properties(findus,wheat,4906,none,none).
+has_properties(angelus,wheat,4504,none,none).
+has_properties(avenir,wheat,4683,none,none).
+has_properties(lukullus,wheat,3746,none,none).
+has_properties(energo,wheat,3835,none,none).
+has_properties(laurenzio,wheat,3746,none,none).
+has_properties(element,wheat,3568,none,none).
+has_properties(albertus,wheat,3434,none,none).
