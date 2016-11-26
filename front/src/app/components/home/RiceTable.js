@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {getProvince} from '../../loader/provinceLoader'
 import {connect} from 'react-redux'
 import {getSeason,getSensitivity,getRiceType} from '../../loader/universalLoader'
+import {getRiceName} from '../../loader/riceLoader'
 
 class RiceTable extends Component {
   render(){
@@ -27,7 +28,7 @@ class RiceTable extends Component {
               <tr
                 key={this.props.rices.data.indexOf(rice)}
               >
-                <td>{rice.Rice}</td>
+                <td>{getRiceName(rice.Rice)}</td>
                 <td>{getRiceType(rice.RiceType)}</td>
                 <td>{rice.Humidity!='none'? <span>{rice.Humidity} %</span>:<span>N/A</span>}</td>
                 <td>{getSeason(rice.HarvestingSeason)}</td>

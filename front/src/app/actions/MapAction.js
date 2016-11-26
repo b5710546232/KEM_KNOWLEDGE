@@ -17,11 +17,17 @@ export const loadLocation = (lat,lon) => (
             type: 'LOAD_LOCATION_SUCCESS',
             payload: (_action, _state, res) => {
               return res.json().then((data) => {
+                console.log(data);
                 data.lat = lat
                 data.lng = lon
                 let province='no'
                 let district='no'
                 let sub_district='no'
+                // let index = 0
+                // if (data.results[1].address_components[4].long_name=="Germany"){
+                //   console.log("Germany");
+                //   index = 1
+                // }
                 if (data.results&&data.results.length>=2){
                   if (data.results[1].address_components&&data.results[1].address_components.length>=3){
                     sub_district = data.results[1].address_components[0].long_name.toLowerCase().split(" ").join("_")

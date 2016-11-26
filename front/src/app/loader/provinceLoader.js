@@ -2,18 +2,22 @@ import ProvinceJSON from '../../assets/json/province.json'
 import DistrictJSON from '../../assets/json/district.json'
 import SubDistrictJSON from '../../assets/json/sub_district.json'
 
-export const getProvince = (province_name)=>{
+export const getProvince = (province_name,des)=>{
+  console.log(des,province_name);
   let province = ProvinceJSON.find((current_province)=>current_province.lowername===province_name)
+  if (!province) return province_name
   return province.name
 }
-export const getDistinct = (district) =>{
-  district = DistrictJSON.find((current_district)=>current_district.district_lower==district)
-  return district.district
+export const getDistinct = (district,des) =>{
+  console.log(des,district);
+  let district_d = DistrictJSON.find((current_district)=>current_district.district_lower==district)
+  if (!district_d) return district
+  return district_d.district
 }
-export const getSubDistrict = (subdistrict) =>{
-  console.log('ssss',sub_district);
+export const getSubDistrict = (subdistrict,des) =>{
+  console.log(des,subdistrict);
   let sub_district = SubDistrictJSON.find((current_sub_district)=>current_sub_district.sub_district_lower==subdistrict)
-  console.log(sub_district);
+  if (!sub_district) return subdistrict
   return sub_district.sub_district
 }
 export const getListOfDistrict = (province) =>{

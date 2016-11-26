@@ -182,7 +182,7 @@ class Expert extends Component {
 
           </div>:<div></div>
         }
-        <h3 className="light teal-text accent-4">Advance Rice Specification Finder</h3>
+        <h3 className="light teal-text accent-4">Rice Specification Finder</h3>
         <form id="expert">
           <Row>
             <Col s={12}></Col>
