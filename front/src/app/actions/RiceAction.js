@@ -18,6 +18,10 @@ export const loadRice = (data,path) => (
             type: 'LOAD_RICE_LIST_SUCCESS',
             payload: (_action, _state, res) => {
               return res.json().then((data) => {
+                data = data.filter((item)=>item.Humidity!='none').sort((rice1,rice2)=>(rice2.Price-rice1.Price))
+                if (path=='price') {
+                  data = data.slice(0,1)
+                }
                 return {path:path,data:data}
               })
             }

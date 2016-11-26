@@ -17,7 +17,7 @@ def get_simple_result():
     PROVINCE = request.json['province'].encode('utf-8')
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = "rules:simpleRule(Rice,RiceType,"+SUB_DIS+","+DISRICT+","+PROVINCE+",Price,SellPlace,Humidity,HarvestingSeason,Yield,PhotoPeroid)"
+    rule = "rules:simpleRule(Rice,RiceType,"+SUB_DIS+","+DISRICT+","+PROVINCE+",Region,Price,SellPlace,Humidity,HarvestingSeason,Yield,PhotoPeroid)"
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
@@ -40,7 +40,7 @@ def get_best_price():
     CurrentMonth = time.localtime(time.time()).tm_mon
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = "bestPriceRice(Rice, RiceType, SellPlace, "+SubDistrict+", Humidity, Price, PhotoPeriod, HarvestingSeason, "+str(CurrentMonth)+")"
+    rule = "bestPriceRice(Rice, RiceType, SellPlace, "+SubDistrict+", Humidity, Price, PhotoPeriod, HarvestingSeason, "+str(CurrentMonth)+",Yeild)"
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
