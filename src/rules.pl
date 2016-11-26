@@ -12,14 +12,14 @@ simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season
 
   %Work first, smart later!
   expertRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season,PhotoPeriod,Thrips,Mealybug,
-  BrownPlantHopper,WhiteBackedPlantHopper,ZigzagLeafHopper,  GreenRiceLeafHopper,RiceHispa,StemBorer,CutWorm,
+  BrownPlantHopper,WhiteBackedPlantHopper,ZigzagLeafHopper,GreenRiceLeafHopper,RiceHispa,StemBorer,CutWorm,
   RiceEarCuttingCaterpilla,RiceLeafFolder,RiceCaseWorm,RiceWhorlMaggot,RiceBlackBug,RiceGallMidge,RiceBug,
   SeedlingRotInNurseyBox,SheathRot,SheathBlight,BacterialLeafBlight,GrassyStunt,FalseSmut,Bakanae,BacterialLeafStreak,
-  NarrowBrownSpot,BrownSpot,RedStripe,LeafScald,RiceTungro,  OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,
+  NarrowBrownSpot,BrownSpot,RedStripe,LeafScald,RiceTungro,OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,
   StemRot,GallDwarf,YellowDwarf,RiceBlast) :-
     province_region_fact:has_region(Province,Region),
     rice_growth:grows_well_in(Rice,SubDis,Season),
-    rice_properties:has_properties(Rice,RiceType,_,PhotoPeriod,_), 
+    rice_properties:has_properties(Rice,RiceType,_,PhotoPeriod,_),
     province_region_fact:has_region(SellPlace,Region),
     sub_district_class:is_part_of(SubDis,Disrict),
     district_class:is_part_of(Disrict,Province),
@@ -61,7 +61,7 @@ simpleRule(Rice,RiceType,SubDis,Disrict,Province,Price,SellPlace,Humidity,Season
     valnerable_disease_to(Rice,gallDwarf,GallDwarf),
     valnerable_disease_to(Rice,yellowDwarf,YellowDwarf),
     valnerable_disease_to(Rice,riceBlast,RiceBlast),
-    ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price). 
+    ricetype_price:sold_for(RiceType,_,SellPlace,Humidity,Price).
 
 
     % Core Rule#1.

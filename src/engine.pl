@@ -14,8 +14,6 @@
 :- load_files(rice_growth, [encoding(utf8)]).
 :- load_files(rice_properties, [encoding(utf8)]).
 :- load_files(rice_region_fact, [encoding(utf8)]).
-:- load_files(rice_tolerance_with_disease, [encoding(utf8)]).
-:- load_files(rice_tolerance_with_insect, [encoding(utf8)]).
 :- load_files(rice_vulnerable_to_disease, [encoding(utf8)]).
 :- load_files(rice_vulnerable_to_insect, [encoding(utf8)]).
 :- load_files(soilgroup_class, [encoding(utf8)]).
