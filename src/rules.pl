@@ -17,7 +17,6 @@ RiceEarCuttingCaterpilla,RiceLeafFolder,RiceCaseWorm,RiceWhorlMaggot,RiceBlackBu
 SeedlingRotInNurseyBox,SheathRot,SheathBlight,BacterialLeafBlight,GrassyStunt,FalseSmut,Bakanae,BacterialLeafStreak,
 NarrowBrownSpot,BrownSpot,RedStripe,LeafScald,RiceTungro,OrangeLeaf,RiceRaggedStunt,DirtyPanicle,Akiochi,RootKnot,
 StemRot,GallDwarf,YellowDwarf,RiceBlast) :-
-  rice_class:is_instance_of(Rice,rice),
   province_region_fact:has_region(Province,Region),
   rice_growth:grows_well_in(Rice,SubDis,Season),
   rice_properties:has_properties(Rice,RiceType,_,PhotoPeriod,_),
