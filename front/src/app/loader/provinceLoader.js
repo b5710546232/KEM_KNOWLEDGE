@@ -21,10 +21,10 @@ export const getSubDistrict = (subdistrict,des) =>{
   return sub_district.sub_district
 }
 export const getListOfDistrict = (province) =>{
-  if (province=="") return DistrictJSON
+  if (province=="") return []
   return DistrictJSON.filter((district_obj)=>district_obj.province_lower==province)
 }
 export const getListOfSubDistrict = (district,province) =>{
-  if (district=="") return SubDistrictJSON
+  if (district==""||province=="") return []
   return SubDistrictJSON.filter((sub_district)=>sub_district.province_lower==province&&sub_district.district_lower==district)
 }

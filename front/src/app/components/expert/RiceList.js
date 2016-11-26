@@ -187,7 +187,7 @@ class Expert extends Component {
                   </table>
                 </div>
                 <div className="card-action">
-                  <label>Pests</label>
+                  <label>Insects</label>
                   <div className="row">
                     {pests.map((pest)=>(
                       <div key={"pest"+pests.indexOf(pest)} className="col s4">

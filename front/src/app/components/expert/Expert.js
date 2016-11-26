@@ -239,7 +239,7 @@ class Expert extends Component {
             </Input>
           </Row>
           <div className="pests">
-            <label>Pests</label>
+            <label>Insects</label>
             <Row>
               {pestCheckboxes}
             </Row>
