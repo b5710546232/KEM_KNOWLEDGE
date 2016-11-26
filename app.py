@@ -28,7 +28,8 @@ def get_best_yeild():
     CurrentMonth = time.localtime(time.time()).tm_mon
     prolog = Prolog()
     prolog.consult('src/engine.pl')
-    rule = "bestYieldRice(Rice, RiceType,"+SubDistrict+", BestYield, PhotoPeriod, HarvestingSeason, "+str(CurrentMonth)+")"
+    # add Yield to rule.
+    rule = "bestYieldRice(Rice, RiceType,"+SubDistrict+", BestYield, PhotoPeriod, HarvestingSeason, "+str(CurrentMonth)+",Yield)"
     re_list = list(prolog.query(rule))
     return jsonify(re_list)
 
