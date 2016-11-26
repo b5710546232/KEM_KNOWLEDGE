@@ -3,7 +3,7 @@ import { Input, Button, Table , Row ,Col} from 'react-materialize';
 import { connect } from 'react-redux';
 import {getSeason,getSensitivity,getRiceType} from '../../loader/universalLoader'
 import {getProvince,getDistinct,getSubDistrict} from '../../loader/provinceLoader'
-
+import {getRiceName} from '../../loader/riceLoader'
 class Expert extends Component {
   render(){
     const pests = [
@@ -66,7 +66,7 @@ class Expert extends Component {
                     <tbody>
                       <tr>
                         <td className="center" key="type">
-                          {rice.Rice}
+                          {getRiceName(rice.Rice)}
                         </td>
                       </tr>
                     </tbody>

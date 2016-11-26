@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {getSeason,getSensitivity,getRiceType} from '../../loader/universalLoader'
+import {getRiceName} from '../../loader/riceLoader'
 
 class BestYeildTable extends Component {
   render(){
@@ -23,7 +24,7 @@ class BestYeildTable extends Component {
               <tr
                 key={this.props.yeild.data.indexOf(rice)}
               >
-                <td>{rice.Rice}</td>
+                <td>{getRiceName(rice.Rice)}</td>
                 <td>{getRiceType(rice.RiceType)}</td>
                 <td>{getSeason(rice.HarvestingSeason)}</td>
                 <td>{rice.BestYield}</td>
