@@ -59,7 +59,7 @@ class RiceInfomationModal extends Component {
         <div id="rice-modal" className="modal modal-fixed-footer">
           <div className="modal-content">
             <div className="row">
-              <h4>Rice Suggestion - {this.props.location.sub_district!==''? <span>{this.props.location.sub_district}, {this.props.location.province}</span>:<span className="orange-text darken-4 ">Unknown Location</span> }</h4>
+              <h4>Rice Recommendation - {this.props.location.sub_district!==''? <span>{this.props.location.sub_district}, {this.props.location.province}</span>:<span className="orange-text darken-4 ">Unknown Location</span> }</h4>
             </div>
             <div className="row">
               <div className="col s8">
